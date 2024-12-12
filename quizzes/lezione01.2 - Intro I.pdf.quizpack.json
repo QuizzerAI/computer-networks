@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is the definition of computer networking?",
+        "answers": [
+            {
+                "answer": "The process of connecting computers to provide entertainment.",
+                "uuid": "3cc9f8bc1cca4a0a91b8be845681172f"
+            },
+            {
+                "answer": "The process of connecting computers together to share information.",
+                "uuid": "19fc0dba8b734da8b1e0d5fda597b6c7"
+            },
+            {
+                "answer": "The process of connecting mobile devices to the internet.",
+                "uuid": "3ae997f63fea4a0980856e8ed0757f4b"
+            },
+            {
+                "answer": "The process of storing data in cloud services.",
+                "uuid": "4b14ca21697e40a1adeb8e045f17f00c"
+            }
+        ],
+        "correct": "19fc0dba8b734da8b1e0d5fda597b6c7",
+        "explanation": "Computer networking specifically refers to connecting computers to allow them to share information.",
+        "uuid": "25114b53025648d785b8fcfefa26f9a8"
+    },
+    {
+        "question": "What does the acronym ARPANET stand for?",
+        "answers": [
+            {
+                "answer": "Advanced Research Projects Agency Network.",
+                "uuid": "9e101c41bdbe4b6a8ccc9b443e81c1ea"
+            },
+            {
+                "answer": "Advanced Radio Projects Agency Network.",
+                "uuid": "671bd610c3b14e7697b89504df689e18"
+            },
+            {
+                "answer": "Atomic Research Protocol Agency Network.",
+                "uuid": "eb920c8e82484bd8b1d7215a1c681d94"
+            },
+            {
+                "answer": "Advanced Reliable Protocol Agency Network.",
+                "uuid": "3e081e05980c4fb4a45f081d7eb80cec"
+            }
+        ],
+        "correct": "9e101c41bdbe4b6a8ccc9b443e81c1ea",
+        "explanation": "ARPANET stands for Advanced Research Projects Agency Network, which was one of the early networks that led to the development of the Internet.",
+        "uuid": "0e14c6c0d3034945a4f6f513c65d870f"
+    },
+    {
+        "question": "Who are the key developers of the Transmission Control Protocol (TCP) and Internet Protocol (IP)?",
+        "answers": [
+            {
+                "answer": "Tim Berners-Lee and Marc Andreessen.",
+                "uuid": "e4274ca396bd40db9a16d48d20b30c2f"
+            },
+            {
+                "answer": "Bill Gates and Steve Jobs.",
+                "uuid": "b4e46b3627df499cb83f81477f34d0f9"
+            },
+            {
+                "answer": "Robert Kahn and Vinton Cerf.",
+                "uuid": "ec5ac617493c4331a5997d445e6990d0"
+            },
+            {
+                "answer": "Larry Page and Sergey Brin.",
+                "uuid": "71a6e6dd1bfc4bb58ccef3a7c32de9cf"
+            }
+        ],
+        "correct": "ec5ac617493c4331a5997d445e6990d0",
+        "explanation": "Robert Kahn and Vinton Cerf designed the TCP and IP protocols in 1974, which are fundamental to the internet's operation.",
+        "uuid": "497aff7e5ec94e40b2e4dc3f9bd62106"
+    },
+    {
+        "question": "What is a Local Area Network (LAN)?",
+        "answers": [
+            {
+                "answer": "A network that covers a small geographic area.",
+                "uuid": "0d7313801325444386c62247bdd69ae0"
+            },
+            {
+                "answer": "A network that connects computers across countries.",
+                "uuid": "dd5da68ef0f94a078c166b96e6d93e06"
+            },
+            {
+                "answer": "A network that uses satellite connections.",
+                "uuid": "560598b7743d43a5b97b28dfcc2064df"
+            },
+            {
+                "answer": "A network managing only mobile devices.",
+                "uuid": "410cba9b67224d579f78585be6b0a829"
+            }
+        ],
+        "correct": "0d7313801325444386c62247bdd69ae0",
+        "explanation": "A Local Area Network (LAN) refers to a network that typically covers a small geographic area, such as a single building or campus.",
+        "uuid": "9c8d5e0767eb4b449617ebd576234868"
+    },
+    {
+        "question": "What is the role of an Internet Service Provider (ISP)?",
+        "answers": [
+            {
+                "answer": "To provide internet access and services.",
+                "uuid": "7aaf98ee80974cc0b2f7d4daa6031790"
+            },
+            {
+                "answer": "To connect computers within a local network.",
+                "uuid": "f96425847fc34ffcb4d822e57aeaca12"
+            },
+            {
+                "answer": "To manufacture internet devices.",
+                "uuid": "422b3feb6b5b452383a08736dc551ae9"
+            },
+            {
+                "answer": "To create websites for customers.",
+                "uuid": "7940ee4c3d464d0892923c2a4bbb3c32"
+            }
+        ],
+        "correct": "7aaf98ee80974cc0b2f7d4daa6031790",
+        "explanation": "ISPs provide the services required for users to access, use, or participate in the internet.",
+        "uuid": "8972105cf28747139a913e3c6540071e"
+    },
+    {
+        "question": "What is the difference between bandwidth and throughput?",
+        "answers": [
+            {
+                "answer": "Bandwidth is the maximum capacity, while throughput is the actual speed.",
+                "uuid": "5e7d2d691284441489815eb24ba5e92c"
+            },
+            {
+                "answer": "Throughput is theoretical, bandwidth is actual.",
+                "uuid": "0c5054eced7a42b28c9f7e220b8b07a2"
+            },
+            {
+                "answer": "Both terms refer to the same measurement.",
+                "uuid": "b63c91ddf82f49ac841a2a77252427a2"
+            },
+            {
+                "answer": "Throughput is a type of connection, bandwidth is not.",
+                "uuid": "e8b62361309340bd8dda5b95859d5556"
+            }
+        ],
+        "correct": "5e7d2d691284441489815eb24ba5e92c",
+        "explanation": "Bandwidth refers to the maximum amount of data that can be transmitted over a network path, while throughput is the actual amount of data being transmitted.",
+        "uuid": "aa3f97742af044d1b5d9553c6e6f0156"
+    },
+    {
+        "question": "Which network topology uses a central controller to manage communications between hosts?",
+        "answers": [
+            {
+                "answer": "Ring",
+                "uuid": "084f4f3c9119425891dfcf1fc2c75838"
+            },
+            {
+                "answer": "Mesh",
+                "uuid": "344fcf36816e42bc9e9e2a323844eb0e"
+            },
+            {
+                "answer": "Star",
+                "uuid": "c159ce6823c840bb8df6a13f0100924c"
+            },
+            {
+                "answer": "Bus",
+                "uuid": "7b76e661f8914ef0bd40f185a149ae77"
+            }
+        ],
+        "correct": "c159ce6823c840bb8df6a13f0100924c",
+        "explanation": "In a Star topology, all hosts are connected to a central controller such as a hub or switch.",
+        "uuid": "98c86fda3085407fb1885158889fdd0b"
+    },
+    {
+        "question": "In terms of data flow, what does 'half-duplex' mean?",
+        "answers": [
+            {
+                "answer": "Data can only flow in one direction.",
+                "uuid": "0cc01911f1554548be00146bf99f802c"
+            },
+            {
+                "answer": "Data can flow in both directions but not at the same time.",
+                "uuid": "c760c9e68fa64f63b7b7dadb800c0d48"
+            },
+            {
+                "answer": "Data can flow in both directions simultaneously.",
+                "uuid": "a182b9cfa43f4e409e60c33c0c5b3d25"
+            },
+            {
+                "answer": "Data flow is not regulated.",
+                "uuid": "b41f14cba85b458687dc9b8f2a9d4abc"
+            }
+        ],
+        "correct": "c760c9e68fa64f63b7b7dadb800c0d48",
+        "explanation": "Half-duplex means that data can flow in both directions, but not simultaneously; it takes turns.",
+        "uuid": "0b9faa53593a499dba48e2545a9590f9"
+    },
+    {
+        "question": "What is a protocol in data communication?",
+        "answers": [
+            {
+                "answer": "A data encoding method.",
+                "uuid": "55398d82df2c412783cf3faaa0115722"
+            },
+            {
+                "answer": "A set of rules governing the message exchange.",
+                "uuid": "d93dc2ab048b47ceb70ea6e6211a1462"
+            },
+            {
+                "answer": "A type of wireless connection.",
+                "uuid": "af4cbb2115e54d6d9d2e19b760172165"
+            },
+            {
+                "answer": "A network device.",
+                "uuid": "8257701781e343d9b7d9070819d2c2ab"
+            }
+        ],
+        "correct": "d93dc2ab048b47ceb70ea6e6211a1462",
+        "explanation": "A protocol is a set of rules known to both sender and receiver that manage the communication of messages.",
+        "uuid": "8fb28ccccfc946a88079106fa5ab57f9"
+    },
+    {
+        "question": "What kind of connection is characterized by a dedicated link between two devices?",
+        "answers": [
+            {
+                "answer": "Multipoint connection.",
+                "uuid": "747dfbf674d84d908cfca7dfad072cd9"
+            },
+            {
+                "answer": "Point-to-point connection.",
+                "uuid": "c3f1707adb3a447d890b932f4809c898"
+            },
+            {
+                "answer": "Broadcast connection.",
+                "uuid": "d8c9963d54874c1f8d5409dabbb7e5d3"
+            },
+            {
+                "answer": "Wireless connection.",
+                "uuid": "4ac3f72f69bc49fbb3ad3fc971df5e5c"
+            }
+        ],
+        "correct": "c3f1707adb3a447d890b932f4809c898",
+        "explanation": "A point-to-point connection is a direct link established between two specific devices for communication.",
+        "uuid": "c3b350b435a84a38ad1247d2860d32c0"
+    }
+]

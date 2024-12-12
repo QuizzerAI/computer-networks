@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What protocol is known for ensuring reliable data transfer over IP networks?",
+        "answers": [
+            {
+                "answer": "UDP",
+                "uuid": "3defc4c5a23a49a0bdddf75200c6a759"
+            },
+            {
+                "answer": "TCP",
+                "uuid": "fce4ca9eb0e3431698ff27a36a7c4912"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "1adfa05a9a7a493987c3fa0def05bba6"
+            },
+            {
+                "answer": "FTP",
+                "uuid": "0c3b0333dc0742d485a25e09d6aa1755"
+            }
+        ],
+        "correct": "fce4ca9eb0e3431698ff27a36a7c4912",
+        "explanation": "TCP (Transmission Control Protocol) is designed to provide reliable data transfer over an unreliable network like IP.",
+        "uuid": "54f53a76c26f40cdb061c7119fedaa55"
+    },
+    {
+        "question": "What are the three guarantees of a reliable channel?",
+        "answers": [
+            {
+                "answer": "No data duplication",
+                "uuid": "e5a99ecd11db49bdb493fa80eda05cd3"
+            },
+            {
+                "answer": "No data loss",
+                "uuid": "491e89d301e846b795e352c1a52db973"
+            },
+            {
+                "answer": "Correct order of data",
+                "uuid": "8fa9e1c0d4bb4cbd90ef5292496f7855"
+            },
+            {
+                "answer": "All of the above",
+                "uuid": "b9d3d8d4457a49a8a8855eca83a8ffe5"
+            }
+        ],
+        "correct": "b9d3d8d4457a49a8a8855eca83a8ffe5",
+        "explanation": "All three guarantees must be met: no data corruption, no loss or duplication, and ordered delivery of bits.",
+        "uuid": "14de0947118b4091999a6de79e9f9cba"
+    },
+    {
+        "question": "What does ACK stand for in networking protocols?",
+        "answers": [
+            {
+                "answer": "Acknowledgment",
+                "uuid": "06ba2b7c6b0d448d855728c7e098d195"
+            },
+            {
+                "answer": "Auto-Checksum",
+                "uuid": "aae2628a4ada470cb2828cb60448aec6"
+            },
+            {
+                "answer": "Alternate Control",
+                "uuid": "21b4e88452084507a269d25989825a0c"
+            },
+            {
+                "answer": "Automatic Communication",
+                "uuid": "caebfa91eb024107929dc38a6ea340bd"
+            }
+        ],
+        "correct": "06ba2b7c6b0d448d855728c7e098d195",
+        "explanation": "ACK stands for Acknowledgment, indicating that a message has been successfully received.",
+        "uuid": "d6c28c3e21da4c38939cbb3cb91489db"
+    },
+    {
+        "question": "What problem does the Stop-and-Wait protocol primarily address?",
+        "answers": [
+            {
+                "answer": "Error detection",
+                "uuid": "74b3fa52b86345eaa57148c5bc49f5f2"
+            },
+            {
+                "answer": "Data delivery order",
+                "uuid": "52d23355a7e2412187c0199ea231e1ac"
+            },
+            {
+                "answer": "Data retransmission",
+                "uuid": "242fa10ce4cb4c049a313d553dea3101"
+            },
+            {
+                "answer": "Data integrity",
+                "uuid": "803f87355a9c4669aeed9b42f13be140"
+            }
+        ],
+        "correct": "242fa10ce4cb4c049a313d553dea3101",
+        "explanation": "The Stop-and-Wait protocol specifically ensures that data is retransmitted if an error occurs or if an acknowledgment is not received.",
+        "uuid": "fa36a994d6234fcabe22538802a65aaa"
+    },
+    {
+        "question": "What happens if an ACK message itself is corrupted?",
+        "answers": [
+            {
+                "answer": "The message is lost",
+                "uuid": "1f6bc538f750497ba0fc5b1ced98a81b"
+            },
+            {
+                "answer": "The sender resends the message",
+                "uuid": "91301ed6a4444f1d93a3d039fa1247e2"
+            },
+            {
+                "answer": "The sender ignores it",
+                "uuid": "26caf439e4414636ac3c35a6b699da9c"
+            },
+            {
+                "answer": "The receiver will retransmit the message",
+                "uuid": "d76b62da20be434c859078f1fe5fe75f"
+            }
+        ],
+        "correct": "91301ed6a4444f1d93a3d039fa1247e2",
+        "explanation": "If an ACK is corrupted, the sender must resend the original message because it cannot confirm receipt.",
+        "uuid": "8566ff3faa4844e192c6d6474572047f"
+    },
+    {
+        "question": "Which mechanism can resolve the issue of lost packets in protocol communication?",
+        "answers": [
+            {
+                "answer": "Acknowledgment only",
+                "uuid": "5f682b2e9fbc4c74b673fadabe1b422f"
+            },
+            {
+                "answer": "Timeout mechanism",
+                "uuid": "0e9f7e20bc7a4d47a869ffee4b9c2133"
+            },
+            {
+                "answer": "Static packet sizes",
+                "uuid": "45f449bf47524faeacda59711a83cf76"
+            },
+            {
+                "answer": "Error checking only",
+                "uuid": "f9b8fcb318e5470bb1a911081c820707"
+            }
+        ],
+        "correct": "0e9f7e20bc7a4d47a869ffee4b9c2133",
+        "explanation": "Using a timeout mechanism enables the sender to attempt retransmission after a certain period if no acknowledgment is received.",
+        "uuid": "4c629b91b8d043a0acdcea12944818e7"
+    },
+    {
+        "question": "In Go-Back-N protocol, what does \u2018base\u2019 represent?",
+        "answers": [
+            {
+                "answer": "The amount of data sent",
+                "uuid": "2d6cabfe300a4caab8641ea84d75368d"
+            },
+            {
+                "answer": "The sequence number of the oldest unacknowledged packet",
+                "uuid": "ca777f4ba06a4d10957276b2ec32715f"
+            },
+            {
+                "answer": "The total number of packets",
+                "uuid": "584aa27c951043d4a4bca9c51910c821"
+            },
+            {
+                "answer": "The next packet to send",
+                "uuid": "bcb705a070d049c79c7d84a7570563a8"
+            }
+        ],
+        "correct": "ca777f4ba06a4d10957276b2ec32715f",
+        "explanation": "In Go-Back-N protocol, the base is the sequence number of the oldest unacknowledged packet.",
+        "uuid": "f7f8879d37b74b668565e11a5d8d6a0c"
+    },
+    {
+        "question": "Which type of protocol retransmits only the packets suspected to be in error?",
+        "answers": [
+            {
+                "answer": "Stop-and-Wait",
+                "uuid": "5aa4111f300240b68e1428464ed7f373"
+            },
+            {
+                "answer": "Go-Back-N",
+                "uuid": "860017b8c77d41288ebd3846839caba7"
+            },
+            {
+                "answer": "Selective Repeat",
+                "uuid": "00dac42ca266410b84f300d9dc6deae8"
+            },
+            {
+                "answer": "UDP",
+                "uuid": "4c5c2bbd5b36439d9549cd1bcce1edef"
+            }
+        ],
+        "correct": "00dac42ca266410b84f300d9dc6deae8",
+        "explanation": "Selective Repeat retransmits only those packets that are identified as lost or corrupted, unlike Go-Back-N which may retransmit multiple packets.",
+        "uuid": "66add9e95c1640cabab6929e7fae8763"
+    },
+    {
+        "question": "What does TCP implement at the transport layer to ensure data reliability?",
+        "answers": [
+            {
+                "answer": "Checksums only",
+                "uuid": "82d51724cd934f639992e05a0550500a"
+            },
+            {
+                "answer": "Automatic Repeat reQuest (ARQ)",
+                "uuid": "9aa18dd45245467b9c0b3f5f4624653e"
+            },
+            {
+                "answer": "Error correction coding",
+                "uuid": "4dfdac45025e47059907d0cce21178b7"
+            },
+            {
+                "answer": "Polling",
+                "uuid": "974c021f7feb46a3b9c29caed237bbc2"
+            }
+        ],
+        "correct": "9aa18dd45245467b9c0b3f5f4624653e",
+        "explanation": "TCP uses Automatic Repeat reQuest (ARQ) mechanisms to ensure reliable data transmission by retransmitting lost or errored packets.",
+        "uuid": "8210701db516438290a52c35f70657a9"
+    },
+    {
+        "question": "What challenge is presented by the finite sequence number in the Selective Repeat protocol?",
+        "answers": [
+            {
+                "answer": "Too many packets in transit",
+                "uuid": "2fb1c9574d794b719e6b006591b9e47f"
+            },
+            {
+                "answer": "No packets can be sent",
+                "uuid": "6c20e950ad424c098ee83b30593f6a6e"
+            },
+            {
+                "answer": "Confusion between old and new packets",
+                "uuid": "9bb901659cbd4db89eca26872dcec2ec"
+            },
+            {
+                "answer": "Higher bandwidth usage",
+                "uuid": "892f97e0651b4437aa0ea9a08e79fc51"
+            }
+        ],
+        "correct": "9bb901659cbd4db89eca26872dcec2ec",
+        "explanation": "In Selective Repeat protocol, a finite sequence number can lead to ambiguity when determining whether a repeated packet is old or new.",
+        "uuid": "8bcbe6801f6a4c18bbaae095cc772c13"
+    },
+    {
+        "question": "What performance issue is associated with the Go-Back-N protocol?",
+        "answers": [
+            {
+                "answer": "High bandwidth consumption",
+                "uuid": "2f251035615f42b4b84b5c0ed1e64374"
+            },
+            {
+                "answer": "Possibility of unnecessary retransmissions",
+                "uuid": "b0da9e556bb2444c9e095b27b9ddba8e"
+            },
+            {
+                "answer": "Slow transmission speeds",
+                "uuid": "bae4ad514bf846cf809676949eb5879c"
+            },
+            {
+                "answer": "All of the above",
+                "uuid": "3e539b3c709c4fbd91bb91594b9928be"
+            }
+        ],
+        "correct": "b0da9e556bb2444c9e095b27b9ddba8e",
+        "explanation": "Go-Back-N can cause unnecessary retransmissions of packets even if subsequent packets were received correctly, leading to inefficiencies.",
+        "uuid": "80fecbcf3c5d4ee290e97112739804c0"
+    }
+]

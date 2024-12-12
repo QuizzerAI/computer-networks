@@ -1,0 +1,218 @@
+[
+    {
+        "question": "What are the four main responsibilities of transport-layer protocols?",
+        "answers": [
+            {
+                "answer": "Process-to-process delivery, integrity checking, reliable data transfer, congestion flow control",
+                "uuid": "c10fe2955cc04867b00d157790658152"
+            },
+            {
+                "answer": "Host-to-host delivery, error correction, network routing, data encryption",
+                "uuid": "cba8fac27bd5458fa3036a74b2cd7640"
+            },
+            {
+                "answer": "Packet switching, connectionless delivery, message queuing, session management",
+                "uuid": "16c31bf9fbfc469b89434ceceb6891fa"
+            },
+            {
+                "answer": "Data compression, process synchronization, application delivery, error logging",
+                "uuid": "b15e13825e0c496e883836c9b2f7f8df"
+            }
+        ],
+        "correct": "c10fe2955cc04867b00d157790658152",
+        "explanation": "The transport layer is responsible for delivering messages, error detection, reliable data transfer, and managing congestion.",
+        "uuid": "3bb0b05404d84f3c870663c1160196d8"
+    },
+    {
+        "question": "Which transport-layer protocol provides all four main responsibilities?",
+        "answers": [
+            {
+                "answer": "UDP",
+                "uuid": "c51abdcbe0294f38a9ae9a61211d15f9"
+            },
+            {
+                "answer": "TCP",
+                "uuid": "d0223c9e0c42407bae3a5c69275ee6a8"
+            },
+            {
+                "answer": "IP",
+                "uuid": "1ff9e47ebdf84cb29f12d6dc87b2fa4d"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "be11c8f7ad0f4b4b873e22c45f96ed5a"
+            }
+        ],
+        "correct": "d0223c9e0c42407bae3a5c69275ee6a8",
+        "explanation": "TCP (Transmission Control Protocol) provides process-to-process delivery, integrity checking, reliable data transfer, and congestion control.",
+        "uuid": "0260ec6db4ab449ea59bd5d99f84996a"
+    },
+    {
+        "question": "What does UDP stand for?",
+        "answers": [
+            {
+                "answer": "User Datagram Protocol",
+                "uuid": "7a04efbf807b4068adfd1331e9c15f8d"
+            },
+            {
+                "answer": "Universal Data Protocol",
+                "uuid": "11ad6f353ae74a489596b336db17b8ac"
+            },
+            {
+                "answer": "User Data Packet",
+                "uuid": "1408568cd9f144c480236bb9e095c936"
+            },
+            {
+                "answer": "Unique Datagram Packet",
+                "uuid": "007c65672ac944279a6dd972e92a0d40"
+            }
+        ],
+        "correct": "7a04efbf807b4068adfd1331e9c15f8d",
+        "explanation": "UDP stands for User Datagram Protocol, which is a simpler and faster transport-layer protocol.",
+        "uuid": "d4f0f6adfa81438f9eb46f31125cfac8"
+    },
+    {
+        "question": "What is a key feature of TCP regarding data transfer?",
+        "answers": [
+            {
+                "answer": "It is connectionless and does not guarantee delivery.",
+                "uuid": "e18af5dbc25d463c8ea51ac5038ac204"
+            },
+            {
+                "answer": "It ensures reliable data transfer and proper sequencing.",
+                "uuid": "da10e897ddfd4383be5da0b72b40ef66"
+            },
+            {
+                "answer": "It transfers data without headers.",
+                "uuid": "286fbf9222ab4951b9c123451ff02a98"
+            },
+            {
+                "answer": "It relies solely on the application layer for error handling.",
+                "uuid": "978624b403db415f96284cce41c5c656"
+            }
+        ],
+        "correct": "da10e897ddfd4383be5da0b72b40ef66",
+        "explanation": "TCP is connection-oriented and ensures that data is delivered reliably and in the correct order.",
+        "uuid": "c038991ef06f48ccadd683aa48d61aa1"
+    },
+    {
+        "question": "How does TCP ensure that data is received correctly?",
+        "answers": [
+            {
+                "answer": "By using error correction codes.",
+                "uuid": "47763da6fd464e9e80a95b205915fc7a"
+            },
+            {
+                "answer": "Through sequential numbering of packets.",
+                "uuid": "0d8c68891bfb4ff2acaf32d0292d0ea3"
+            },
+            {
+                "answer": "By sending duplicate packets.",
+                "uuid": "edefad6ece1c4fe99e06311943ee7bb2"
+            },
+            {
+                "answer": "By using checksums and acknowledgments.",
+                "uuid": "77e3534928434fb3ae8a99239e4cd8b2"
+            }
+        ],
+        "correct": "77e3534928434fb3ae8a99239e4cd8b2",
+        "explanation": "TCP uses checksums to verify data integrity and acknowledgments to confirm whether data has been received properly.",
+        "uuid": "7a57eafb9b814f9893ba26fca8995c4d"
+    },
+    {
+        "question": "What is the 'three-way handshake' in TCP?",
+        "answers": [
+            {
+                "answer": "A method for data encryption.",
+                "uuid": "d76ad093ac54462eb395fef72b087e79"
+            },
+            {
+                "answer": "A procedure during connection establishment.",
+                "uuid": "8ca2d2f682cb47e7a2f08df47bc6a78b"
+            },
+            {
+                "answer": "A protocol for error correction.",
+                "uuid": "00c7f5a7878a4219b0837047d13e541b"
+            },
+            {
+                "answer": "A way to compress data.",
+                "uuid": "45141797aaf24e53a9f0339de0efed20"
+            }
+        ],
+        "correct": "8ca2d2f682cb47e7a2f08df47bc6a78b",
+        "explanation": "The three-way handshake is a process used by TCP to establish a connection reliably between two hosts.",
+        "uuid": "d88687bf13564affbff73f46644c34b2"
+    },
+    {
+        "question": "What does the Acknowledgment number in a TCP segment indicate?",
+        "answers": [
+            {
+                "answer": "Number of bytes sent.",
+                "uuid": "2f5dcec39d8f4bfb871cf58108d02310"
+            },
+            {
+                "answer": "Sequence number of the next expected byte.",
+                "uuid": "9b1af00488924278ad78d30aa29caefb"
+            },
+            {
+                "answer": "Total bytes received.",
+                "uuid": "3a1f613881b742ce82e65ce0a895ceb7"
+            },
+            {
+                "answer": "Amount of memory allocated.",
+                "uuid": "61e8f37e45374f4688edfb1ddce75a69"
+            }
+        ],
+        "correct": "9b1af00488924278ad78d30aa29caefb",
+        "explanation": "The Acknowledgment number indicates the sequence number of the next byte that the receiver expects to receive.",
+        "uuid": "c6119ebf3ee14cc787bd872efd2a1735"
+    },
+    {
+        "question": "Which field in the TCP header indicates urgent data?",
+        "answers": [
+            {
+                "answer": "Checksum",
+                "uuid": "967932454a8e48d181bbaa0abcd15a21"
+            },
+            {
+                "answer": "Flags",
+                "uuid": "c671c0896fa34f11b5d5e7f906f33bca"
+            },
+            {
+                "answer": "Receive window",
+                "uuid": "e063dc909b8c4ed08537afab74250670"
+            },
+            {
+                "answer": "Urgent pointer",
+                "uuid": "b84066e7fb70432ab9221173015084b9"
+            }
+        ],
+        "correct": "b84066e7fb70432ab9221173015084b9",
+        "explanation": "The Urgent pointer field indicates the location of the last byte of the urgent part of the data in a TCP segment.",
+        "uuid": "40695e86b9d649c1b29f924b06dd86f7"
+    },
+    {
+        "question": "What purpose does the Checksum field serve in a TCP segment?",
+        "answers": [
+            {
+                "answer": "It encrypts the data.",
+                "uuid": "2a0481cdd0ba42e9b54d4dbecf530b33"
+            },
+            {
+                "answer": "It helps in data integrity verification.",
+                "uuid": "87efe1d4a55145148d93c1e92158393b"
+            },
+            {
+                "answer": "It manages flow control.",
+                "uuid": "33f8c3f31fbe44f68bb5689897d77737"
+            },
+            {
+                "answer": "It indicates the length of the data.",
+                "uuid": "b465e962c68347d3ac15d25cc9c4f6ad"
+            }
+        ],
+        "correct": "87efe1d4a55145148d93c1e92158393b",
+        "explanation": "The Checksum field is used for integrity checking to verify that the data has not been altered during transmission.",
+        "uuid": "b34eac36f66542479e1dd89d28e60c95"
+    }
+]

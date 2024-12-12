@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the main problem associated with the Distance Vector (DV) routing algorithm?",
+        "answers": [
+            {
+                "answer": "Routing loops",
+                "uuid": "c6822a52ab764ab2b0bdf004cad5c9de"
+            },
+            {
+                "answer": "Slow convergence",
+                "uuid": "4245618b3d584ada9e9d9d974854e0f0"
+            },
+            {
+                "answer": "Count-to-infinity",
+                "uuid": "92f2a5632d5b4c588ec28ad8a2ce576d"
+            },
+            {
+                "answer": "All of the above",
+                "uuid": "be511bce3f5f471a981122d578b4a777"
+            }
+        ],
+        "correct": "be511bce3f5f471a981122d578b4a777",
+        "explanation": "The count-to-infinity problem is a known issue in the Distance Vector algorithm that can cause routing loops and slow convergence.",
+        "uuid": "b317022dc98245b59e638cb72d006f09"
+    },
+    {
+        "question": "In the Link-State (LS) algorithm, what type of information do nodes use to find the best path?",
+        "answers": [
+            {
+                "answer": "Local information only",
+                "uuid": "c98cd084d0a74d47b2e03b3787f6ebbb"
+            },
+            {
+                "answer": "Complete knowledge of the network",
+                "uuid": "5644ae21b00a48a795962f4af2506109"
+            },
+            {
+                "answer": "Information from only neighboring nodes",
+                "uuid": "1924698ca699499ba1c4c4d41d95f969"
+            },
+            {
+                "answer": "Random guessing",
+                "uuid": "da2f2cc057b04e5e943fc03de471a610"
+            }
+        ],
+        "correct": "5644ae21b00a48a795962f4af2506109",
+        "explanation": "The Link-State algorithm requires global knowledge of the network to compute the best path.",
+        "uuid": "cf446ab8215c41ca8e3c93249eaa8a69"
+    },
+    {
+        "question": "Which algorithm is known to not suffer from the count-to-infinity problem?",
+        "answers": [
+            {
+                "answer": "Distance Vector algorithm",
+                "uuid": "8a138cdf18584ece9a801cbe794a674f"
+            },
+            {
+                "answer": "Link-State algorithm",
+                "uuid": "cf00fce6123d41fa99f216ea75588393"
+            },
+            {
+                "answer": "Bellman-Ford algorithm",
+                "uuid": "85b8786211844849b7b99a73fe917f19"
+            },
+            {
+                "answer": "All of the above",
+                "uuid": "97d2716687244618ad54a71c4320f675"
+            }
+        ],
+        "correct": "cf00fce6123d41fa99f216ea75588393",
+        "explanation": "The Link-State algorithm does not suffer from the count-to-infinity problem, unlike the Distance Vector algorithm.",
+        "uuid": "0f587f137f274791b4985c97030d1104"
+    },
+    {
+        "question": "What happens during the neighbors\u2019 discovery phase of the LS algorithm?",
+        "answers": [
+            {
+                "answer": "Routers send hello messages",
+                "uuid": "8df868c909f0433faa8fdca79fa2371f"
+            },
+            {
+                "answer": "Cost metrics are set",
+                "uuid": "c97c4970c11f451cbde0ad95d366210e"
+            },
+            {
+                "answer": "Link-state packets are sent",
+                "uuid": "e26551aa112a45eb8379163cd2490c5d"
+            },
+            {
+                "answer": "Dijkstra's algorithm is executed",
+                "uuid": "9b10a551d59f469587a254ffb9d1c4ad"
+            }
+        ],
+        "correct": "8df868c909f0433faa8fdca79fa2371f",
+        "explanation": "In the neighbors\u2019 discovery phase, each router sends a specific hello message to discover its neighbors.",
+        "uuid": "1665c25001754adeacd0321d388c397e"
+    },
+    {
+        "question": "What are the main benefits of the Link-State algorithm compared to the Distance Vector algorithm?",
+        "answers": [
+            {
+                "answer": "Simplicity in implementation",
+                "uuid": "13cd2fe254544a37931545886415674f"
+            },
+            {
+                "answer": "Lower memory requirements",
+                "uuid": "9862e02f3c214cbc8bb2813ff3f25ab8"
+            },
+            {
+                "answer": "Faster convergence and no count-to-infinity problem",
+                "uuid": "767dd70c90cc4a98bc301dc6ceff135e"
+            },
+            {
+                "answer": "Less bandwidth usage",
+                "uuid": "bdae062e1c5c4609b0665b19bcc2b61d"
+            }
+        ],
+        "correct": "767dd70c90cc4a98bc301dc6ceff135e",
+        "explanation": "The Link-State algorithm provides faster convergence and avoids the count-to-infinity issue.",
+        "uuid": "7e238942a7d0405f85e2c79a73bab791"
+    },
+    {
+        "question": "In the DV algorithm, which condition triggers an update to the routing table?",
+        "answers": [
+            {
+                "answer": "A timer expiration",
+                "uuid": "13f02eea674745c598a053fb2014f295"
+            },
+            {
+                "answer": "Only when a neighbor changes paths",
+                "uuid": "ba7f47fe06694555b606410fcaf8aefa"
+            },
+            {
+                "answer": "All consequences of links changing",
+                "uuid": "00804337dacc485aa6ae96dd12cd6105"
+            },
+            {
+                "answer": "A manual refresh",
+                "uuid": "6b29e7cdb6b144f893570cfeb2d54429"
+            }
+        ],
+        "correct": "00804337dacc485aa6ae96dd12cd6105",
+        "explanation": "In the Distance Vector algorithm, updates occur whenever any neighbor or path cost changes.",
+        "uuid": "0133c9af40204e0faad696e72da16bc2"
+    },
+    {
+        "question": "What does the term 'synchronous' mean in the context of routing algorithms?",
+        "answers": [
+            {
+                "answer": "All nodes operate independently",
+                "uuid": "3bf934d18db14e5f8ffe29ef14d6dfbe"
+            },
+            {
+                "answer": "Nodes must wait for all information from others before starting",
+                "uuid": "f6c0b24cf26a4138bc8f325e5f153e87"
+            },
+            {
+                "answer": "Nodes process information in real-time",
+                "uuid": "78cd24e22be14289851fe94210b8c5a4"
+            },
+            {
+                "answer": "Information is sent out in random intervals",
+                "uuid": "ccc53a93e0274b9aa9f59e1300c11964"
+            }
+        ],
+        "correct": "f6c0b24cf26a4138bc8f325e5f153e87",
+        "explanation": "Synchronous means that nodes must receive information from the whole network before they can begin their computations.",
+        "uuid": "21b3618f01d1466e9aba20eeaf2fdb2c"
+    },
+    {
+        "question": "What is the role of the packet construction phase in the LS algorithm?",
+        "answers": [
+            {
+                "answer": "To calculate the shortest path",
+                "uuid": "d7296ab378a0469f89896aa9c63f766e"
+            },
+            {
+                "answer": "To set metrics to neighbors",
+                "uuid": "8febab3fd3c44751941a1e39b698923c"
+            },
+            {
+                "answer": "To create packets summarizing adjacent nodes and costs",
+                "uuid": "d61bf4a5c28b4e6d9374cf265f436659"
+            },
+            {
+                "answer": "To exchange packets with only destination nodes",
+                "uuid": "6929c6f66f5d42c6bfd817df41b8dfdf"
+            }
+        ],
+        "correct": "d61bf4a5c28b4e6d9374cf265f436659",
+        "explanation": "During the packet construction phase, routers create packets containing the IDs of attached links and their costs.",
+        "uuid": "08c37a0ecb7d4cf8884c07632d07a10e"
+    },
+    {
+        "question": "What is a significant drawback of the Distance Vector algorithm?",
+        "answers": [
+            {
+                "answer": "It requires all nodes to answer immediately",
+                "uuid": "fd7a33eefd7443edb22b6f452ea8b24a"
+            },
+            {
+                "answer": "It needs complex data structures",
+                "uuid": "99e1f64c545a42749c604f6bc213fe72"
+            },
+            {
+                "answer": "It is more prone to errors due to chained computations",
+                "uuid": "59a283b22c914d34bd44a46e2c925417"
+            },
+            {
+                "answer": "None of the above",
+                "uuid": "14abaceb25ff4cfcbe7a40fc5aee3d29"
+            }
+        ],
+        "correct": "59a283b22c914d34bd44a46e2c925417",
+        "explanation": "The Distance Vector algorithm relies on chained computations, which makes it susceptible to errors if a single table is incorrect.",
+        "uuid": "0be803286676480b850c167f105c1859"
+    },
+    {
+        "question": "What kind of data structure is used by the Link-State algorithm to keep track of distances?",
+        "answers": [
+            {
+                "answer": "Distance tables",
+                "uuid": "a9b503bc76d24f83bceaf91f8f4a7058"
+            },
+            {
+                "answer": "Hashes",
+                "uuid": "d41e1ca5505d4844a367425ea51637d0"
+            },
+            {
+                "answer": "Graphs",
+                "uuid": "4300c7af1247490696a84df5b4ca6262"
+            },
+            {
+                "answer": "Link lists",
+                "uuid": "ca92703e784c4f969c544a27932868d3"
+            }
+        ],
+        "correct": "a9b503bc76d24f83bceaf91f8f4a7058",
+        "explanation": "The Link-State algorithm uses distance tables to store distances from the current node to all possible destination nodes.",
+        "uuid": "8b25b68d6b0c45809cdda799a064c8e0"
+    },
+    {
+        "question": "What command can be used in Linux to trace the route of packets to a destination?",
+        "answers": [
+            {
+                "answer": "tracepath",
+                "uuid": "f2ae362ed43244a8a126d12b4f10964b"
+            },
+            {
+                "answer": "ping",
+                "uuid": "22de5cd510f44a0aad8ec6f5aef0b052"
+            },
+            {
+                "answer": "traceroute",
+                "uuid": "f8b81782864d469889d42b7313251895"
+            },
+            {
+                "answer": "route",
+                "uuid": "69cdd690422849f1a2ad73d26fdbc5f9"
+            }
+        ],
+        "correct": "f8b81782864d469889d42b7313251895",
+        "explanation": "The 'traceroute' command is used in Linux to display the path that packets take to reach a destination.",
+        "uuid": "4ec34372c8f14caf902c8388bb945d71"
+    }
+]

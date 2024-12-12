@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What are the two main types of network applications?",
+        "answers": [
+            {
+                "answer": "Open protocol applications",
+                "uuid": "5b47ef1c1b0c4e4da130f6c874c1334f"
+            },
+            {
+                "answer": "Proprietary protocol applications",
+                "uuid": "8940a6b671c84c159cc8291e218963af"
+            },
+            {
+                "answer": "Both Open and Proprietary protocol applications",
+                "uuid": "1dc60b6a806242f29b00b0e344682733"
+            },
+            {
+                "answer": "None of the above",
+                "uuid": "53c781a5d9ba467d923a5a19a8393613"
+            }
+        ],
+        "correct": "1dc60b6a806242f29b00b0e344682733",
+        "explanation": "Network applications can either rely on open protocols, whose rules are publicly known, or on proprietary protocols, which are custom and not openly published.",
+        "uuid": "6fcc56e0584b4f188ff59557d6d016aa"
+    },
+    {
+        "question": "What transport protocol is known for its reliable, connection-oriented communication?",
+        "answers": [
+            {
+                "answer": "UDP",
+                "uuid": "2000d970d539482db87484a3077cf7b3"
+            },
+            {
+                "answer": "FTP",
+                "uuid": "ccfab75047c24bc9b0591db9547cb001"
+            },
+            {
+                "answer": "TCP",
+                "uuid": "9a11f69610c948dda83be11fd91770a0"
+            },
+            {
+                "answer": "SMTP",
+                "uuid": "e94332f118a046dda9d50cbf2dede35c"
+            }
+        ],
+        "correct": "9a11f69610c948dda83be11fd91770a0",
+        "explanation": "TCP (Transmission Control Protocol) is connection-oriented and provides a reliable byte-stream channel between two end systems.",
+        "uuid": "b5a3a80203f4477da14c56f565392367"
+    },
+    {
+        "question": "Which function is used to create a socket in C?",
+        "answers": [
+            {
+                "answer": "connect()",
+                "uuid": "ebf3ea7b025a4744b026202922561dd6"
+            },
+            {
+                "answer": "socket()",
+                "uuid": "e2d6cbf41fe841ffa228284be0cb7cad"
+            },
+            {
+                "answer": "bind()",
+                "uuid": "aba94cb0b57f41afac6a3b5a32e2fe14"
+            },
+            {
+                "answer": "listen()",
+                "uuid": "c0403769338145388826be544b3c94c7"
+            }
+        ],
+        "correct": "e2d6cbf41fe841ffa228284be0cb7cad",
+        "explanation": "The socket() function is used to create a socket and is necessary for establishing communication between client and server.",
+        "uuid": "b9be3b4b225f4a9a8ffacac16a5b3520"
+    },
+    {
+        "question": "What is the purpose of the listen() function in a TCP server?",
+        "answers": [
+            {
+                "answer": "To close the socket",
+                "uuid": "9e4b3e074df14ea089fe9814502457ae"
+            },
+            {
+                "answer": "To open a queue of incoming connections",
+                "uuid": "60630775fc854294bf5798804d5ad1d0"
+            },
+            {
+                "answer": "To create a socket",
+                "uuid": "7893f094c4e744a89c63222faeb020d9"
+            },
+            {
+                "answer": "To send data",
+                "uuid": "844e8f76c0a343069bd0cff3135536cc"
+            }
+        ],
+        "correct": "60630775fc854294bf5798804d5ad1d0",
+        "explanation": "The listen() function opens a queue where incoming connections are stored, allowing the server to accept connections from clients.",
+        "uuid": "8ed748c4b1274fe8a80460fc87352a9e"
+    },
+    {
+        "question": "In a UDP communication, which functions are primarily used for sending and receiving messages?",
+        "answers": [
+            {
+                "answer": "send() and read()",
+                "uuid": "e463d503c1234f5cba415b6fb2b2216e"
+            },
+            {
+                "answer": "connect() and accept()",
+                "uuid": "5e70c7ce1fda4872b597009f337307ae"
+            },
+            {
+                "answer": "sendto() and recvfrom()",
+                "uuid": "8af0b5faaf9d4b8885243507320a5663"
+            },
+            {
+                "answer": "socket() and close()",
+                "uuid": "f8a906d82f764e0989df590f3750c1b1"
+            }
+        ],
+        "correct": "8af0b5faaf9d4b8885243507320a5663",
+        "explanation": "UDP communication uses the sendto() function for sending messages and recvfrom() for receiving messages.",
+        "uuid": "1253fd36b5ad43a1b72b4ef839748cab"
+    },
+    {
+        "question": "What does the term 'handshake' refer to in TCP communication?",
+        "answers": [
+            {
+                "answer": "Process of sending data",
+                "uuid": "34ccc30ead174e5dba663b5d0c91fcb8"
+            },
+            {
+                "answer": "Establishing a connection",
+                "uuid": "52a42c1ae360443dbfcdd14d4abb1439"
+            },
+            {
+                "answer": "Closing a socket",
+                "uuid": "07557b0041f24f6eb15a5c4d44f9eb67"
+            },
+            {
+                "answer": "Transferring files",
+                "uuid": "697b7bbdc4ca4b4192cc5ca82651d841"
+            }
+        ],
+        "correct": "52a42c1ae360443dbfcdd14d4abb1439",
+        "explanation": "The handshake refers to the process of establishing a connection before data can be transmitted between the client and server in TCP.",
+        "uuid": "e0dea78c010e4b6daae564067ed456bf"
+    },
+    {
+        "question": "Which of the following describes a major characteristic of UDP?",
+        "answers": [
+            {
+                "answer": "Reliable connection-oriented",
+                "uuid": "81f7a2f57ef743d9944429023a9efaf2"
+            },
+            {
+                "answer": "No guarantees about delivery",
+                "uuid": "0c84490333834935bd8c396c5ddd403a"
+            },
+            {
+                "answer": "More complex than TCP",
+                "uuid": "df7511d48a014c7c848460ad4c9deb4d"
+            },
+            {
+                "answer": "Slower speed",
+                "uuid": "ab09f73e02ff4846aaa56248fac91f99"
+            }
+        ],
+        "correct": "0c84490333834935bd8c396c5ddd403a",
+        "explanation": "UDP (User Datagram Protocol) is connectionless and does not guarantee that packets will be delivered, making it less reliable than TCP.",
+        "uuid": "6b9e7a400f694bc183f7db5cf2a0154d"
+    },
+    {
+        "question": "What is the main role of sockets in network applications?",
+        "answers": [
+            {
+                "answer": "To establish security",
+                "uuid": "43f827663fd34ed6a2508569f31787a5"
+            },
+            {
+                "answer": "To manage data encryption",
+                "uuid": "a6fd59ee5d134a91aec67deebbf5a42d"
+            },
+            {
+                "answer": "To facilitate communication between client and server",
+                "uuid": "23156f0f03574b3992eadaff027c28ed"
+            },
+            {
+                "answer": "To store data locally",
+                "uuid": "7b6489e65de44c46ae1e75a6c80b26fe"
+            }
+        ],
+        "correct": "23156f0f03574b3992eadaff027c28ed",
+        "explanation": "Sockets serve as endpoints for sending and receiving data across the network, facilitating communication between client and server applications.",
+        "uuid": "6c98d8794af344c68f8f26f65de311ad"
+    },
+    {
+        "question": "What API provides basic socket functionalities?",
+        "answers": [
+            {
+                "answer": "Socket API",
+                "uuid": "08957e854cc342ddba2e4879f242d04b"
+            },
+            {
+                "answer": "HTTP API",
+                "uuid": "36e7ce809bed449b85ef559f73cfcc16"
+            },
+            {
+                "answer": "File System API",
+                "uuid": "27083c130c9c49ceaa05e46c4a73d7f4"
+            },
+            {
+                "answer": "Database API",
+                "uuid": "4491c0715e8c4523ad92c5252e004bd4"
+            }
+        ],
+        "correct": "08957e854cc342ddba2e4879f242d04b",
+        "explanation": "The Socket API provides basic functionalities for creating and managing socket connections in network applications.",
+        "uuid": "226966783bc948ec9a695ce7ae810aae"
+    },
+    {
+        "question": "What does ANS stand for regarding socket programming?",
+        "answers": [
+            {
+                "answer": "Address and Network Socket",
+                "uuid": "521143d2f8e04a9299c6403e86be5027"
+            },
+            {
+                "answer": "Application and Network Socket",
+                "uuid": "1150d238eb324be5baf188709501259b"
+            },
+            {
+                "answer": "Application Layer Networking Socket",
+                "uuid": "68cc1b42579843d3bc15c6a5d715f0b8"
+            },
+            {
+                "answer": "None of the above",
+                "uuid": "39488ae743d047779637adda63cc8e4e"
+            }
+        ],
+        "correct": "68cc1b42579843d3bc15c6a5d715f0b8",
+        "explanation": "ANS refers to 'Application Layer Networking Socket,' which is part of the protocol stack where sockets operate.",
+        "uuid": "3576a0c24b2543f4b98979a79c9c4f33"
+    },
+    {
+        "question": "Which command is used to close a socket in C?",
+        "answers": [
+            {
+                "answer": "end()",
+                "uuid": "ae039a1f5202465dae21640f51551653"
+            },
+            {
+                "answer": "socket_close()",
+                "uuid": "4dd96cb9389c4a08a600c44ddc70d42b"
+            },
+            {
+                "answer": "shutdown()",
+                "uuid": "bf0aabbac13f4c66b287b6fda478279d"
+            },
+            {
+                "answer": "close()",
+                "uuid": "d790a2f338b542f4818ee8f03a41abc5"
+            }
+        ],
+        "correct": "d790a2f338b542f4818ee8f03a41abc5",
+        "explanation": "The close() function is used to close a socket, freeing up resources associated with it.",
+        "uuid": "5ca3052ad02147d8bc4ea611722a7b22"
+    }
+]

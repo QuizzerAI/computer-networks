@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is a network application composed of?",
+        "answers": [
+            {
+                "answer": "Single program running on one device",
+                "uuid": "1e93154de7d249b381de0f94f210518c"
+            },
+            {
+                "answer": "Multiple programs running on different end-systems",
+                "uuid": "2999bf9eba3f46639b3379040442f4ee"
+            },
+            {
+                "answer": "Only programs that run on servers",
+                "uuid": "1c1b3d0ec11b44b18cf64960b0b277a4"
+            },
+            {
+                "answer": "Only user interface components",
+                "uuid": "f47132b5ee9c4bdbb7f5daebf9083138"
+            }
+        ],
+        "correct": "2999bf9eba3f46639b3379040442f4ee",
+        "explanation": "A network application consists of multiple programs that run on different end-systems and communicate with each other over the network.",
+        "uuid": "7056872e2dc049cbb25c6af2e2e6e998"
+    },
+    {
+        "question": "Which of the following is an example of a client-server architecture?",
+        "answers": [
+            {
+                "answer": "Peer-to-peer file sharing",
+                "uuid": "c82707b0de8b4479bc701349d75e844f"
+            },
+            {
+                "answer": "Web application with a server and browser",
+                "uuid": "052f6c23ae8c47dfaa8fc5e65c86e5bf"
+            },
+            {
+                "answer": "Local file access on a single computer",
+                "uuid": "7d4d5575c06b4b3b9b2209cf5e7a30a4"
+            },
+            {
+                "answer": "Network printer services",
+                "uuid": "f3db60eb1f9141eeb209373fe15559e5"
+            }
+        ],
+        "correct": "052f6c23ae8c47dfaa8fc5e65c86e5bf",
+        "explanation": "A web application is a classic example of client-server architecture where the browser (client) requests resources from a web server.",
+        "uuid": "a62a02e5e5b74acb9ef0fc32e6c40c1d"
+    },
+    {
+        "question": "What does a socket serve as in a network application?",
+        "answers": [
+            {
+                "answer": "A replacement for an IP address",
+                "uuid": "cac17d28ab0247119bc27df317f4b70b"
+            },
+            {
+                "answer": "An interface between application layer and transport layer",
+                "uuid": "2f0ec3ea93b641d3a681c30bb6375c06"
+            },
+            {
+                "answer": "A method for sending email",
+                "uuid": "c37e83412653442eafca62536205c617"
+            },
+            {
+                "answer": "A tool for data encryption",
+                "uuid": "378e4d2eb86043c0bc0ffd98b3f5b169"
+            }
+        ],
+        "correct": "2f0ec3ea93b641d3a681c30bb6375c06",
+        "explanation": "A socket acts as an interface between the application layer and transport layer, allowing processes to communicate over the network.",
+        "uuid": "c285f9f3c9f746bd96eae92464a7de04"
+    },
+    {
+        "question": "What identifies a host in a network?",
+        "answers": [
+            {
+                "answer": "Port number",
+                "uuid": "56345555dc8f48be9336170391f5fa77"
+            },
+            {
+                "answer": "MAC address",
+                "uuid": "712a0d9058674509a1ba81d7405e6f53"
+            },
+            {
+                "answer": "IP address",
+                "uuid": "d1e5abb63166405785408e2c3dee87a5"
+            },
+            {
+                "answer": "Hostname",
+                "uuid": "653e0dbd565c4479946efc3089d06a6d"
+            }
+        ],
+        "correct": "d1e5abb63166405785408e2c3dee87a5",
+        "explanation": "A host in a network is identified by an IP address, which is a 32-bit quantity unique to that host.",
+        "uuid": "620014b92fe74cd9bb2e0f3eb7b01d09"
+    },
+    {
+        "question": "Which protocol is known for connection-oriented communication?",
+        "answers": [
+            {
+                "answer": "UDP",
+                "uuid": "0d9a55ba01714aaead7dab8f16e4f0e3"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "ee4bd16c89944a3eb68b69e9b8d528e7"
+            },
+            {
+                "answer": "TCP",
+                "uuid": "6586cbcce7ab4e90bcce2299e95ca494"
+            },
+            {
+                "answer": "FTP",
+                "uuid": "b2a3602eb107489c9f568f0b9e9800ec"
+            }
+        ],
+        "correct": "6586cbcce7ab4e90bcce2299e95ca494",
+        "explanation": "TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable data transfer between applications.",
+        "uuid": "ceb6a844b9eb4603b80959c77b61a76c"
+    },
+    {
+        "question": "What are typical characteristics of a peer-to-peer (P2P) architecture?",
+        "answers": [
+            {
+                "answer": "Heterogeneous nodes",
+                "uuid": "2d6501589bf34f4ebcf07f2b6491d2b0"
+            },
+            {
+                "answer": "Direct communication between peer nodes",
+                "uuid": "69a44b6835414b889143d4347622bc5b"
+            },
+            {
+                "answer": "Centralized control by a server",
+                "uuid": "e9acc533ad3c4c9ab62bf5567da7f018"
+            },
+            {
+                "answer": "Always-on server hosts",
+                "uuid": "015d6173d9544a978106cb08b75bac4f"
+            }
+        ],
+        "correct": "69a44b6835414b889143d4347622bc5b",
+        "explanation": "P2P architectures allow direct communication between pairs of intermittently connected nodes, without centralized servers.",
+        "uuid": "b1df9956feb344719cab51905e40ff72"
+    },
+    {
+        "question": "Which application-layer protocol is responsible for transferring web pages?",
+        "answers": [
+            {
+                "answer": "SMTP",
+                "uuid": "45a9409d85614854951d17a2c4153ef4"
+            },
+            {
+                "answer": "DNS",
+                "uuid": "e53246727d064b21a5ab7ee386d9982b"
+            },
+            {
+                "answer": "FTP",
+                "uuid": "9b95efef19584961a601f41251703223"
+            },
+            {
+                "answer": "HTTP/HTTPS",
+                "uuid": "f45e4b1eb2bb4aba8c41536538850479"
+            }
+        ],
+        "correct": "f45e4b1eb2bb4aba8c41536538850479",
+        "explanation": "HTTP (HyperText Transfer Protocol) is the protocol used to transfer web pages, and HTTPS is its secure version.",
+        "uuid": "eaaa100b169b434b8b6d1f49c1a0fd71"
+    },
+    {
+        "question": "What is the primary use of the SSH protocol?",
+        "answers": [
+            {
+                "answer": "File transfer",
+                "uuid": "e560984146f644189a32f7afc09c7014"
+            },
+            {
+                "answer": "Remote command-line access",
+                "uuid": "a00911332d654cacadad403312113d36"
+            },
+            {
+                "answer": "Network management",
+                "uuid": "30eecc5ffc244d858d1fa326096b1cb6"
+            },
+            {
+                "answer": "Web browsing",
+                "uuid": "234507f34821483c91ec387f7b066211"
+            }
+        ],
+        "correct": "a00911332d654cacadad403312113d36",
+        "explanation": "SSH (Secure Shell) provides encrypted remote command-line access to other systems over an unsecured network.",
+        "uuid": "2d2c586ad3804323a34b7bfcd72f7be8"
+    },
+    {
+        "question": "Which of the following is a common command associated with FTP?",
+        "answers": [
+            {
+                "answer": "ls",
+                "uuid": "64115ccc62a3416d93d85e8cbe9153fc"
+            },
+            {
+                "answer": "connect",
+                "uuid": "79c93b542e31495a9381100dbfe64a18"
+            },
+            {
+                "answer": "getfile",
+                "uuid": "59e4ed9806e548b281d3d7fd3fb72695"
+            },
+            {
+                "answer": "copy",
+                "uuid": "fb1358a19154479786ae2e9553a12d3f"
+            }
+        ],
+        "correct": "64115ccc62a3416d93d85e8cbe9153fc",
+        "explanation": "The 'ls' command in FTP lists the files and directories in the current remote directory.",
+        "uuid": "df4aa8ba79504bc6a01b003ba190cbb2"
+    },
+    {
+        "question": "Which port number is conventionally used for HTTP?",
+        "answers": [
+            {
+                "answer": "21",
+                "uuid": "5d9c56bfef524e3ab80c24c747273cb3"
+            },
+            {
+                "answer": "80",
+                "uuid": "f78e026a18484813846db1c396496d35"
+            },
+            {
+                "answer": "22",
+                "uuid": "66d737e5aaaa4402bd81fadaf40b964d"
+            },
+            {
+                "answer": "443",
+                "uuid": "4ecab5c7e614447e81601740f6683e9e"
+            }
+        ],
+        "correct": "f78e026a18484813846db1c396496d35",
+        "explanation": "HTTP traffic typically uses port number 80, while HTTPS uses port 443.",
+        "uuid": "851d96640c4f456eafa0e3fe5e4cb6f6"
+    },
+    {
+        "question": "What does the acronym DHCP stand for?",
+        "answers": [
+            {
+                "answer": "Dynamic Host Control Protocol",
+                "uuid": "3b448071c6d44d1e8d4241a5b1527231"
+            },
+            {
+                "answer": "Dynamic Host Configuration Protocol",
+                "uuid": "126890134e4740cd88b752963eddefdb"
+            },
+            {
+                "answer": "Domain Host Control Protocol",
+                "uuid": "af34258409fc44c781245d9b0262f75e"
+            },
+            {
+                "answer": "Distributed Host Configuration Protocol",
+                "uuid": "97f63308d80742cf874ad4e1bc1e94fe"
+            }
+        ],
+        "correct": "126890134e4740cd88b752963eddefdb",
+        "explanation": "DHCP stands for Dynamic Host Configuration Protocol, which assigns IP addresses to devices on a network.",
+        "uuid": "576429d760a9472bb779b04f831f0d2d"
+    }
+]

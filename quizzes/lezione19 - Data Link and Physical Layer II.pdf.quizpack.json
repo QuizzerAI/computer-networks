@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What are the four main services provided by the link layer?",
+        "answers": [
+            {
+                "answer": "Framing, link access, reliable delivery, error detection and correction",
+                "uuid": "91b6f8d979d14e3ca4ccea3124afbf57"
+            },
+            {
+                "answer": "TCP, UDP, IP, ARP",
+                "uuid": "ba0e3c8a84244ae8afe6904563ce1530"
+            },
+            {
+                "answer": "Routing, switching, encryption, compression",
+                "uuid": "8d59004b4fac4bd190e838e0eebdd276"
+            },
+            {
+                "answer": "Segmentation, session management, transmission control, data integrity",
+                "uuid": "168f72b3ecf549c9949f5dd68ea41183"
+            }
+        ],
+        "correct": "91b6f8d979d14e3ca4ccea3124afbf57",
+        "explanation": "The link layer offers framing, link access, reliable delivery, and error detection and correction as its main services.",
+        "uuid": "dc5058e10db843a897571615295e809a"
+    },
+    {
+        "question": "Which protocol is used for point-to-point links?",
+        "answers": [
+            {
+                "answer": "CSMA",
+                "uuid": "73339f8b5ae84c6c812d1a663d38f48c"
+            },
+            {
+                "answer": "PPP",
+                "uuid": "c7ea7a7bbe4141b98aebda5d616c8343"
+            },
+            {
+                "answer": "ARP",
+                "uuid": "4938a66420844ee4b168726766bdd02c"
+            },
+            {
+                "answer": "TCP",
+                "uuid": "4626b2ce46fa472bb9c265229bbfd947"
+            }
+        ],
+        "correct": "c7ea7a7bbe4141b98aebda5d616c8343",
+        "explanation": "Point-to-point links utilize the Point-to-Point Protocol (PPP) for managing communications between a single sender and a single receiver.",
+        "uuid": "a105de19402443638c6fdb7833dff7c9"
+    },
+    {
+        "question": "What is a broadcast link?",
+        "answers": [
+            {
+                "answer": "A link between a single sender and multiple receivers",
+                "uuid": "9ccfae39c56c429ea9065e6bd0444363"
+            },
+            {
+                "answer": "A direct link between two computers",
+                "uuid": "5408801334e74a2fb2b136a9d1c955ba"
+            },
+            {
+                "answer": "A network used for point-to-point connections",
+                "uuid": "b40f528b604a491fa635f8b48e368ea4"
+            },
+            {
+                "answer": "A virtual link between disconnected nodes",
+                "uuid": "f71406ece4474176b527a7c833176fa2"
+            }
+        ],
+        "correct": "9ccfae39c56c429ea9065e6bd0444363",
+        "explanation": "A broadcast link is where a single sender transmits messages to multiple receivers connected to the same channel.",
+        "uuid": "cbdbc26ae3784212a7cd56511f6eb3d4"
+    },
+    {
+        "question": "What occurs during a collision in a broadcast link?",
+        "answers": [
+            {
+                "answer": "The messages are successfully transmitted",
+                "uuid": "275e87f2bc8944c88302275e46935b0d"
+            },
+            {
+                "answer": "Only one message is received",
+                "uuid": "e8d41c08ffba4b389302a3fd31243355"
+            },
+            {
+                "answer": "All transmitted frames are lost",
+                "uuid": "e4183aa597c947b6bae6cbcfcaa3b42f"
+            },
+            {
+                "answer": "The connection is automatically terminated",
+                "uuid": "316cf4c31c6e455f964c78d097952485"
+            }
+        ],
+        "correct": "e4183aa597c947b6bae6cbcfcaa3b42f",
+        "explanation": "In a broadcast link, if multiple nodes transmit simultaneously, all their frames overlap, becoming incomprehensible; thus, they are received as errors and discarded.",
+        "uuid": "7baafeb593ed4d69a8217c392bbf7028"
+    },
+    {
+        "question": "What is the purpose of Medium Access Control (MAC) protocols?",
+        "answers": [
+            {
+                "answer": "To manage data encryption",
+                "uuid": "c7ffe52a309444068c9cc3ed80959c90"
+            },
+            {
+                "answer": "To facilitate error correction in frames",
+                "uuid": "d2b22e5e41d94374860fdd9a325ac805"
+            },
+            {
+                "answer": "To regulate access to shared links",
+                "uuid": "1093101894a248ddbd19f53fab22e1e3"
+            },
+            {
+                "answer": "To establish secure connections",
+                "uuid": "a1da922c334e4463978647d6793b1814"
+            }
+        ],
+        "correct": "1093101894a248ddbd19f53fab22e1e3",
+        "explanation": "MAC protocols are designed to manage how nodes on a shared medium access the link, preventing overlap and collisions.",
+        "uuid": "915d9b19b80d4f4db8cc230a1699d4a1"
+    },
+    {
+        "question": "Which protocol is characterized by channel partitioning?",
+        "answers": [
+            {
+                "answer": "ALOHA",
+                "uuid": "041ae6dd55a34600a7f23f41442e1626"
+            },
+            {
+                "answer": "CSMA/CD",
+                "uuid": "06069744acc64b8f9e56ab4578dbd159"
+            },
+            {
+                "answer": "TDMA",
+                "uuid": "149754a828e24acf8da2ddd6ae3b3376"
+            },
+            {
+                "answer": "Random Access",
+                "uuid": "879d4ff064124000a2cfe61bc6b56d2d"
+            }
+        ],
+        "correct": "149754a828e24acf8da2ddd6ae3b3376",
+        "explanation": "Time Division Multiple Access (TDMA) is an example of a channel partitioning protocol that assigns time slots for communications.",
+        "uuid": "1cba4bc8f3764d07947f7eb9865fa4de"
+    },
+    {
+        "question": "How does ARP function in a network?",
+        "answers": [
+            {
+                "answer": "It directly transmits packets to the destination",
+                "uuid": "7afc16982e9843cc9bfda689fe142acf"
+            },
+            {
+                "answer": "It converts IP addresses to MAC addresses",
+                "uuid": "2710867faeeb48dfad30e38be1ebc126"
+            },
+            {
+                "answer": "It detects and corrects errors in frames",
+                "uuid": "9afe1a71330742c2b3da50244a0f7ca4"
+            },
+            {
+                "answer": "It encrypts messages before sending",
+                "uuid": "21fa58c0e08e4c06a4c8082d3a110684"
+            }
+        ],
+        "correct": "2710867faeeb48dfad30e38be1ebc126",
+        "explanation": "The Address Resolution Protocol (ARP) serves to map an IP address to its corresponding MAC address within a local network.",
+        "uuid": "94079f765dc74464aace288911138e76"
+    },
+    {
+        "question": "What is the primary disadvantage of ALOHA protocols?",
+        "answers": [
+            {
+                "answer": "It is too complex to implement",
+                "uuid": "78fb6c94a3cd45e5ac018ef98a71e605"
+            },
+            {
+                "answer": "It can lead to multiple collisions",
+                "uuid": "f3185f465d674ca7b50be79e901008fa"
+            },
+            {
+                "answer": "It allows monopolization of the channel",
+                "uuid": "2e6e0ae04e1c41cd8e727a7d43e42b76"
+            },
+            {
+                "answer": "It requires centralized control",
+                "uuid": "100bd5d899654ce7a86d1887d03960c7"
+            }
+        ],
+        "correct": "f3185f465d674ca7b50be79e901008fa",
+        "explanation": "ALOHA protocols suffer from collisions due to their lack of coordination which can lead to multiple nodes transmitting simultaneously.",
+        "uuid": "fb823f5d1ee542f9bedec5b6fc8aa65f"
+    },
+    {
+        "question": "What does CSMA/CD stand for?",
+        "answers": [
+            {
+                "answer": "Carrier Sense Multiple Access with Collision Detection",
+                "uuid": "47bc28393ad040bf80c50695e3d83e44"
+            },
+            {
+                "answer": "Channel Segmentation Multiple Access with Data Control",
+                "uuid": "6976fe21565c458484baf181aa4e9c3d"
+            },
+            {
+                "answer": "Connection Sensing Medium Access with Collision Division",
+                "uuid": "a83f17b603964211bc0a44e932509c64"
+            },
+            {
+                "answer": "Compact Signal Multiple Access with Capacity Detection",
+                "uuid": "de4c383fe8c049f3b8163ffb82511c22"
+            }
+        ],
+        "correct": "47bc28393ad040bf80c50695e3d83e44",
+        "explanation": "CSMA/CD stands for Carrier Sense Multiple Access with Collision Detection, a protocol used to detect collisions in a network.",
+        "uuid": "54378ecb92844fd5bb00d3685a0ea8b3"
+    },
+    {
+        "question": "What defines a MAC address?",
+        "answers": [
+            {
+                "answer": "A globally unique identifier for devices",
+                "uuid": "8c3faf589cac49cdac4c137283dbb400"
+            },
+            {
+                "answer": "A hardware address that identifies each device on a local network",
+                "uuid": "723c09706f934ec2a6eaf583a50061e3"
+            },
+            {
+                "answer": "An encrypted protocol identifier",
+                "uuid": "08ae4534f68f41eba8ec3c5afaf33d1f"
+            },
+            {
+                "answer": "A temporary connection ID used in sessions",
+                "uuid": "9454c13aff86499190447ee00a24f186"
+            }
+        ],
+        "correct": "723c09706f934ec2a6eaf583a50061e3",
+        "explanation": "A MAC address is a hardware address unique to a device on a local network, commonly represented in hexadecimal format.",
+        "uuid": "7ed4048beddb4721bba447cf6fde3af8"
+    },
+    {
+        "question": "How does a switch operate in a LAN environment?",
+        "answers": [
+            {
+                "answer": "It routes packets based on IP addresses",
+                "uuid": "2b1e1a6ae5be4eb1b5640fd92812a591"
+            },
+            {
+                "answer": "It forwards frames based on MAC addresses",
+                "uuid": "6c6986857815459e8076143bffc5148b"
+            },
+            {
+                "answer": "It performs encryption of data",
+                "uuid": "25503c24edfc4b76bbbb65d2fd918abb"
+            },
+            {
+                "answer": "It establishes connections between remote nodes",
+                "uuid": "d3c0ed77a489412ebc8adfa257b77f0e"
+            }
+        ],
+        "correct": "6c6986857815459e8076143bffc5148b",
+        "explanation": "Switches operate by receiving incoming link-layer frames and forwarding them onto the correct outgoing links based on MAC addresses.",
+        "uuid": "2669271ef114417e8d845d04d56b6e22"
+    }
+]

@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the main function of HTTP cookies?",
+        "answers": [
+            {
+                "answer": "To store web content permanently",
+                "uuid": "859ce6c6a3a34b1cb1d337fd7536401b"
+            },
+            {
+                "answer": "To track user sessions",
+                "uuid": "544f8843388d4edfb30d2faeede18f81"
+            },
+            {
+                "answer": "To download files",
+                "uuid": "f35e033fdfec4b2086e02e496e734319"
+            },
+            {
+                "answer": "To create web pages",
+                "uuid": "cccf6c1b268c4ad3b76eb6c7e62a5f12"
+            }
+        ],
+        "correct": "544f8843388d4edfb30d2faeede18f81",
+        "explanation": "HTTP cookies are used to track user sessions and maintain state between requests, allowing servers to remember user-specific information.",
+        "uuid": "e43f9ab9b56d47079c77f927c95bfd4a"
+    },
+    {
+        "question": "What header is used by the server to create a cookie?",
+        "answers": [
+            {
+                "answer": "Cookie",
+                "uuid": "8bd74d624cf64ad98489f65f7b59ceab"
+            },
+            {
+                "answer": "Set-Cookie",
+                "uuid": "6e330d75564f4e5786b989dc702beb29"
+            },
+            {
+                "answer": "User-Agent",
+                "uuid": "2f6f4cfb8181485098342e17204e1044"
+            },
+            {
+                "answer": "Accept-Language",
+                "uuid": "d322f7c0d1ac4943bb0e3d4d128fa72d"
+            }
+        ],
+        "correct": "6e330d75564f4e5786b989dc702beb29",
+        "explanation": "The 'Set-Cookie' header in the HTTP response message is used by the server to create a cookie.",
+        "uuid": "21e703b3be7c4b55a680c3f77bb2578e"
+    },
+    {
+        "question": "Which of the following is NOT a method defined by HTTP?",
+        "answers": [
+            {
+                "answer": "GET",
+                "uuid": "bec1b620107848848fa6e5bf3bc98b54"
+            },
+            {
+                "answer": "POST",
+                "uuid": "cc8aff55faf74e8f8a0ebda2f5ab109e"
+            },
+            {
+                "answer": "PUT",
+                "uuid": "2e8576b88c614d279ef9cd2cedcf8473"
+            },
+            {
+                "answer": "SEND",
+                "uuid": "23ab2cd4e9854fb5a4d599c74c87cc6c"
+            }
+        ],
+        "correct": "23ab2cd4e9854fb5a4d599c74c87cc6c",
+        "explanation": "SEND is not a method defined in the HTTP protocol; defined methods include GET, POST, PUT, and DELETE.",
+        "uuid": "8f88c558311c4bda8118b617dcda9fcf"
+    },
+    {
+        "question": "What does the response status code 404 indicate?",
+        "answers": [
+            {
+                "answer": "OK",
+                "uuid": "d1773b0321684386893398ff87b98f3f"
+            },
+            {
+                "answer": "Moved Permanently",
+                "uuid": "80cd8a012a344e11ac78e5d47c054929"
+            },
+            {
+                "answer": "Not Found",
+                "uuid": "e0b3d0313cd34021a1e52165d5f7a14a"
+            },
+            {
+                "answer": "Server Error",
+                "uuid": "f7b98ba1096e432a967c8b265e0e5f6e"
+            }
+        ],
+        "correct": "e0b3d0313cd34021a1e52165d5f7a14a",
+        "explanation": "A 404 status code indicates that the requested document does not exist on the server.",
+        "uuid": "056afdea444841b1a6e3bcf003a9a4ee"
+    },
+    {
+        "question": "In the context of web caching, what is a 'hit'?",
+        "answers": [
+            {
+                "answer": "An unsuccessful object retrieval",
+                "uuid": "61b2c16c01ca4c539c7f78cea834f343"
+            },
+            {
+                "answer": "A successful object retrieval from the cache",
+                "uuid": "23441c5800264600ab756feec656fba2"
+            },
+            {
+                "answer": "A client request failure",
+                "uuid": "d3767af69d794b9f98ffad4f5f98eca7"
+            },
+            {
+                "answer": "A browser crash",
+                "uuid": "230d0bbe3e154446914e8e5fc89b2730"
+            }
+        ],
+        "correct": "23441c5800264600ab756feec656fba2",
+        "explanation": "A 'hit' occurs when a web cache successfully provides an object to the client without needing to contact the original server.",
+        "uuid": "db87c9ca63dc4d828b9076bc83a2e4fc"
+    },
+    {
+        "question": "How does HTTP treat connections between client and server?",
+        "answers": [
+            {
+                "answer": "Always persistent",
+                "uuid": "2937315741354cf28797acd6b21a1ea5"
+            },
+            {
+                "answer": "Always non-persistent",
+                "uuid": "510f766726f64b85ae6e68215bba8b26"
+            },
+            {
+                "answer": "Stateless",
+                "uuid": "4f338f5595c9467b9519639a7e0061cc"
+            },
+            {
+                "answer": "Stateful",
+                "uuid": "dc37a88ba52c4b8688448cc4d38d3232"
+            }
+        ],
+        "correct": "4f338f5595c9467b9519639a7e0061cc",
+        "explanation": "HTTP is a stateless protocol, meaning that each request is treated independently and does not retain information about previous requests.",
+        "uuid": "ba733935046d4f439472edec54e75d0b"
+    },
+    {
+        "question": "What is the purpose of a Web cache?",
+        "answers": [
+            {
+                "answer": "To encrypt data",
+                "uuid": "0d31432a928847c79a82c5769f3e1bc4"
+            },
+            {
+                "answer": "To improve response time and reduce server load",
+                "uuid": "27ac3db5fe024349923b93a3a47ca1b6"
+            },
+            {
+                "answer": "To store user credentials",
+                "uuid": "59f0f479a861492aaea2265920a1c8a7"
+            },
+            {
+                "answer": "To translate content",
+                "uuid": "8ec70185fbb14797814195eb7688f834"
+            }
+        ],
+        "correct": "27ac3db5fe024349923b93a3a47ca1b6",
+        "explanation": "Web caches are used to satisfy HTTP requests on behalf of an origin server, improving response time and reducing overall server load.",
+        "uuid": "1135fc9f422747d4bdba67dd582c3f36"
+    },
+    {
+        "question": "What does the 'If-Modified-Since' header do in a conditional GET request?",
+        "answers": [
+            {
+                "answer": "Specifies a new target for the object",
+                "uuid": "ac2aba1cc6234b68a502be387e963aad"
+            },
+            {
+                "answer": "Requests an updated version of the object",
+                "uuid": "71ea0c2a7cf7459296459f0d13bf049a"
+            },
+            {
+                "answer": "Asks to retrieve the object only if it has been modified since a specified date",
+                "uuid": "cd931b6a0e684bcdb8e4f80b586d0a8f"
+            },
+            {
+                "answer": "Defines the expiration date of the object",
+                "uuid": "0895e70203994bb292351f2a7bf1761b"
+            }
+        ],
+        "correct": "cd931b6a0e684bcdb8e4f80b586d0a8f",
+        "explanation": "The 'If-Modified-Since' header allows a cache to check if the cached object is still up-to-date and only retrieves it if it has been modified since the specified date.",
+        "uuid": "f2619190fb5a43c78d05f8cb7f1ff4db"
+    },
+    {
+        "question": "Which of these is a common problem associated with web caching?",
+        "answers": [
+            {
+                "answer": "High bandwidth usage",
+                "uuid": "055f602fd20843b0bf47cace8dbbbc52"
+            },
+            {
+                "answer": "Object may become outdated",
+                "uuid": "15f7810dedec4d6b8c60a01307cdccb7"
+            },
+            {
+                "answer": "Increased server load",
+                "uuid": "d08c14ea712d48a08b4f66d522c0c935"
+            },
+            {
+                "answer": "None of the above",
+                "uuid": "8b494216029449258e0b7bc2c95b54f6"
+            }
+        ],
+        "correct": "15f7810dedec4d6b8c60a01307cdccb7",
+        "explanation": "A common problem with web caching is that the cached copies of objects may become outdated, leading to inconsistent information.",
+        "uuid": "191ca41ce77b49f7820a07065ae77482"
+    },
+    {
+        "question": "What protocol is primarily associated with the application layer communication on the World Wide Web?",
+        "answers": [
+            {
+                "answer": "FTP",
+                "uuid": "48067dd108f040b288dcf840ad12a11e"
+            },
+            {
+                "answer": "SMTP",
+                "uuid": "0acce332d5bc4dcd9639bf5b454c4d96"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "f72cde5fea2e449b96e0d8b275fa16ef"
+            },
+            {
+                "answer": "TCP",
+                "uuid": "5692d7daec4d497fa101a0fe42cb7cc6"
+            }
+        ],
+        "correct": "f72cde5fea2e449b96e0d8b275fa16ef",
+        "explanation": "HTTP (HyperText Transfer Protocol) is the predominant protocol used for communication at the application layer on the World Wide Web.",
+        "uuid": "bbdbdbfc8e5e458ea0d0a35cffc68799"
+    },
+    {
+        "question": "Which status code indicates that the request has been successfully processed?",
+        "answers": [
+            {
+                "answer": "200 OK",
+                "uuid": "4d1d19d5788c40a2b642021e8e224adf"
+            },
+            {
+                "answer": "301 Moved Permanently",
+                "uuid": "cdef842067324262874f03e59aaa8417"
+            },
+            {
+                "answer": "500 Internal Server Error",
+                "uuid": "376796b2b0314052825219b3f8026d4c"
+            },
+            {
+                "answer": "404 Not Found",
+                "uuid": "ee3634e574bb402a91509b2c3e12811b"
+            }
+        ],
+        "correct": "4d1d19d5788c40a2b642021e8e224adf",
+        "explanation": "The status code 200 OK indicates that the request has been successfully processed by the server.",
+        "uuid": "b831bcf177044216851cd95a30f232f6"
+    }
+]

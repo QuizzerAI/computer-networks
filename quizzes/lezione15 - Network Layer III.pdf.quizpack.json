@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is a primary disadvantage of IPv6 compared to IPv4?",
+        "answers": [
+            {
+                "answer": "Compatibility with IPv4",
+                "uuid": "92a631ea42444fbbb308671e7e212c72"
+            },
+            {
+                "answer": "Shorter IP addresses",
+                "uuid": "fcfacc5456094e3799be2833391bdd62"
+            },
+            {
+                "answer": "Higher packet loss",
+                "uuid": "9125dae5ccf34ab9946fa63216d0c08f"
+            },
+            {
+                "answer": "Longer header size",
+                "uuid": "cece99b6bd204314acdd7bd808d580d4"
+            }
+        ],
+        "correct": "92a631ea42444fbbb308671e7e212c72",
+        "explanation": "IPv6 is not backward-compatible with IPv4, meaning IPv4-capable systems cannot process IPv6 datagrams.",
+        "uuid": "ddc52e98613943f28e3aceea69341c04"
+    },
+    {
+        "question": "How does IPv6 handle fragmentation differently than IPv4?",
+        "answers": [
+            {
+                "answer": "Through routers",
+                "uuid": "20f19c7078ff4847a44ff8f69a9a57d0"
+            },
+            {
+                "answer": "Only at the sending host",
+                "uuid": "691a85420cf545c7a8a098561d7fcad4"
+            },
+            {
+                "answer": "With no fragmentation",
+                "uuid": "2eef1f02dca744f5a21dd6ef3b9c1e5a"
+            },
+            {
+                "answer": "By increasing packet size",
+                "uuid": "9ce44342604c47b49cc2b3201ac8a078"
+            }
+        ],
+        "correct": "691a85420cf545c7a8a098561d7fcad4",
+        "explanation": "IPv6 does not allow fragmentation to occur at intermediate routers; it is handled only at the sending host.",
+        "uuid": "af1ece4876e64dcd86b4418f4844f5f4"
+    },
+    {
+        "question": "What is the size of the IPv6 address compared to IPv4?",
+        "answers": [
+            {
+                "answer": "32 bits",
+                "uuid": "7039b0d464ef47be80302c275785f1c5"
+            },
+            {
+                "answer": "64 bits",
+                "uuid": "503d8ec1882c404497fc8c2b28997918"
+            },
+            {
+                "answer": "128 bits",
+                "uuid": "0bbdcd46dbf84662a37772c758254e75"
+            },
+            {
+                "answer": "256 bits",
+                "uuid": "4fd9c61837ac4a45a2c747f1b0256419"
+            }
+        ],
+        "correct": "0bbdcd46dbf84662a37772c758254e75",
+        "explanation": "IPv6 addresses are 128 bits in size, whereas IPv4 addresses are only 32 bits.",
+        "uuid": "e5094041fde54f439f7b899e3e36acbf"
+    },
+    {
+        "question": "What approach is considered most realistic for transitioning from IPv4 to IPv6?",
+        "answers": [
+            {
+                "answer": "Flag day",
+                "uuid": "e492dbe4cef046e0ab6aec628cf0eb28"
+            },
+            {
+                "answer": "Direct upgrade",
+                "uuid": "bbbf6805d97e4045ae21da4d9c90dacb"
+            },
+            {
+                "answer": "Tunneling",
+                "uuid": "f6b8878cbcc84d148162ad4ee66327d0"
+            },
+            {
+                "answer": "Individual updates",
+                "uuid": "f2e09e84161e4304a6ff551e0e779232"
+            }
+        ],
+        "correct": "f6b8878cbcc84d148162ad4ee66327d0",
+        "explanation": "The tunneling approach uses specific routers to seamlessly map IPv4 datagrams into IPv6 and vice versa, making it the most realistic transition method.",
+        "uuid": "4d66bfa7603043dc89e5b9052a5ea5e0"
+    },
+    {
+        "question": "What command is used to check the reachability of a host on a network?",
+        "answers": [
+            {
+                "answer": "traceroute",
+                "uuid": "26ec69c66a0f48068534a92a6cbc4074"
+            },
+            {
+                "answer": "ping",
+                "uuid": "bd30e2b6706645cdb0aab872ec68da1c"
+            },
+            {
+                "answer": "nmap",
+                "uuid": "ecd6b3a314224f5e821af37a9876a3da"
+            },
+            {
+                "answer": "ifconfig",
+                "uuid": "ce866715b40347eaabf78edeb015fd82"
+            }
+        ],
+        "correct": "bd30e2b6706645cdb0aab872ec68da1c",
+        "explanation": "The ping command uses ICMP to send an echo request and receive an echo reply, confirming if a host is reachable.",
+        "uuid": "a5d0151c6b3f480aa7fec8d71815608c"
+    },
+    {
+        "question": "What does DHCP stand for?",
+        "answers": [
+            {
+                "answer": "Dynamic Host Control Protocol",
+                "uuid": "6981cc051d724c2faf50d9b00749e7a1"
+            },
+            {
+                "answer": "Dynamic Host Configuration Protocol",
+                "uuid": "f4d93d8a9a224a5184dce3d3a33235f4"
+            },
+            {
+                "answer": "Dynamic Hypertext Configuration Protocol",
+                "uuid": "c8d64d87fef84438af10fe7f099c940a"
+            },
+            {
+                "answer": "Direct Host Configuration Protocol",
+                "uuid": "6a8e4c663c674f0cb319cec9786dee74"
+            }
+        ],
+        "correct": "f4d93d8a9a224a5184dce3d3a33235f4",
+        "explanation": "DHCP stands for Dynamic Host Configuration Protocol, which automatically assigns IP addresses to hosts on a network.",
+        "uuid": "94139d848c3b49cc80cda21b7244045f"
+    },
+    {
+        "question": "Which IP address range is reserved for private networks?",
+        "answers": [
+            {
+                "answer": "192.168.0.0 - 192.168.255.255",
+                "uuid": "9c68fa5449dd4f12a54e09f2e4ba8f2e"
+            },
+            {
+                "answer": "10.0.0.0 - 10.255.255.255",
+                "uuid": "6cfca687ef8e4cbd95c0ea6627897bf2"
+            },
+            {
+                "answer": "172.16.0.0 - 172.31.255.255",
+                "uuid": "bd17ed92bd724067bf12c21c05b32b86"
+            },
+            {
+                "answer": "All of these",
+                "uuid": "17e521259c1c4d2383247574b42370d3"
+            }
+        ],
+        "correct": "17e521259c1c4d2383247574b42370d3",
+        "explanation": "All the mentioned ranges are reserved for private networks, allowing them to operate without conflicts on the public internet.",
+        "uuid": "3fe13c624b1f42f7932b5ef37ba91c93"
+    },
+    {
+        "question": "What field in the IPv6 datagram identifies the upper-level protocol?",
+        "answers": [
+            {
+                "answer": "Version",
+                "uuid": "a8adee941f5043b9bdb0bdb2a0dff477"
+            },
+            {
+                "answer": "Flow Label",
+                "uuid": "9a0f3917540e485e9d199f156ccb2123"
+            },
+            {
+                "answer": "Next Header",
+                "uuid": "1f306192096f44ff96176591368c7c33"
+            },
+            {
+                "answer": "Traffic Class",
+                "uuid": "b4e786060c5b4757b5b008b5dcedf911"
+            }
+        ],
+        "correct": "1f306192096f44ff96176591368c7c33",
+        "explanation": "The Next Header field of the IPv6 datagram indicates which upper-level protocol (such as TCP or UDP) the datagram's contents should be delivered to.",
+        "uuid": "7dffbf8631ae418e8c14280b6e1c5c1b"
+    },
+    {
+        "question": "What role does NAT play in networking?",
+        "answers": [
+            {
+                "answer": "Assigns static IPs",
+                "uuid": "26f1abf253af49cf9f15df92902d6744"
+            },
+            {
+                "answer": "Maps multiple local IPs to a single global IP",
+                "uuid": "55f22dea4f6c4d6ea42ad51575351544"
+            },
+            {
+                "answer": "Increases bandwidth",
+                "uuid": "8c600b42fc9749298ebf29d97b0ff95f"
+            },
+            {
+                "answer": "Automatically adjusts packet size",
+                "uuid": "a91250eb1893453b9db937cd14aee5d1"
+            }
+        ],
+        "correct": "55f22dea4f6c4d6ea42ad51575351544",
+        "explanation": "Network Address Translation (NAT) remaps the IP addresses of packets within a network, allowing multiple local IPs to share a single global IP address.",
+        "uuid": "9e5f99a8dafc4e1fb8f4a70d8bf6f08b"
+    },
+    {
+        "question": "The maximum number of simultaneous connections a NAT can manage is primarily limited by what?",
+        "answers": [
+            {
+                "answer": "IP addresses",
+                "uuid": "e1e89eab3ea34374ab569950f7ebfa34"
+            },
+            {
+                "answer": "Port numbers",
+                "uuid": "42d6ffcf03f34158af4a66e765a7ae49"
+            },
+            {
+                "answer": "Packet size",
+                "uuid": "963fafee3adc471ea564fb0a2aa515e1"
+            },
+            {
+                "answer": "Subnetting",
+                "uuid": "c30780ef7cb94a7b9fbde98661c448f2"
+            }
+        ],
+        "correct": "42d6ffcf03f34158af4a66e765a7ae49",
+        "explanation": "NAT can manage over 60,000 simultaneous connections due to the limitations of port numbers, which are 16 bits in size.",
+        "uuid": "7e14a69faa8745808bfeaebe998892a3"
+    },
+    {
+        "question": "What is a potential issue with having all devices visible on the Internet?",
+        "answers": [
+            {
+                "answer": "Increased IP address availability",
+                "uuid": "f3be06d50bac43dca875b8481bca0844"
+            },
+            {
+                "answer": "Higher security risks",
+                "uuid": "bba81cc833674c1d9ccfb5d814d7fb2f"
+            },
+            {
+                "answer": "Increased network speed",
+                "uuid": "d747a2c019da4f6483dc6bdf254481a2"
+            },
+            {
+                "answer": "More straightforward configuration",
+                "uuid": "7928f31e3146473cbf8b77430fa3b5c2"
+            }
+        ],
+        "correct": "bba81cc833674c1d9ccfb5d814d7fb2f",
+        "explanation": "Having all devices visible on the Internet can lead to higher security risks as it exposes devices to potential attacks.",
+        "uuid": "1c1c765a23bb4a2c928b3a8a67262b6f"
+    }
+]

@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the main goal of the Distance-Vector routing algorithm?",
+        "answers": [
+            {
+                "answer": "Finding the shortest path between two nodes",
+                "uuid": "dbddd50c0e024039b77e16129049d8a8"
+            },
+            {
+                "answer": "Maximizing the number of packets sent",
+                "uuid": "ea75c2d9c5ae495fbab5a24cf1db4567"
+            },
+            {
+                "answer": "Minimizing the number of routers used",
+                "uuid": "0aa06041976343089ee71a3c215e8339"
+            },
+            {
+                "answer": "Ensuring packet delivery at all costs",
+                "uuid": "aa2d0273173f4565ac4c4c6f0e5f2243"
+            }
+        ],
+        "correct": "dbddd50c0e024039b77e16129049d8a8",
+        "explanation": "The Distance-Vector routing algorithm focuses on finding the shortest path between nodes in a network.",
+        "uuid": "826fa23463264d00b925af5d2d677aab"
+    },
+    {
+        "question": "Which equation is central to the Distance-Vector routing algorithm?",
+        "answers": [
+            {
+                "answer": "Bellman equation",
+                "uuid": "3fef08ea869a4f4f916dbfb1fac563d5"
+            },
+            {
+                "answer": "Dijkstra's algorithm",
+                "uuid": "b950c54293994c95b7a694c8f0a25580"
+            },
+            {
+                "answer": "Floyd-Warshall algorithm",
+                "uuid": "9c2c7d104ba7452f8431256bd5675dd7"
+            },
+            {
+                "answer": "A* search algorithm",
+                "uuid": "cf1f15871bab4fde9c8c9c6ad8631055"
+            }
+        ],
+        "correct": "3fef08ea869a4f4f916dbfb1fac563d5",
+        "explanation": "The Bellman equation is used to compute the shortest paths in the Distance-Vector algorithm.",
+        "uuid": "fce6782548024621a12a4217bbe6b75b"
+    },
+    {
+        "question": "How does the Distance-Vector algorithm communicate updates?",
+        "answers": [
+            {
+                "answer": "Through broadcasting to all nodes",
+                "uuid": "0fed897bc3604cd9ac25d6e734216ab3"
+            },
+            {
+                "answer": "By sending direct messages only to neighbors",
+                "uuid": "c63c83b60937490987ffca75328b2caa"
+            },
+            {
+                "answer": "Using a centralized server",
+                "uuid": "76f68182328d46e99c2d4298f43a23ce"
+            },
+            {
+                "answer": "Via an encrypted channel",
+                "uuid": "d4921c5c744143b6b5d9db1972d42f97"
+            }
+        ],
+        "correct": "c63c83b60937490987ffca75328b2caa",
+        "explanation": "The Distance-Vector algorithm updates routing information by communicating directly with neighboring nodes.",
+        "uuid": "ba6a405c99f14cafbb60e89921882fa2"
+    },
+    {
+        "question": "What is a potential drawback of the Distance-Vector routing algorithm?",
+        "answers": [
+            {
+                "answer": "Fast convergence",
+                "uuid": "f8fc39cee3ff4352b1ebd943d61e73f9"
+            },
+            {
+                "answer": "Low computational complexity",
+                "uuid": "f47162c381044a0fa0d829786356c515"
+            },
+            {
+                "answer": "Slow convergence and count-to-infinity problem",
+                "uuid": "0632e1c462ff4d25b8a1bfa1edd34fb8"
+            },
+            {
+                "answer": "Easy path discovery",
+                "uuid": "c86d185a56dc4e78a2218a5840211288"
+            }
+        ],
+        "correct": "0632e1c462ff4d25b8a1bfa1edd34fb8",
+        "explanation": "The algorithm can have slow convergence and may experience the count-to-infinity problem when nodes fail.",
+        "uuid": "68d70427123b4b5aa580ad40cabf2f5d"
+    },
+    {
+        "question": "What kind of graph is used to model networks in the Distance-Vector algorithm?",
+        "answers": [
+            {
+                "answer": "Directed graphs only",
+                "uuid": "b59719c92234433bb66bb2683201c53d"
+            },
+            {
+                "answer": "Undirected graphs only",
+                "uuid": "2bb681aadcd64ab3be89042f68834cce"
+            },
+            {
+                "answer": "Both directed and undirected graphs",
+                "uuid": "3e0015bb59b248fa98e4715d1bf81673"
+            },
+            {
+                "answer": "Graphs without edges",
+                "uuid": "a2541824de4242a8bd82c7038d7eee23"
+            }
+        ],
+        "correct": "3e0015bb59b248fa98e4715d1bf81673",
+        "explanation": "The Distance-Vector algorithm can work with both directed and undirected graphs to represent network connections.",
+        "uuid": "087d606624294126bb505e33217fb0eb"
+    },
+    {
+        "question": "In the context of distance vectors, what does 'infinity' signify?",
+        "answers": [
+            {
+                "answer": "A direct connection",
+                "uuid": "7c29c4ac878347a3bc8ba2bee15a044e"
+            },
+            {
+                "answer": "No known path",
+                "uuid": "2845c9bd97a840fba0eab4a13a449efe"
+            },
+            {
+                "answer": "A cost value",
+                "uuid": "cdc3470a2e114e8da161032729d1cc63"
+            },
+            {
+                "answer": "The end of a path",
+                "uuid": "3dd6442b63634182ac85bcd460e94eda"
+            }
+        ],
+        "correct": "2845c9bd97a840fba0eab4a13a449efe",
+        "explanation": "'Infinity' indicates that there is no known path between the nodes at the start of the algorithm.",
+        "uuid": "2ffac06b884049068151811789de82d9"
+    },
+    {
+        "question": "What is the computational complexity of updates in the Distance-Vector algorithm?",
+        "answers": [
+            {
+                "answer": "O(N)",
+                "uuid": "eae721844cf546db8badef4057b16604"
+            },
+            {
+                "answer": "O(E)",
+                "uuid": "07e738964588481f81d6361240b6d694"
+            },
+            {
+                "answer": "O(N*E)",
+                "uuid": "b3df795d0ada42e4a20a51de6cad30db"
+            },
+            {
+                "answer": "O(1)",
+                "uuid": "d81c03d7fd1b49689de22cc5dc408018"
+            }
+        ],
+        "correct": "b3df795d0ada42e4a20a51de6cad30db",
+        "explanation": "The update process in the worst-case scenario has a complexity of O(N*E).",
+        "uuid": "3ae47fc6b2434005acfdaa8f17575fba"
+    },
+    {
+        "question": "Which of the following statements about flooding is true?",
+        "answers": [
+            {
+                "answer": "Flooding is always optimal",
+                "uuid": "f96de6ebc13043238d9f6b1efa62e11a"
+            },
+            {
+                "answer": "Flooding guarantees delivery if a path exists",
+                "uuid": "aae876d9a82d44d8998c6e350a1cd57d"
+            },
+            {
+                "answer": "Flooding avoids redundancy",
+                "uuid": "ec6548adc5fb412a9cdb380c3a0e8122"
+            },
+            {
+                "answer": "Flooding is used only in small networks",
+                "uuid": "79df0a0dc6634b129f9d2a7243725f40"
+            }
+        ],
+        "correct": "aae876d9a82d44d8998c6e350a1cd57d",
+        "explanation": "Flooding ensures that if a path exists, the packet will surely reach its destination by exploring all paths.",
+        "uuid": "a1dc2740b49a417fa1d598c07f2b505b"
+    },
+    {
+        "question": "What do nodes do in the Distance-Vector routing algorithm when they detect their cost has been updated?",
+        "answers": [
+            {
+                "answer": "Ignore the update",
+                "uuid": "6f9ac72429c34b2a8445a32af24fcb8e"
+            },
+            {
+                "answer": "Re-evaluate and inform neighbors",
+                "uuid": "4781dbc3ff064998a1068d923b4e013d"
+            },
+            {
+                "answer": "Delete their route tables",
+                "uuid": "eaab53b4ad24401cab81fbe4c20a332f"
+            },
+            {
+                "answer": "Switch to another routing algorithm",
+                "uuid": "773db31ce4204dc586d166f53aa19dcc"
+            }
+        ],
+        "correct": "4781dbc3ff064998a1068d923b4e013d",
+        "explanation": "Nodes will re-evaluate their costs and inform neighboring nodes about the updates to their distance vectors.",
+        "uuid": "348de6fbd8a44c5dbeb47645db6206ff"
+    },
+    {
+        "question": "What mechanism allows the Distance-Vector algorithm to adapt to changing network conditions?",
+        "answers": [
+            {
+                "answer": "Synchronized updates",
+                "uuid": "8607cbf5b6ba4148b17999015abb1450"
+            },
+            {
+                "answer": "Periodic updates without neighbor communication",
+                "uuid": "8d6baae0873e45288e731a39ca5c3313"
+            },
+            {
+                "answer": "Asynchronous communication",
+                "uuid": "a8a1e26e9c044e5da413aaaae913c638"
+            },
+            {
+                "answer": "Centralized decision-making",
+                "uuid": "e5714577b05242bd8ba22ad72b34032b"
+            }
+        ],
+        "correct": "a8a1e26e9c044e5da413aaaae913c638",
+        "explanation": "The asynchronous nature of the algorithm allows routers to adapt to updated costs independently.",
+        "uuid": "903cb56565af4b8c89f7f1d340eb5f6c"
+    },
+    {
+        "question": "Which of the following best describes the term 'count-to-infinity' in the context of the Distance-Vector algorithm?",
+        "answers": [
+            {
+                "answer": "The algorithm quickly finds the best path",
+                "uuid": "106753c262ba48b0b5f625cb63101eac"
+            },
+            {
+                "answer": "An infinite increase in path cost due to updates",
+                "uuid": "b23744811d3540d09f56de0833db057b"
+            },
+            {
+                "answer": "A method for finding all routes",
+                "uuid": "5183714654af408d90d25b199f4821e1"
+            },
+            {
+                "answer": "A form of encryption for secure communication",
+                "uuid": "c5fc7f81fa60483aa397667e17c2a5b0"
+            }
+        ],
+        "correct": "b23744811d3540d09f56de0833db057b",
+        "explanation": "Count-to-infinity refers to a situation where the algorithm takes a long time to recognize a failure, leading to an infinite increase in path costs.",
+        "uuid": "7a331e3222ee4080a4cf9db92865e7e9"
+    }
+]

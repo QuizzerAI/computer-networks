@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is the defining feature of on-demand self-service in cloud computing?",
+        "answers": [
+            {
+                "answer": "Requires human interaction for resource allocation.",
+                "uuid": "ac0dffa81f314422ba6dc44315f096f6"
+            },
+            {
+                "answer": "Consumers can provision computing capabilities without human involvement.",
+                "uuid": "95bc55fa85e442b1990d98b52f3b98e8"
+            },
+            {
+                "answer": "Services are provided only during office hours.",
+                "uuid": "2f110d5f44f748768c3ffde8c8bbad5d"
+            },
+            {
+                "answer": "It limits the number of resources a consumer can use.",
+                "uuid": "4ff758e5a13c40f2827d083ee2ec79c3"
+            }
+        ],
+        "correct": "95bc55fa85e442b1990d98b52f3b98e8",
+        "explanation": "On-demand self-service allows consumers to provision computing resources automatically without human interaction.",
+        "uuid": "0a0a69b9197e4548accdf289ea28bec5"
+    },
+    {
+        "question": "Which of the following is NOT one of the five essential characteristics of cloud computing as defined by NIST?",
+        "answers": [
+            {
+                "answer": "On-demand self-service",
+                "uuid": "4511f38c83ff4dbe8b2930cb5a52b663"
+            },
+            {
+                "answer": "Measured service",
+                "uuid": "93e1df3a0d1c4e978c177b46f73edbeb"
+            },
+            {
+                "answer": "Scalability",
+                "uuid": "f51b29a107e241a89d37664f0034a642"
+            },
+            {
+                "answer": "Resource pooling",
+                "uuid": "859967834bef47b888edb75cc94f6b0d"
+            }
+        ],
+        "correct": "f51b29a107e241a89d37664f0034a642",
+        "explanation": "Scalability is an important concept but it is not listed as one of the five essential characteristics of cloud computing.",
+        "uuid": "439db6f65cf940f7b405a6ff2b38aa78"
+    },
+    {
+        "question": "What does the term 'resource pooling' refer to in cloud computing?",
+        "answers": [
+            {
+                "answer": "The ability to use resources from a single user.",
+                "uuid": "6b9b42d15b834343986542542412267d"
+            },
+            {
+                "answer": "The provider's resources are aggregated to serve multiple consumers.",
+                "uuid": "fc1236395a854d65bae2614da906e2b8"
+            },
+            {
+                "answer": "Users must allocate their resources in isolation.",
+                "uuid": "34fcd3f87cc540c2a14f3aeb668bc190"
+            },
+            {
+                "answer": "Resources can be used only by one consumer at a time.",
+                "uuid": "2cbb1a5a0379486b83aee4739bcc645f"
+            }
+        ],
+        "correct": "fc1236395a854d65bae2614da906e2b8",
+        "explanation": "Resource pooling refers to multiple consumers sharing a common pool of configurable computing resources.",
+        "uuid": "c706d1359cbf43088028c032403e2a15"
+    },
+    {
+        "question": "What type of service model is known as Software as a Service (SaaS)?",
+        "answers": [
+            {
+                "answer": "Provision of hardware only.",
+                "uuid": "8e1b3e1861f0477695eb74cea1ab8486"
+            },
+            {
+                "answer": "Full applications along with the necessary components.",
+                "uuid": "e9620409dd074d1e8e2026ffd8e37e12"
+            },
+            {
+                "answer": "Infrastructure management.",
+                "uuid": "9026cc8a370f41ef909080a0fd3854ab"
+            },
+            {
+                "answer": "Development platforms.",
+                "uuid": "5763dc2f44f94ebb975ca8cee6c774e7"
+            }
+        ],
+        "correct": "e9620409dd074d1e8e2026ffd8e37e12",
+        "explanation": "SaaS provides complete applications along with the software and hardware components needed to run them.",
+        "uuid": "8c7da3655b3e44eebdeb36129c53b308"
+    },
+    {
+        "question": "Which of the following is an example of a cloud service provider?",
+        "answers": [
+            {
+                "answer": "Google",
+                "uuid": "4bbdae2e92374ff78b36ef48102ad03b"
+            },
+            {
+                "answer": "Local internet service provider",
+                "uuid": "ea96c9ae9e834836ab50df47c475cbe0"
+            },
+            {
+                "answer": "Traditional on-premise server",
+                "uuid": "9cb93497853f4c98bb46b2e08dddc75c"
+            },
+            {
+                "answer": "Personal computer",
+                "uuid": "890c0983fd3341df95275a1eec066829"
+            }
+        ],
+        "correct": "4bbdae2e92374ff78b36ef48102ad03b",
+        "explanation": "Google is a well-known example of a cloud service provider offering various cloud-based services.",
+        "uuid": "316260f5a44a4e1c826fd6a4f18b1dd5"
+    },
+    {
+        "question": "What is meant by 'broad network access' in cloud computing?",
+        "answers": [
+            {
+                "answer": "Services can only be accessed via specific devices.",
+                "uuid": "64933d61731e4b07a9ead8b2e5031532"
+            },
+            {
+                "answer": "Resources are available over the network via standard mechanisms.",
+                "uuid": "e8ad339aac324eb09ef52f5c0dfb222c"
+            },
+            {
+                "answer": "Access is restricted to local devices.",
+                "uuid": "e5b8c658032f45dd9bb662cd80f1b5cb"
+            },
+            {
+                "answer": "Only capable users can access services.",
+                "uuid": "d499d34c6c4446469711a811907ac209"
+            }
+        ],
+        "correct": "e8ad339aac324eb09ef52f5c0dfb222c",
+        "explanation": "Broad network access means that capabilities can be accessed through standard methods on various devices.",
+        "uuid": "44c74bd9f8414810940dfc2b5384cea8"
+    },
+    {
+        "question": "What is a common application of IoT combined with cloud computing?",
+        "answers": [
+            {
+                "answer": "Printing documents locally.",
+                "uuid": "3cc5dabc8d364ab2969d3768fcf98d59"
+            },
+            {
+                "answer": "Remote management of devices and data storage.",
+                "uuid": "f1c88747a0604679858f450619211c03"
+            },
+            {
+                "answer": "Sharing files over a personal network.",
+                "uuid": "d782804d298f4053beff360bce2b6e72"
+            },
+            {
+                "answer": "Using standalone applications.",
+                "uuid": "1f60190d62af41eb82d4ab32008fd578"
+            }
+        ],
+        "correct": "f1c88747a0604679858f450619211c03",
+        "explanation": "IoT leverages cloud computing for remote device management and data storage.",
+        "uuid": "0569f5eb760c4ea48cffee7b5a34bc15"
+    },
+    {
+        "question": "What are the seven layers of the OSI model used for in computer networks?",
+        "answers": [
+            {
+                "answer": "Defining service providers.",
+                "uuid": "b53ec80abfdc4b738655d482c945af27"
+            },
+            {
+                "answer": "Breaking down communication tasks into manageable layers.",
+                "uuid": "b9cb3503fe814a00975038eaf98081f2"
+            },
+            {
+                "answer": "Establishing a single point of control.",
+                "uuid": "f11390ef57934308a0579703907b9c74"
+            },
+            {
+                "answer": "Creating hardware identification standards.",
+                "uuid": "0a21ce7b9d0b45cba506fcfd69211e49"
+            }
+        ],
+        "correct": "b9cb3503fe814a00975038eaf98081f2",
+        "explanation": "The OSI model separates communication tasks into seven layers to simplify and standardize networking operations.",
+        "uuid": "939cf8536451403d8a7e6097eb752a7f"
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for the delivery of packets from the source host to the destination host?",
+        "answers": [
+            {
+                "answer": "Physical Layer",
+                "uuid": "7f598ccc722845059f1a55774ea05fef"
+            },
+            {
+                "answer": "Data Link Layer",
+                "uuid": "03de4c7fc4a244c8bb7fde0e0fd2288c"
+            },
+            {
+                "answer": "Network Layer",
+                "uuid": "ba21e0efca4241a78a4a5df7fa6db728"
+            },
+            {
+                "answer": "Transport Layer",
+                "uuid": "0ae18321a8914d0caafc3a1e0d02d291"
+            }
+        ],
+        "correct": "ba21e0efca4241a78a4a5df7fa6db728",
+        "explanation": "The Network Layer is responsible for the delivery of packets from the source to the destination.",
+        "uuid": "cab65f08d93b4dfdbabd4d3f218bee64"
+    },
+    {
+        "question": "What are the TCP/IP and UDP/IP protocols known for?",
+        "answers": [
+            {
+                "answer": "Being the only protocols used by cloud services.",
+                "uuid": "d48c83f50c6c431697df058f35ea4da8"
+            },
+            {
+                "answer": "Being standards for internet and local network communication.",
+                "uuid": "f9b2241aa32d4444baec28e543a4eb4f"
+            },
+            {
+                "answer": "Only being used in small local networks.",
+                "uuid": "aeff3c68afec41bf8bad16e5c51225a4"
+            },
+            {
+                "answer": "Providing a standard for hardware communication only.",
+                "uuid": "36c4c7295c0c4393b0d2fdd226380da9"
+            }
+        ],
+        "correct": "f9b2241aa32d4444baec28e543a4eb4f",
+        "explanation": "TCP/IP and UDP/IP protocols are the standard sets for communication over the internet and local networks.",
+        "uuid": "fb1b0d0b98db44a9a2f6a9ea56e85fc7"
+    }
+]

@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the purpose of the gethostbyname() function in C/C++?",
+        "answers": [
+            {
+                "answer": "To create a socket for connection",
+                "uuid": "e5959ddf19e54f748077cf0b89a44a40"
+            },
+            {
+                "answer": "To translate a hostname to an IP address",
+                "uuid": "e26531c85ef341709d2911c6535390fd"
+            },
+            {
+                "answer": "To send data over a network",
+                "uuid": "c0d43f32cb064a0fa04908ad071daf8f"
+            },
+            {
+                "answer": "To close an existing socket",
+                "uuid": "2209d7faf1d5477e8338d84d47c705d0"
+            }
+        ],
+        "correct": "e26531c85ef341709d2911c6535390fd",
+        "explanation": "The gethostbyname() function is used to contact DNS servers and retrieve the associated IP address for a given hostname.",
+        "uuid": "e7588ecf2d944f4a8d53187544bf60fd"
+    },
+    {
+        "question": "What does the hostent structure include?",
+        "answers": [
+            {
+                "answer": "Host IP addresses only",
+                "uuid": "1fe58846b4004c76926c208e104e57c7"
+            },
+            {
+                "answer": "Hostname only",
+                "uuid": "31d5619dd67f445ba7dedb5b2ebb9376"
+            },
+            {
+                "answer": "Canonical name, aliases, and addresses",
+                "uuid": "b320521fa34b40749048925c77095cb6"
+            },
+            {
+                "answer": "Socket descriptors",
+                "uuid": "7b3b4bbea80349e19ea50c57449c881c"
+            }
+        ],
+        "correct": "b320521fa34b40749048925c77095cb6",
+        "explanation": "The hostent structure contains the canonical name of the host, possible aliases, and a list of addresses.",
+        "uuid": "c3c58eb8d20342c2853f1f6a0ce11ad2"
+    },
+    {
+        "question": "What type of connection does TCP use?",
+        "answers": [
+            {
+                "answer": "Connectionless",
+                "uuid": "bb4abf966bde4ff3973dcfb4346b1ab0"
+            },
+            {
+                "answer": "Unreliable",
+                "uuid": "2b4807a6485743f1971d167204f12bc5"
+            },
+            {
+                "answer": "Connection-oriented",
+                "uuid": "4df764a3a585476da8aebf67195cc442"
+            },
+            {
+                "answer": "Non-persistent",
+                "uuid": "246f6dd7a2a5464fa7e228a0c15de17f"
+            }
+        ],
+        "correct": "4df764a3a585476da8aebf67195cc442",
+        "explanation": "TCP is a connection-oriented protocol that establishes a reliable connection between the client and server before data transmission.",
+        "uuid": "301ca167cd2f4dd080ade619bdae91e6"
+    },
+    {
+        "question": "Which command is used to send data using a UDP socket?",
+        "answers": [
+            {
+                "answer": "recvfrom()",
+                "uuid": "532bbe3f41514c779f624c9d9da42df9"
+            },
+            {
+                "answer": "connect()",
+                "uuid": "f044b0a757134f44a39e306befb14ee0"
+            },
+            {
+                "answer": "sendto()",
+                "uuid": "d4c7d082611e4ea4acdbe81971192c9e"
+            },
+            {
+                "answer": "accept()",
+                "uuid": "972b968a56f042e7b8652afd7e2e92fc"
+            }
+        ],
+        "correct": "d4c7d082611e4ea4acdbe81971192c9e",
+        "explanation": "The sendto() function is used for sending data to a specified address using a UDP socket.",
+        "uuid": "e74b764fe05046bd9b19ccabe3816be4"
+    },
+    {
+        "question": "What needs to be done by the server in a TCP connection before accepting a new client?",
+        "answers": [
+            {
+                "answer": "Close previous connections",
+                "uuid": "e31acf85e4854f59b3ab5312bdd29745"
+            },
+            {
+                "answer": "Initiate another connection",
+                "uuid": "b08ed8df11a34ff49e60bc02c5a4eaeb"
+            },
+            {
+                "answer": "Bind the socket and listen for connections",
+                "uuid": "4846ef5f44eb4daebc0cb6e17d9617e9"
+            },
+            {
+                "answer": "Send a welcome message",
+                "uuid": "981f78fce4e547d987bfd691e9bda9bc"
+            }
+        ],
+        "correct": "4846ef5f44eb4daebc0cb6e17d9617e9",
+        "explanation": "The server must bind the socket to a specific port and listen for incoming connections before it can accept a new client.",
+        "uuid": "36a7602674a042f99ccbb4e5fa337862"
+    },
+    {
+        "question": "In the context of DNS, what is the canonical name?",
+        "answers": [
+            {
+                "answer": "A list of aliases for the host",
+                "uuid": "9f213c8bafac4c39b80250e5fd81308e"
+            },
+            {
+                "answer": "The original name of the host",
+                "uuid": "faea1b905622493588a06742419ee752"
+            },
+            {
+                "answer": "The most frequently used name",
+                "uuid": "4e692e6ef0c348a9bb1bd59b6f5e706d"
+            },
+            {
+                "answer": "An IP address associated with the host",
+                "uuid": "7d5ad11dbd784dd89a00f1bb137d7423"
+            }
+        ],
+        "correct": "faea1b905622493588a06742419ee752",
+        "explanation": "The canonical name is the original name of the host as registered in the DNS.",
+        "uuid": "ef9cdf1ce44c46a3ba63db2347135927"
+    },
+    {
+        "question": "What should be included in an HTTP request to specify the resource?",
+        "answers": [
+            {
+                "answer": "Server IP address",
+                "uuid": "72d5f7d1cd1f42a3a3f1df9ff3a95970"
+            },
+            {
+                "answer": "Port number",
+                "uuid": "8c12cae700484152ba2e62833ab36f53"
+            },
+            {
+                "answer": "Object's path",
+                "uuid": "27b39dfcccc6479c9c0fa8ae85cbd7d3"
+            },
+            {
+                "answer": "Session ID",
+                "uuid": "8d0dc82152db4a26afef98fd11ee7aa4"
+            }
+        ],
+        "correct": "27b39dfcccc6479c9c0fa8ae85cbd7d3",
+        "explanation": "The object\u2019s path specifies the particular resource the client is requesting from the server.",
+        "uuid": "7f6e6d4ff03749e99b1384980a5424f3"
+    },
+    {
+        "question": "What function is called to receive messages on a TCP socket?",
+        "answers": [
+            {
+                "answer": "send()",
+                "uuid": "9a9809b27e9a409cabbb456dc3e90fd0"
+            },
+            {
+                "answer": "recv()",
+                "uuid": "950ec758e97e47a1b263db4bd97cf2d8"
+            },
+            {
+                "answer": "listen()",
+                "uuid": "7d57869f4abb4c63a6f60ca23a5e5b13"
+            },
+            {
+                "answer": "connect()",
+                "uuid": "a3e685b5d49c4932825ad14c6674423e"
+            }
+        ],
+        "correct": "950ec758e97e47a1b263db4bd97cf2d8",
+        "explanation": "The recv() function is used to receive data from a connected TCP socket.",
+        "uuid": "1667eb4df7644c7e9052d59b8146e8ca"
+    },
+    {
+        "question": "What must be done after establishing a TCP socket connection?",
+        "answers": [
+            {
+                "answer": "Immediately close the socket",
+                "uuid": "16b31cfdb286410ab0bd735bd309451c"
+            },
+            {
+                "answer": "Start sending data",
+                "uuid": "684cecd47ba941398ad64d8142abe8e3"
+            },
+            {
+                "answer": "Perform a handshake",
+                "uuid": "98ac12fccb6a4c8cb8628cc5d109557b"
+            },
+            {
+                "answer": "Re-initialize the socket",
+                "uuid": "7d1a0035b02a44f3b4cfa7960d7f7682"
+            }
+        ],
+        "correct": "98ac12fccb6a4c8cb8628cc5d109557b",
+        "explanation": "A handshake is required to establish a reliable connection between the two hosts before data can be transmitted.",
+        "uuid": "061a939a716f491ea09581baf58925f3"
+    },
+    {
+        "question": "Which of the following is true about UDP?",
+        "answers": [
+            {
+                "answer": "It guarantees data delivery.",
+                "uuid": "6dd92ae4f37147d5896768459f1b39cb"
+            },
+            {
+                "answer": "It is slower than TCP.",
+                "uuid": "2291e883b40147f794af8a85fd6885a0"
+            },
+            {
+                "answer": "It is connectionless.",
+                "uuid": "054026c7e28e44ce9848d43f8dfe14e4"
+            },
+            {
+                "answer": "It requires a handshake.",
+                "uuid": "6113f7d5764e412c9be2cd8e642d0fff"
+            }
+        ],
+        "correct": "054026c7e28e44ce9848d43f8dfe14e4",
+        "explanation": "UDP is a connectionless protocol that does not guarantee data delivery, which makes it faster but less reliable than TCP.",
+        "uuid": "4c82e7b22d4243deaa25ff401e16f066"
+    },
+    {
+        "question": "What happens if a socket is closed by the client but the server does not close its socket?",
+        "answers": [
+            {
+                "answer": "The server will reject new connections.",
+                "uuid": "100378889f2b4bf1b037e954e87aa569"
+            },
+            {
+                "answer": "The server will be blocked.",
+                "uuid": "b0fc319e69e245c9a3b151a34facb0bb"
+            },
+            {
+                "answer": "The server may accept other clients.",
+                "uuid": "87d4b3c1777147c7a70f36fbeac4ad60"
+            },
+            {
+                "answer": "The server will crash.",
+                "uuid": "4602303ff94e4ecba2a214d56b05e916"
+            }
+        ],
+        "correct": "87d4b3c1777147c7a70f36fbeac4ad60",
+        "explanation": "The server can still accept other clients even if the client has closed its socket.",
+        "uuid": "1809e6c3f2f04c0fbf9fe32240a301c0"
+    }
+]

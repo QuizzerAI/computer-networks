@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the primary purpose of TCP's timeout mechanism?",
+        "answers": [
+            {
+                "answer": "To ensure data is transferred instantly",
+                "uuid": "1ab05eb9b15f423ba1c74dc3dca600f7"
+            },
+            {
+                "answer": "To facilitate quick retransmissions",
+                "uuid": "48218f1edd394a63a3cc177b9636cd4a"
+            },
+            {
+                "answer": "To handle reliable data transfer",
+                "uuid": "f4d6ba57b22b49cca72b7d3e407f1111"
+            },
+            {
+                "answer": "To manage network congestion",
+                "uuid": "db41852e5dc8402299e1ade529164377"
+            }
+        ],
+        "correct": "f4d6ba57b22b49cca72b7d3e407f1111",
+        "explanation": "TCP's timeout mechanism is crucial for ensuring reliable data transfer by retransmitting data if acknowledgments (ACKs) are not received within a preset time.",
+        "uuid": "77fc158ed4c245cd9a41ca7191ca626b"
+    },
+    {
+        "question": "What is the significance of Round-Trip Time (RTT) in TCP?",
+        "answers": [
+            {
+                "answer": "It defines the maximum segment size",
+                "uuid": "dec7f2aa7b4d4c5e9db2274866533b07"
+            },
+            {
+                "answer": "It helps in estimating timeouts",
+                "uuid": "83b91293ea734f019d4c726f18f4c7a6"
+            },
+            {
+                "answer": "It indicates network load",
+                "uuid": "59bfed8c93bc4b249ca542fe5b44f8c6"
+            },
+            {
+                "answer": "It measures the speed of data transfer",
+                "uuid": "ba58a19078974e9f8e38d5c6119b76db"
+            }
+        ],
+        "correct": "83b91293ea734f019d4c726f18f4c7a6",
+        "explanation": "RTT is essential for estimating timeouts in TCP, allowing the protocol to determine how long to wait for an acknowledgment before retransmitting.",
+        "uuid": "1a98697b3e4f4ff2bc35ba769ea61a01"
+    },
+    {
+        "question": "How is the Estimated RTT (estRTT) calculated in TCP?",
+        "answers": [
+            {
+                "answer": "Using a fixed value for all connections",
+                "uuid": "a4e573cb059a4783a68099d095f52b4a"
+            },
+            {
+                "answer": "Based on the maximum segment size",
+                "uuid": "fdb8af294e384315a9f2f13ce5566384"
+            },
+            {
+                "answer": "By using exponential weighted moving average",
+                "uuid": "f1938dca3d7a4c1192ac9c83d95801a8"
+            },
+            {
+                "answer": "Through manual configuration only",
+                "uuid": "279641b9798b4e9f9a08a7a41e35721a"
+            }
+        ],
+        "correct": "f1938dca3d7a4c1192ac9c83d95801a8",
+        "explanation": "TCP uses an exponential weighted moving average to calculate the Estimated RTT, which allows for a more accurate reflection of fluctuating network conditions.",
+        "uuid": "d5122fae021b49cf93ea799bae868040"
+    },
+    {
+        "question": "What does the variable '\u03b1' typically represent in RTT estimation?",
+        "answers": [
+            {
+                "answer": "0.5",
+                "uuid": "1fe5f085943f41c4ad7fd9e6138244ec"
+            },
+            {
+                "answer": "0.125",
+                "uuid": "c1ae6c4efc8f4ce7a0967012c5588c33"
+            },
+            {
+                "answer": "1",
+                "uuid": "d6e13e7bc671479ab5595736d01db0e1"
+            },
+            {
+                "answer": "0.25",
+                "uuid": "a3079190f23f4d278d9d45e60dd72913"
+            }
+        ],
+        "correct": "c1ae6c4efc8f4ce7a0967012c5588c33",
+        "explanation": "In RTT estimation, '\u03b1' is usually set to 0.125, which is used in calculating the Estimated RTT.",
+        "uuid": "d46f726e23f14c50b8e61876df7da57b"
+    },
+    {
+        "question": "What is the role of the Maximum Segment Size (MSS)?",
+        "answers": [
+            {
+                "answer": "To define the TTL of packets",
+                "uuid": "6556a84081e549c2b9322bad76c91a90"
+            },
+            {
+                "answer": "To determine how much data can be sent in one TCP segment",
+                "uuid": "49ea7b192df641039f274c4aef3eb627"
+            },
+            {
+                "answer": "To set the maximum number of connections",
+                "uuid": "0df858570ac440f09d88a42cc5d80c6b"
+            },
+            {
+                "answer": "To control packet fragmentation",
+                "uuid": "5995b04a1078476e86c0a5a8a4139f9a"
+            }
+        ],
+        "correct": "49ea7b192df641039f274c4aef3eb627",
+        "explanation": "The Maximum Segment Size (MSS) indicates the largest size of a data segment that can be sent in a single TCP packet without fragmentation.",
+        "uuid": "10ad61a617aa46b2a7b57aefd9bdc7dc"
+    },
+    {
+        "question": "How does TCP ensure that data segments are received in order?",
+        "answers": [
+            {
+                "answer": "By using sequence numbers",
+                "uuid": "88d2f3868f44457f9a5b21d91b760d54"
+            },
+            {
+                "answer": "Through acknowledgment of each segment",
+                "uuid": "aa13aab80a70481ea6a1c44bf1499657"
+            },
+            {
+                "answer": "By implementing a priority queue",
+                "uuid": "bf94cccff08d4ea7bd2313fd8b15a71f"
+            },
+            {
+                "answer": "Using checksum for error detection",
+                "uuid": "36eda3b20de844d9936fc0bcf6deb766"
+            }
+        ],
+        "correct": "88d2f3868f44457f9a5b21d91b760d54",
+        "explanation": "TCP uses sequence numbers to track the order of segments, ensuring that the data is reassembled in the correct order at the receiver's end.",
+        "uuid": "32e5e6f6863144a59678db56629d8b58"
+    },
+    {
+        "question": "What triggers a Fast Retransmit in TCP?",
+        "answers": [
+            {
+                "answer": "Sending a normal acknowledgment",
+                "uuid": "38165c718408457399060db9c82c54f9"
+            },
+            {
+                "answer": "Receiving three duplicate ACKs",
+                "uuid": "1285b97e6d0a43cfa358b1d89c8ffe15"
+            },
+            {
+                "answer": "Timeout expiration",
+                "uuid": "a84aa1b6f80a4d1a8cac3d57c4713f3c"
+            },
+            {
+                "answer": "Manual intervention",
+                "uuid": "2610d143b1884c13a659b175860eeb00"
+            }
+        ],
+        "correct": "1285b97e6d0a43cfa358b1d89c8ffe15",
+        "explanation": "Fast Retransmit is triggered when a sender receives three duplicate ACKs, indicating that a particular segment has likely been lost.",
+        "uuid": "9efa603a664e40a8b3a281e8343af32d"
+    },
+    {
+        "question": "Which of the following fields is NOT typically found in a TCP segment header?",
+        "answers": [
+            {
+                "answer": "Sequence number",
+                "uuid": "0b8d5828d9fc4c0bacda65fe67a39c68"
+            },
+            {
+                "answer": "Checksum",
+                "uuid": "a472fe6ba5394c148eaf4882344bc52b"
+            },
+            {
+                "answer": "Timestamp",
+                "uuid": "3e385ef28fbd4695bdc8e8211e2ccfef"
+            },
+            {
+                "answer": "Acknowledgment number",
+                "uuid": "473d12d64787455686b3748ab4704c9d"
+            }
+        ],
+        "correct": "3e385ef28fbd4695bdc8e8211e2ccfef",
+        "explanation": "The TCP segment header does not usually contain a timestamp; it includes fields such as sequence number, acknowledgment number, and checksum.",
+        "uuid": "083d206ddfc443d38b383a6342d61baa"
+    },
+    {
+        "question": "What does the Receive Window size in a TCP segment indicate?",
+        "answers": [
+            {
+                "answer": "The maximum data that can be sent",
+                "uuid": "abe052e12f804bbd959751e77d36a222"
+            },
+            {
+                "answer": "The maximum data the receiver is willing to accept",
+                "uuid": "3c57e73ca21c4a6799df36efe4981985"
+            },
+            {
+                "answer": "The data transmission speed",
+                "uuid": "dc6f80d415654078a8e1fff000ce6f5d"
+            },
+            {
+                "answer": "The total amount of data processed",
+                "uuid": "0a8abdc38fb74663a07eeb5959ea750b"
+            }
+        ],
+        "correct": "3c57e73ca21c4a6799df36efe4981985",
+        "explanation": "The Receive Window size indicates how many bytes the receiver can still accept, allowing TCP to manage flow control effectively.",
+        "uuid": "76f5087837a14eb0ba2e1c700a3f762f"
+    },
+    {
+        "question": "What happens if the timeout period in TCP is too long?",
+        "answers": [
+            {
+                "answer": "Data transmission speeds up",
+                "uuid": "2057f1a529094328afe18756725ceafa"
+            },
+            {
+                "answer": "Data may be retransmitted unnecessarily",
+                "uuid": "4b3c7bea3016420295f2927afc90c206"
+            },
+            {
+                "answer": "Communication slows down",
+                "uuid": "db9485ac02504ed89e7b682bcf7a6ba4"
+            },
+            {
+                "answer": "Packets are dropped",
+                "uuid": "ca2e853560f74bbb94fbd2b732fa8efc"
+            }
+        ],
+        "correct": "db9485ac02504ed89e7b682bcf7a6ba4",
+        "explanation": "If the timeout period is too long, it can lead to unnecessary delays in communication, slowing down the overall data transfer.",
+        "uuid": "a3a20be2c37b4b10afd493d13588a48b"
+    },
+    {
+        "question": "Which type of flow control does TCP use?",
+        "answers": [
+            {
+                "answer": "Static flow control only",
+                "uuid": "7ecbfecd3ecf4a4db70994acc7246b59"
+            },
+            {
+                "answer": "Dynamic flow control through Receive Window",
+                "uuid": "b129e0bf46994729b79ca1a9b66fff8b"
+            },
+            {
+                "answer": "Polling mechanism",
+                "uuid": "831d4d0ad97b4eb69f502fbbbe7d2e53"
+            },
+            {
+                "answer": "Buffer overflow prevention only",
+                "uuid": "6b87c5f7275d4d42ab7f8b8b041fbe1c"
+            }
+        ],
+        "correct": "b129e0bf46994729b79ca1a9b66fff8b",
+        "explanation": "TCP employs dynamic flow control through the use of the Receive Window to ensure that the sender does not overwhelm the receiver.",
+        "uuid": "bc314a8b9c8f4adf8c9793d76ba7e663"
+    }
+]

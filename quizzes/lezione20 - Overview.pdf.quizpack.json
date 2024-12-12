@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the purpose of the TCP/IP stack in networking?",
+        "answers": [
+            {
+                "answer": "To provide a framework for running applications",
+                "uuid": "89cb95d470ac44f782e44511c6f99996"
+            },
+            {
+                "answer": "To encrypt data for secure transmission",
+                "uuid": "d2ca5b7240c44f13a276f5be53a284d2"
+            },
+            {
+                "answer": "To manage network resources",
+                "uuid": "73c6c26a3f9d441c886aeaa45cb3a7cd"
+            },
+            {
+                "answer": "To facilitate message travel across a network",
+                "uuid": "89202f78a3c648a3bd261e5a66516105"
+            }
+        ],
+        "correct": "89202f78a3c648a3bd261e5a66516105",
+        "explanation": "The TCP/IP stack helps in managing the transmission of messages across networks through its various protocols.",
+        "uuid": "81ab5653c0e7486bae689a4889ca598c"
+    },
+    {
+        "question": "Which protocol is used for web page requests?",
+        "answers": [
+            {
+                "answer": "FTP",
+                "uuid": "a03a4088923a42519d969fe49bec4df9"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "f4f7f971820b421f9964f76a23bbdb9c"
+            },
+            {
+                "answer": "SMTP",
+                "uuid": "27a10bef0e2a42ecadbf88734865c8e5"
+            },
+            {
+                "answer": "DNS",
+                "uuid": "2275dad38ea64f33926702966605a900"
+            }
+        ],
+        "correct": "f4f7f971820b421f9964f76a23bbdb9c",
+        "explanation": "HTTP (Hypertext Transfer Protocol) is the protocol used for web page requests and data transfer on the web.",
+        "uuid": "8a072641cb82491990f0f689faaccf81"
+    },
+    {
+        "question": "What does DHCP stand for?",
+        "answers": [
+            {
+                "answer": "Dynamic Host Configuration Protocol",
+                "uuid": "437f7ee61bbe4084a7239cd597ae9bd1"
+            },
+            {
+                "answer": "Dynamic Hypertext Control Protocol",
+                "uuid": "ed2c71e7bd2c4b659fcce8c5b7c83b3f"
+            },
+            {
+                "answer": "Data Host Configuration Parameters",
+                "uuid": "066d270e3207457b981611804d2da335"
+            },
+            {
+                "answer": "Dynamic Hardware Control Protocol",
+                "uuid": "c6677f53b98e4912b5a09dd0056d51e5"
+            }
+        ],
+        "correct": "437f7ee61bbe4084a7239cd597ae9bd1",
+        "explanation": "DHCP stands for Dynamic Host Configuration Protocol, which is used to assign IP addresses to devices on a network.",
+        "uuid": "10e44f33191948da8565289a10b7e2a3"
+    },
+    {
+        "question": "What does DNS do in the context of networking?",
+        "answers": [
+            {
+                "answer": "Assigns IP addresses to devices",
+                "uuid": "60803f2d1513463e92961b1fcbfa3389"
+            },
+            {
+                "answer": "Connects devices to the internet",
+                "uuid": "be96d692166d41c4bb9455fb2261b584"
+            },
+            {
+                "answer": "Translates domain names into IP addresses",
+                "uuid": "c7f3485436bf426c8646f4b02a59a75e"
+            },
+            {
+                "answer": "Manages network devices",
+                "uuid": "eddf128d1766420aad0f2b3ea25a5d06"
+            }
+        ],
+        "correct": "c7f3485436bf426c8646f4b02a59a75e",
+        "explanation": "DNS (Domain Name System) translates human-readable domain names, like www.google.com, into IP addresses.",
+        "uuid": "68f78cdd95fe42198f3dd991dcbc9dba"
+    },
+    {
+        "question": "What unique identifier is associated with the physical layer of the TCP/IP stack?",
+        "answers": [
+            {
+                "answer": "Port number",
+                "uuid": "059e410194b545b1b66f229c96740630"
+            },
+            {
+                "answer": "IP address",
+                "uuid": "5645a66a1c224a5e88184e6b64b7dc83"
+            },
+            {
+                "answer": "MAC address",
+                "uuid": "b5c93e513e6b4b53956cb1cb11ab727c"
+            },
+            {
+                "answer": "Domain name",
+                "uuid": "9f12631ec29d46f7aacab535dc07c26e"
+            }
+        ],
+        "correct": "b5c93e513e6b4b53956cb1cb11ab727c",
+        "explanation": "The MAC address is the unique identifier for devices at the physical layer of the network.",
+        "uuid": "21741dc785d446ea9ae0e5945767c030"
+    },
+    {
+        "question": "What does encapsulation refer to in networking?",
+        "answers": [
+            {
+                "answer": "Removing unnecessary data from packets",
+                "uuid": "fe9e8e7afd8246ea83a6ea776dcc1366"
+            },
+            {
+                "answer": "Preventing data loss during transmission",
+                "uuid": "71b802c0ee6d494a8dc60f627f2fb760"
+            },
+            {
+                "answer": "Wrapping data with necessary protocol information",
+                "uuid": "655b7b47d7cb4dab8462f370eb72be32"
+            },
+            {
+                "answer": "Sending data over multiple routes",
+                "uuid": "52a96099a89140d1a6e989bf5b7ee503"
+            }
+        ],
+        "correct": "655b7b47d7cb4dab8462f370eb72be32",
+        "explanation": "Encapsulation is the process of wrapping data with the protocol information needed for transmission through a network.",
+        "uuid": "a37c3cc71bb24affa6c78253e6c638a7"
+    },
+    {
+        "question": "How does a laptop join a network using DHCP?",
+        "answers": [
+            {
+                "answer": "By connecting to the router via Ethernet cable",
+                "uuid": "8a18eb3f563f4b95ba3cea3b22112d96"
+            },
+            {
+                "answer": "By manually configuring the IP address",
+                "uuid": "0bca8cd8d84d4ae0abc753b3124476bb"
+            },
+            {
+                "answer": "By receiving network details automatically",
+                "uuid": "c22600c16fdc456b984e8b3d99ed1215"
+            },
+            {
+                "answer": "By performing a network scan",
+                "uuid": "f21adc1b9dd449929e6848a09b1b9b05"
+            }
+        ],
+        "correct": "c22600c16fdc456b984e8b3d99ed1215",
+        "explanation": "When a laptop connects to a network with DHCP enabled, it automatically receives the required network information.",
+        "uuid": "0201ada191b942d9b0ff1de2f2e6fe32"
+    },
+    {
+        "question": "In the given web page request scenario, what is the first step taken by Bob's laptop?",
+        "answers": [
+            {
+                "answer": "Sending an HTTP request to the web server",
+                "uuid": "051efc1ea0c34e5f8c24445c3636c924"
+            },
+            {
+                "answer": "Getting the IP address from DNS",
+                "uuid": "3619b02a6a624d398dff95e09af4f4ce"
+            },
+            {
+                "answer": "Connecting to the LAN through an Ethernet cable",
+                "uuid": "991cc155ddcf4b6fbad2940347ea3603"
+            },
+            {
+                "answer": "Joining the network with DHCP",
+                "uuid": "3a701be091d24ea59432eec07e8dfd38"
+            }
+        ],
+        "correct": "991cc155ddcf4b6fbad2940347ea3603",
+        "explanation": "The first step is connecting to the LAN through an Ethernet cable to access the network.",
+        "uuid": "93a689c0ba7a45098ef94e874be29860"
+    },
+    {
+        "question": "What is the role of a switch in a local area network (LAN)?",
+        "answers": [
+            {
+                "answer": "To route traffic between different networks",
+                "uuid": "31f2e39365134c519218be045b2efd9a"
+            },
+            {
+                "answer": "To manage IP address assignments",
+                "uuid": "c32d9ea357b14427a4ddc91f96455319"
+            },
+            {
+                "answer": "To connect multiple devices within the LAN",
+                "uuid": "300c55e45c404f959490e5ca1d206659"
+            },
+            {
+                "answer": "To translate domain names",
+                "uuid": "fb6ffa6f404848a891c3635b9be3ffbb"
+            }
+        ],
+        "correct": "300c55e45c404f959490e5ca1d206659",
+        "explanation": "A switch connects multiple devices within a LAN, enabling communication between them.",
+        "uuid": "0f66c5f516434bd7a11c5a4cdd6f47eb"
+    },
+    {
+        "question": "What is indicated by the port number in network communication?",
+        "answers": [
+            {
+                "answer": "The physical address of the device",
+                "uuid": "5821838a5f1a41b69522b8ea64184cdc"
+            },
+            {
+                "answer": "The application layer process of the communication",
+                "uuid": "a9d38d3613c44871a2f652991dadd927"
+            },
+            {
+                "answer": "The type of network used",
+                "uuid": "41540ef0268c4faaaab535c1dd11f451"
+            },
+            {
+                "answer": "The IP address of the device",
+                "uuid": "96075e702ee9460f9b64f2f5ab6f195d"
+            }
+        ],
+        "correct": "a9d38d3613c44871a2f652991dadd927",
+        "explanation": "The port number indicates the specific application layer process that is communicating over the network.",
+        "uuid": "1f4efe57ddc5412ebcf5b713d6574438"
+    },
+    {
+        "question": "What type of network connection is assumed in the simple configuration for the school\u2019s network?",
+        "answers": [
+            {
+                "answer": "Wireless connection",
+                "uuid": "5f1871cf86bd42d48b439ebc72fca46c"
+            },
+            {
+                "answer": "Fiber optic connection",
+                "uuid": "77fb772097344523b86ae0de4d10dab7"
+            },
+            {
+                "answer": "Ethernet connection",
+                "uuid": "4322a2aae0f64f0a865f9c42664f83ee"
+            },
+            {
+                "answer": "Satellite connection",
+                "uuid": "e1bbf6a701d44b1689755c7148e21b1f"
+            }
+        ],
+        "correct": "4322a2aae0f64f0a865f9c42664f83ee",
+        "explanation": "The document assumes Ethernet connections are used in the school\u2019s network for device connectivity.",
+        "uuid": "37f9f2b0f0334aa8a5c940a12a4c52a6"
+    }
+]

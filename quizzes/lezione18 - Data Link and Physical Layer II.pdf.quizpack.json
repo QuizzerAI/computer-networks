@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What are the primary functions of the Link Layer in computer networks?",
+        "answers": [
+            {
+                "answer": "Framing, Link Access, Reliable Delivery, Error Detection and Correction",
+                "uuid": "01f62376f93647679c83d98c6f6f87fa"
+            },
+            {
+                "answer": "Routing, Switching, Encoding, Encryption",
+                "uuid": "f1487a68c31b455e915f6ab5d9994f89"
+            },
+            {
+                "answer": "Transmission, Reception, Parsing, Processing",
+                "uuid": "f68f2b72391a4577962edcd9afbaf26d"
+            },
+            {
+                "answer": "Authentication, Authorization, Accounting, Auditing",
+                "uuid": "393fec01a84b49369a11c16a60bd05e3"
+            }
+        ],
+        "correct": "01f62376f93647679c83d98c6f6f87fa",
+        "explanation": "The Link Layer is responsible for the transmission of packets over links, providing functionalities such as framing, link access, reliable delivery, and error detection and correction.",
+        "uuid": "0644aa54f0a1432da4facbace9373948"
+    },
+    {
+        "question": "Which aspect of the Link Layer deals with encapsulating datagrams into frames?",
+        "answers": [
+            {
+                "answer": "Framing",
+                "uuid": "0cf0163a94ca45fbbb10a87b912681e6"
+            },
+            {
+                "answer": "Link Access",
+                "uuid": "378c774ac98d4978a580af7321c06417"
+            },
+            {
+                "answer": "Error Detection",
+                "uuid": "3777f40721c64567bd582b60016fb804"
+            },
+            {
+                "answer": "Flow Control",
+                "uuid": "723d67fd5c804e1cb420514c1bbbab9a"
+            }
+        ],
+        "correct": "0cf0163a94ca45fbbb10a87b912681e6",
+        "explanation": "Framing refers to encapsulating datagrams into link-layer frames, which includes specific headers and trailers for data integrity.",
+        "uuid": "30a169bb263d4796aa689fd1a30b7103"
+    },
+    {
+        "question": "What does MAC stand for in the context of networking?",
+        "answers": [
+            {
+                "answer": "Medium Access Control",
+                "uuid": "562006709d3347df908b672610fed937"
+            },
+            {
+                "answer": "Main Access Coordination",
+                "uuid": "4a960995656244e0971331e52056c443"
+            },
+            {
+                "answer": "Medium Address Calling",
+                "uuid": "eff3405dc1484f18b17c25c268f3c916"
+            },
+            {
+                "answer": "Media Access Configuration",
+                "uuid": "4af52ce246a34de3be791234f75f06a3"
+            }
+        ],
+        "correct": "562006709d3347df908b672610fed937",
+        "explanation": "MAC stands for Medium Access Control, which regulates access to the transmission medium in a network.",
+        "uuid": "0d6cc0e85e3a45e29750d413e3001c33"
+    },
+    {
+        "question": "What type of error correction method uses a single additional parity bit?",
+        "answers": [
+            {
+                "answer": "Parity Check",
+                "uuid": "1b96b64c7bde446d8acb7c68bdf4978d"
+            },
+            {
+                "answer": "Checksum",
+                "uuid": "832a68b4bb184d8fbcd588f662ed6389"
+            },
+            {
+                "answer": "Cyclic Redundancy Check",
+                "uuid": "daa32781b6db4223a582cfc537176e01"
+            },
+            {
+                "answer": "Hamming Code",
+                "uuid": "b31ab69e4dea41b39cb6253b021b2fbc"
+            }
+        ],
+        "correct": "1b96b64c7bde446d8acb7c68bdf4978d",
+        "explanation": "Parity Check is a method of error detection that uses one additional bit to ensure that the total number of '1's in a message is either even or odd.",
+        "uuid": "f636031d0911428384d4b611922500e7"
+    },
+    {
+        "question": "In link-layer communications, what type of signal is used for wired connections?",
+        "answers": [
+            {
+                "answer": "Electric Pulses",
+                "uuid": "3a47a2d9336f4b3ea677cb167aa65da0"
+            },
+            {
+                "answer": "Light",
+                "uuid": "01584d4f4fac444b863548132305dd50"
+            },
+            {
+                "answer": "Radio Waves",
+                "uuid": "2762dd3d39244cf383b9c02d8aad23d6"
+            },
+            {
+                "answer": "Infrared Signals",
+                "uuid": "c2db17a948e54433abc5f469eb967944"
+            }
+        ],
+        "correct": "3a47a2d9336f4b3ea677cb167aa65da0",
+        "explanation": "Wired connections, such as those using twisted-pair cables, utilize electric pulses as the signal for data transmission.",
+        "uuid": "5471e4f626564d388cd01d09bdb6d143"
+    },
+    {
+        "question": "What technology is commonly used for wireless connections in networking?",
+        "answers": [
+            {
+                "answer": "WiFi 802.11",
+                "uuid": "c1ba06abfb134fe7aa1c306acd3bd7a7"
+            },
+            {
+                "answer": "DSL",
+                "uuid": "219f34013fad4d3e85146195cbe7982d"
+            },
+            {
+                "answer": "Fiber Optics",
+                "uuid": "785ec6c63f0644b4853de6910fbbce24"
+            },
+            {
+                "answer": "Ethernet",
+                "uuid": "6f169bd63c2a49e78805cea19b947903"
+            }
+        ],
+        "correct": "c1ba06abfb134fe7aa1c306acd3bd7a7",
+        "explanation": "WiFi 802.11 is a standard technology for wireless networking that uses radio frequencies to transmit data.",
+        "uuid": "7ebb26c7bdfb457c983eeacbd6d4305d"
+    },
+    {
+        "question": "What is a key advantage of using the Cyclic Redundancy Check (CRC) method?",
+        "answers": [
+            {
+                "answer": "It can detect burst errors with high reliability.",
+                "uuid": "5a018c8fe42c4aeeb9400247a57ca24e"
+            },
+            {
+                "answer": "It requires minimal computational resources.",
+                "uuid": "a5206660270e428c9870b601ae5b607f"
+            },
+            {
+                "answer": "It is simpler to implement than parity checks.",
+                "uuid": "313ab63bcb3c4c0ebc388c57e75d1b2f"
+            },
+            {
+                "answer": "It guarantees data integrity under all conditions.",
+                "uuid": "b28af6454c344d88bccf6243a2928db5"
+            }
+        ],
+        "correct": "5a018c8fe42c4aeeb9400247a57ca24e",
+        "explanation": "CRC is widely used for error detection and can reliably find burst errors of a certain length, allowing for effective error checking.",
+        "uuid": "0b6d188c83e54a6b83dea7d1beb666b5"
+    },
+    {
+        "question": "Which layer of the OSI model does the Link Layer correspond to?",
+        "answers": [
+            {
+                "answer": "Data Link and Physical Layers",
+                "uuid": "9b68f23e01724295a42021cfba0ecfdd"
+            },
+            {
+                "answer": "Network Layer",
+                "uuid": "0751cae5b86344bd8c06894cca021b12"
+            },
+            {
+                "answer": "Transport Layer",
+                "uuid": "f06c1d9f800846779fd33c6dd5e41a8f"
+            },
+            {
+                "answer": "Application Layer",
+                "uuid": "18951a4e35ad4ee88126372f59edeb7f"
+            }
+        ],
+        "correct": "9b68f23e01724295a42021cfba0ecfdd",
+        "explanation": "The Link Layer encompasses both the data link and physical layers of the OSI model, facilitating communication between directly connected nodes.",
+        "uuid": "23ec5c51d4014b20b5b94377813de7af"
+    },
+    {
+        "question": "What does the term 'framing' in networking refer to?",
+        "answers": [
+            {
+                "answer": "Encapsulating data for transmission",
+                "uuid": "ccbdb50316784f6d9e3da41ad6a3775b"
+            },
+            {
+                "answer": "Creating backup copies of data",
+                "uuid": "d09077d4a62c46298eba06800ddb3409"
+            },
+            {
+                "answer": "Encrypting sensitive information",
+                "uuid": "8eb5509fa7244cfb98bea980bb2e3b52"
+            },
+            {
+                "answer": "Preparing data for storage",
+                "uuid": "5a7d4393f7d349c38c1119105159e42f"
+            }
+        ],
+        "correct": "ccbdb50316784f6d9e3da41ad6a3775b",
+        "explanation": "Framing involves encapsulating the datagram into frame formats suitable for transmission over various links.",
+        "uuid": "4bae28b934964d1da1fb975048029387"
+    },
+    {
+        "question": "What does a Network Interface Card (NIC) primarily do?",
+        "answers": [
+            {
+                "answer": "Converts digital data into signals for transmission",
+                "uuid": "25b746b89d3c4425bcddc9ac5756c85b"
+            },
+            {
+                "answer": "Manages application-level protocols",
+                "uuid": "d876a934fc9b47ca9998e263a05246d7"
+            },
+            {
+                "answer": "Performs routing decisions",
+                "uuid": "81123b5537e9480ea260b78f3e868b58"
+            },
+            {
+                "answer": "Audits network security policies",
+                "uuid": "80c92304b0f94ac6b06922f87a0c5e7f"
+            }
+        ],
+        "correct": "25b746b89d3c4425bcddc9ac5756c85b",
+        "explanation": "A NIC is responsible for converting digital data into appropriate signals for transmission on the network and vice versa.",
+        "uuid": "0108e373309c4b998b701812ea09b60b"
+    },
+    {
+        "question": "Why is reliable delivery often not implemented in link-layer protocols?",
+        "answers": [
+            {
+                "answer": "Higher-level protocols like TCP already provide reliability.",
+                "uuid": "0fa154729b02445d8c26377b7b56df52"
+            },
+            {
+                "answer": "Link-layer protocols are inherently unreliable.",
+                "uuid": "5c51955521254eb98465bbcdecadbae1"
+            },
+            {
+                "answer": "It results in excessive overhead.",
+                "uuid": "9eed8e627112413b9b4dcdaf8a1d3c96"
+            },
+            {
+                "answer": "Hardware cannot support reliable delivery.",
+                "uuid": "10067d12ec8f42c8a606611635be5b1d"
+            }
+        ],
+        "correct": "0fa154729b02445d8c26377b7b56df52",
+        "explanation": "Since higher-level protocols like TCP already provide reliability, implementing it again in link-layer protocols may create unnecessary overhead.",
+        "uuid": "8ca8ecb8ee45456faa57b1059b8cb5ba"
+    }
+]

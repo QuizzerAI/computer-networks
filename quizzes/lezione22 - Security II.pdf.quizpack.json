@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What are the main properties that secure communication should guarantee?",
+        "answers": [
+            {
+                "answer": "Confidentiality",
+                "uuid": "41ef376ddffd4d139dece6cc867419d0"
+            },
+            {
+                "answer": "Availability",
+                "uuid": "bff08d07f6ea4c819e7fbfec45c4ffe2"
+            },
+            {
+                "answer": "Integrity",
+                "uuid": "6d2b32d4cec64c7782aae578149b1baa"
+            },
+            {
+                "answer": "Operational security",
+                "uuid": "959ddcfdc04242e0a78313bef8ff0fe9"
+            }
+        ],
+        "correct": "41ef376ddffd4d139dece6cc867419d0",
+        "explanation": "Confidentiality ensures that only the intended sender and receiver can understand the message contents, which is essential for secure communication.",
+        "uuid": "e9804e5a80604847a6c0bcc8e39148b0"
+    },
+    {
+        "question": "What is the purpose of end-point authentication?",
+        "answers": [
+            {
+                "answer": "To encrypt messages",
+                "uuid": "8d9d7f4f9d1e49129f1f0f53fe6afd52"
+            },
+            {
+                "answer": "To confirm the identity of communicating parties",
+                "uuid": "07e07c0bd1b34ae5916952b66a3bbec9"
+            },
+            {
+                "answer": "To analyze network traffic",
+                "uuid": "46d9aef9bf3e474888f66e7030eaa3f6"
+            },
+            {
+                "answer": "To filter IP addresses",
+                "uuid": "0366287be8ab41d18d5a6fe09d984611"
+            }
+        ],
+        "correct": "07e07c0bd1b34ae5916952b66a3bbec9",
+        "explanation": "End-point authentication is primarily focused on confirming the identities of both communicating parties in a network.",
+        "uuid": "a883357e9f6e4240bc29fb3647539cce"
+    },
+    {
+        "question": "Which protocol is commonly used to prevent IP spoofing?",
+        "answers": [
+            {
+                "answer": "TCP",
+                "uuid": "9ef632b7efd847f19f0e2f4b51a81e13"
+            },
+            {
+                "answer": "UDP",
+                "uuid": "297e51793f624bcea4d746d88dc0c8ec"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "16c2407614d442d28101e998981f3696"
+            },
+            {
+                "answer": "Router configuration",
+                "uuid": "e3eafb03e7e24473a3b28394e11c0933"
+            }
+        ],
+        "correct": "e3eafb03e7e24473a3b28394e11c0933",
+        "explanation": "Router configuration can be used to prevent IP spoofing by allowing only legitimate datagrams based on known IP source addresses.",
+        "uuid": "8e5d4c657bb74da5af5c950c667046b2"
+    },
+    {
+        "question": "What is the role of a certification authority (CA) in network security?",
+        "answers": [
+            {
+                "answer": "To provide user authentication",
+                "uuid": "8e8d21ae36e341e1900904a97f50b82c"
+            },
+            {
+                "answer": "To issue digital certificates",
+                "uuid": "8a1c7d25212c4ccab71cbed8177432cb"
+            },
+            {
+                "answer": "To manage network traffic",
+                "uuid": "65262150c9184b73bfd03e3ab6ce6ff2"
+            },
+            {
+                "answer": "To filter harmful packets",
+                "uuid": "2bb8363b8d3d4fde8c260e8d9c59b87d"
+            }
+        ],
+        "correct": "8a1c7d25212c4ccab71cbed8177432cb",
+        "explanation": "A certification authority (CA) is responsible for issuing digital certificates that verify the ownership of public keys in secure communication.",
+        "uuid": "168fe47be9df4df68bdb0c559525e131"
+    },
+    {
+        "question": "What is a nonce in the context of end-point authentication?",
+        "answers": [
+            {
+                "answer": "A password",
+                "uuid": "d9844a08326f4919a3e2e01ed7de74a0"
+            },
+            {
+                "answer": "A random number used once",
+                "uuid": "9e32cef9e2ad45c9a338b57d73d53664"
+            },
+            {
+                "answer": "A type of encryption",
+                "uuid": "9bf8697a6c7344fa922b25a07ac6e1a6"
+            },
+            {
+                "answer": "A network address",
+                "uuid": "36ba93923ffb42999cf908efa431b391"
+            }
+        ],
+        "correct": "9e32cef9e2ad45c9a338b57d73d53664",
+        "explanation": "A nonce is a random number used only once in a communication session to prevent replay attacks and ensure freshness in authentication.",
+        "uuid": "dcd1eaed3deb44e0a4042e28cc24083c"
+    },
+    {
+        "question": "What is SSL primarily used for?",
+        "answers": [
+            {
+                "answer": "Data compression",
+                "uuid": "5c46ea759a5b48339e977d7080490558"
+            },
+            {
+                "answer": "Network monitoring",
+                "uuid": "b143169b90d24e1985784930941cac28"
+            },
+            {
+                "answer": "Secure transmission over TCP",
+                "uuid": "f225850a289b4c50926199be6eeb6239"
+            },
+            {
+                "answer": "User authentication",
+                "uuid": "5aa295a866254a9794e257299b30192d"
+            }
+        ],
+        "correct": "f225850a289b4c50926199be6eeb6239",
+        "explanation": "SSL (Secure Socket Layer) is used to secure transmissions over TCP, providing confidentiality and integrity.",
+        "uuid": "23e44b7f6e814029bcc5fda109ae5f37"
+    },
+    {
+        "question": "What does a firewall do?",
+        "answers": [
+            {
+                "answer": "Filters outgoing traffic only",
+                "uuid": "f2e47317825f4de681fbc4f296ca8e12"
+            },
+            {
+                "answer": "Blocks all traffic by default",
+                "uuid": "5fb7282db0b44fc1ad7ca7136e5ee703"
+            },
+            {
+                "answer": "Blocks or allows packets based on rules",
+                "uuid": "e134cdbee5614574918fde63519e6c64"
+            },
+            {
+                "answer": "Encrypts data in transit",
+                "uuid": "86ef27a8d36b4c10be6c2cb0522a998a"
+            }
+        ],
+        "correct": "e134cdbee5614574918fde63519e6c64",
+        "explanation": "A firewall is designed to filter packets based on defined rules, allowing or denying traffic based on security policies.",
+        "uuid": "acfdaaad0daa4319a7299a82be9644e2"
+    },
+    {
+        "question": "What is one limitation of traditional packet filtering firewalls?",
+        "answers": [
+            {
+                "answer": "They are stateful",
+                "uuid": "85141c068dc74594baab41c7da0782c2"
+            },
+            {
+                "answer": "They filter based on application data",
+                "uuid": "c300dccc7b3645668427de28ef0daab9"
+            },
+            {
+                "answer": "They do not track connection states",
+                "uuid": "886c2997ca9f4445986ca023feed2355"
+            },
+            {
+                "answer": "They analyze packet content deeply",
+                "uuid": "37e720c9a0e947f39b178444a3f53423"
+            }
+        ],
+        "correct": "886c2997ca9f4445986ca023feed2355",
+        "explanation": "Traditional packet filtering firewalls are stateless, meaning they do not track the state of connections, which can lead to vulnerabilities.",
+        "uuid": "b115a7e277f645c1813446af18698e48"
+    },
+    {
+        "question": "Which type of firewall tracks ongoing TCP connections?",
+        "answers": [
+            {
+                "answer": "Static firewall",
+                "uuid": "d52d72bbaa02497d8bda94f07e347766"
+            },
+            {
+                "answer": "Stateful firewall",
+                "uuid": "d850ea2fd43b4a8aaedeb8342e7f8ab0"
+            },
+            {
+                "answer": "Application gateway",
+                "uuid": "0665a96415d94ee48ee566cda9bd9ef6"
+            },
+            {
+                "answer": "Packet filtering firewall",
+                "uuid": "1d98104aa328493b95322ff33d18946c"
+            }
+        ],
+        "correct": "d850ea2fd43b4a8aaedeb8342e7f8ab0",
+        "explanation": "Stateful firewalls maintain a connection table to track ongoing TCP connections, making them more secure against certain types of attacks.",
+        "uuid": "35a79a5e7ed0434180257be033047fb5"
+    },
+    {
+        "question": "What is the function of an Intrusion Detection System (IDS)?",
+        "answers": [
+            {
+                "answer": "To monitor network traffic for suspicious activity",
+                "uuid": "b1edf116541a4f7f84dce74690ea4482"
+            },
+            {
+                "answer": "To provide user authentication",
+                "uuid": "4ac5b7f4d2424befbb223dda20e3f967"
+            },
+            {
+                "answer": "To encrypt sensitive data",
+                "uuid": "d205b1ffffda41428b6f1f2ad0992249"
+            },
+            {
+                "answer": "To manage firewall rules",
+                "uuid": "9681ee76d5c742a18a9a7bd95148a3c6"
+            }
+        ],
+        "correct": "b1edf116541a4f7f84dce74690ea4482",
+        "explanation": "An Intrusion Detection System (IDS) monitors network traffic for suspicious packets and alerts administrators of potential threats.",
+        "uuid": "4fb952811a4646aaac358606bff962cd"
+    },
+    {
+        "question": "What technique can be used to prevent replay attacks?",
+        "answers": [
+            {
+                "answer": "Encrypting all messages",
+                "uuid": "b9d7a5c730de41f7b2a7fec1f62f05b0"
+            },
+            {
+                "answer": "Using a nonce",
+                "uuid": "cc7536b4b06c495c8a7fb6329b549e37"
+            },
+            {
+                "answer": "Restricting IP addresses",
+                "uuid": "ffdfe7f8a0fa4578a1ede80c8e7e4449"
+            },
+            {
+                "answer": "Employing deep packet inspection",
+                "uuid": "6292cdd3b1d7492e9b21f348a7aa43a2"
+            }
+        ],
+        "correct": "cc7536b4b06c495c8a7fb6329b549e37",
+        "explanation": "Using a nonce ensures that even if an attacker captures a message, they cannot reuse it in a new session, thereby preventing replay attacks.",
+        "uuid": "de904d48153449c9835c31b4b6983a78"
+    }
+]

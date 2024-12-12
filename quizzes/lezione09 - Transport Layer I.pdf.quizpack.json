@@ -1,0 +1,314 @@
+[
+    {
+        "question": "What is the primary function of the transport layer protocols?",
+        "answers": [
+            {
+                "answer": "Network-to-network communication",
+                "uuid": "e28a574c03994600a8f6fede50681670"
+            },
+            {
+                "answer": "Logical communication between application processes",
+                "uuid": "fc661d22d4114094a1cf202b4c4fb84c"
+            },
+            {
+                "answer": "Physical communication between hardware devices",
+                "uuid": "72cae5521f8443d587c68b75282453a2"
+            },
+            {
+                "answer": "Database management",
+                "uuid": "3c8cc7e8023540fbb2c4b92f2dba7d48"
+            }
+        ],
+        "correct": "fc661d22d4114094a1cf202b4c4fb84c",
+        "explanation": "The transport layer provides logical communication specifically for application processes running on different hosts.",
+        "uuid": "7c5647c63d9b401194a0a6cdc4b205ad"
+    },
+    {
+        "question": "Which of the following protocols provides reliable data transfer?",
+        "answers": [
+            {
+                "answer": "TCP",
+                "uuid": "ad84170e4e634ed2b67ee81e440aa5a7"
+            },
+            {
+                "answer": "UDP",
+                "uuid": "2cec45776f3c49999d0ba366b5eac770"
+            },
+            {
+                "answer": "ICMP",
+                "uuid": "da3fde2f168d4c948c4f64151da4b0a6"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "592b9b495caa4b259f8b757596988fef"
+            }
+        ],
+        "correct": "ad84170e4e634ed2b67ee81e440aa5a7",
+        "explanation": "TCP (Transmission Control Protocol) is designed to provide reliable data transfer by ensuring data is delivered correctly and in order.",
+        "uuid": "6d70d4d887e44891b0586f8fbf47b4a0"
+    },
+    {
+        "question": "What key service does UDP lack compared to TCP?",
+        "answers": [
+            {
+                "answer": "Error detection",
+                "uuid": "d920aae4297a4b1f9e1c7a86f8f7d28b"
+            },
+            {
+                "answer": "Connectionless communication",
+                "uuid": "35456265f9854f74ba9c9b4f0e773e99"
+            },
+            {
+                "answer": "Data integrity checks",
+                "uuid": "b627ee417b1c437b832e52ea3be3e5e3"
+            },
+            {
+                "answer": "Reliable data transfer",
+                "uuid": "2f99276c0e074dd08cf3169d9e978ded"
+            }
+        ],
+        "correct": "2f99276c0e074dd08cf3169d9e978ded",
+        "explanation": "UDP (User Datagram Protocol) does not guarantee reliable data transfer, unlike TCP which ensures reliable delivery of messages.",
+        "uuid": "7a877af402434ba8bb6a78295a063573"
+    },
+    {
+        "question": "What is demultiplexing in the context of the transport layer?",
+        "answers": [
+            {
+                "answer": "Creating data segments",
+                "uuid": "16f29113f12241dfad2577369dca0392"
+            },
+            {
+                "answer": "Redirecting segments to the appropriate socket",
+                "uuid": "a48d78111b5d4ac38292cefd79ec6b10"
+            },
+            {
+                "answer": "Establishing new connections",
+                "uuid": "2f8d436ecbf74661b8697c466d8b9d1f"
+            },
+            {
+                "answer": "Combining multiple data streams",
+                "uuid": "f6d34e74d6314d46a3380ce3e66b4d33"
+            }
+        ],
+        "correct": "a48d78111b5d4ac38292cefd79ec6b10",
+        "explanation": "Demultiplexing is the process of directing incoming segments to the correct process on the receiving host based on port numbers.",
+        "uuid": "2062bf24cb23460aabae72fef6bbe68c"
+    },
+    {
+        "question": "What is the purpose of the checksum in a UDP packet?",
+        "answers": [
+            {
+                "answer": "To verify the IP address",
+                "uuid": "be2d9f18816642219e6fbc5777979849"
+            },
+            {
+                "answer": "To check if the message is intact",
+                "uuid": "445c21efb45c4717899ae1ac21878205"
+            },
+            {
+                "answer": "To encrypt the data",
+                "uuid": "f0d25e5d90644780905d159da0080450"
+            },
+            {
+                "answer": "To improve transmission speed",
+                "uuid": "68310504cb6c4e8289d37fbd02a791ef"
+            }
+        ],
+        "correct": "445c21efb45c4717899ae1ac21878205",
+        "explanation": "The checksum field in a UDP packet is used for error detection to ensure the integrity of the message.",
+        "uuid": "1e5aca6a80fa4eceaf4103dddea09630"
+    },
+    {
+        "question": "Which layer handles process-to-process communication in a network?",
+        "answers": [
+            {
+                "answer": "Application Layer",
+                "uuid": "254fa012acd34f2581a5940f4b522742"
+            },
+            {
+                "answer": "Transport Layer",
+                "uuid": "f91dc932d8c5400eaf586f9dbb0e7d26"
+            },
+            {
+                "answer": "Network Layer",
+                "uuid": "0a1ba5bac7a64292b6b1494d8a9d8809"
+            },
+            {
+                "answer": "Data Link Layer",
+                "uuid": "c1d9c5856c2a4584ae45e407e56df78d"
+            }
+        ],
+        "correct": "f91dc932d8c5400eaf586f9dbb0e7d26",
+        "explanation": "The transport layer is responsible for process-to-process communication across a network.",
+        "uuid": "70bee2d8c6f34d2fa0b06238dc0d1a0e"
+    },
+    {
+        "question": "What is the maximum possible value for a port number?",
+        "answers": [
+            {
+                "answer": "256",
+                "uuid": "2ecdf64c0eee4caa90f05748f43717b4"
+            },
+            {
+                "answer": "1023",
+                "uuid": "85e630d640d24a9982d962e529c46511"
+            },
+            {
+                "answer": "65535",
+                "uuid": "73fab238c96b408f92d6e500140dd17e"
+            },
+            {
+                "answer": "32768",
+                "uuid": "de4490b7461b48b39e0e6dcf4d123d4d"
+            }
+        ],
+        "correct": "73fab238c96b408f92d6e500140dd17e",
+        "explanation": "Port numbers are 16-bit numbers, so the maximum value is 2^16 - 1, which is 65535.",
+        "uuid": "331e62de9c5043b19a4082aa56d1ef78"
+    },
+    {
+        "question": "Which of the following is a well-known port number?",
+        "answers": [
+            {
+                "answer": "3000",
+                "uuid": "ceae86551864433cbb292bed63611ef0"
+            },
+            {
+                "answer": "8080",
+                "uuid": "355aa741891947fb89f2b17da93709c8"
+            },
+            {
+                "answer": "53",
+                "uuid": "a22d7311b65c44d28f3f0dbbd5b8d72a"
+            },
+            {
+                "answer": "2020",
+                "uuid": "b03e0b77cf504ebab0b3319532bd1eb9"
+            }
+        ],
+        "correct": "a22d7311b65c44d28f3f0dbbd5b8d72a",
+        "explanation": "Port 53 is the well-known port number for DNS (Domain Name System) services.",
+        "uuid": "b76e68fbdd074ee5b21b4e80dda2fb27"
+    },
+    {
+        "question": "What characterizes UDP as a transport protocol?",
+        "answers": [
+            {
+                "answer": "Connection-oriented",
+                "uuid": "d5c0a604a84349c5b054fc69c629bfe3"
+            },
+            {
+                "answer": "Connectionless",
+                "uuid": "dcb5475439d94731851e4f3f0b7dc621"
+            },
+            {
+                "answer": "Heavyweight in terms of headers",
+                "uuid": "232f0aa7005c49709efd937be43698ec"
+            },
+            {
+                "answer": "Reliable by default",
+                "uuid": "2c66b711a64b41338cf13be5f5f167f0"
+            }
+        ],
+        "correct": "dcb5475439d94731851e4f3f0b7dc621",
+        "explanation": "UDP is classified as a connectionless protocol, meaning it does not require establishing a connection before sending data.",
+        "uuid": "518da4e823f248aa9050c1ea3fc5aa43"
+    },
+    {
+        "question": "In TCP, how is the connection established between a client and a server?",
+        "answers": [
+            {
+                "answer": "A handshake process",
+                "uuid": "f8c33d1b87154e54aff304128339b37f"
+            },
+            {
+                "answer": "Using a data packet",
+                "uuid": "c023b477f4ce47aca3c71031c7f776c5"
+            },
+            {
+                "answer": "Through a direct file transfer",
+                "uuid": "4359fa7a336c4b6e93057a490d748762"
+            },
+            {
+                "answer": "By sending a ping",
+                "uuid": "2b66201dcb3c4702b70b126c8b4f6fe7"
+            }
+        ],
+        "correct": "f8c33d1b87154e54aff304128339b37f",
+        "explanation": "TCP establishes a connection through a handshake process, which involves a series of segment exchanges before data transfer begins.",
+        "uuid": "8e6a5749953942829082d3d685312f72"
+    },
+    {
+        "question": "What happens when a TCP connection is interrupted?",
+        "answers": [
+            {
+                "answer": "The connection is automatically restored",
+                "uuid": "547c24ea1ed0452dabe23b9e43e60872"
+            },
+            {
+                "answer": "The socket is closed on both sides",
+                "uuid": "858aa78325f74e56b105c2cf6e03743d"
+            },
+            {
+                "answer": "The data is lost permanently",
+                "uuid": "90bbb4dabaea469ba3a6a225508063d7"
+            },
+            {
+                "answer": "A new connection must be established",
+                "uuid": "6867f469f10d4955a56e4cad6718bc7f"
+            }
+        ],
+        "correct": "858aa78325f74e56b105c2cf6e03743d",
+        "explanation": "In TCP, if the connection is interrupted, the socket is closed on both the client and server sides, terminating the session.",
+        "uuid": "fe9b2514b0924cd9bdfe60562ebcf115"
+    },
+    {
+        "question": "Why might some real-time applications prefer UDP over TCP?",
+        "answers": [
+            {
+                "answer": "More reliability",
+                "uuid": "fd7bcd58a866494d91c8518bea545b88"
+            },
+            {
+                "answer": "Lower overhead and faster transmission",
+                "uuid": "e90323f217a04b8fa495eca27aeb3724"
+            },
+            {
+                "answer": "Better error correction",
+                "uuid": "d4c03800590649a985c1cac5bcbab122"
+            },
+            {
+                "answer": "Easier API for developers",
+                "uuid": "8313009f37cb45dfaf664886dc74b284"
+            }
+        ],
+        "correct": "e90323f217a04b8fa495eca27aeb3724",
+        "explanation": "Real-time applications often prefer UDP for its lower overhead and speed, allowing for timely data transmission even at the cost of some packet loss.",
+        "uuid": "ae7ea268205d43f9b2340b29456935e1"
+    },
+    {
+        "question": "How does multiplexing differ from demultiplexing?",
+        "answers": [
+            {
+                "answer": "Creating segments vs. receiving segments",
+                "uuid": "4afe829eabd14efaa26bf32a8e19b888"
+            },
+            {
+                "answer": "Combining data streams vs. directing to sockets",
+                "uuid": "62737efc6bb446d19e4f05926dae7286"
+            },
+            {
+                "answer": "Connecting devices vs. disconnecting devices",
+                "uuid": "0ff1504bd4f844caba0e455f7847e824"
+            },
+            {
+                "answer": "Analyzing traffic vs. generating traffic",
+                "uuid": "5736b88018644e68b64918d649edfb63"
+            }
+        ],
+        "correct": "62737efc6bb446d19e4f05926dae7286",
+        "explanation": "Multiplexing involves combining multiple processes\u2019 data into a single transmission, while demultiplexing is about directing that data back to the correct receiving process.",
+        "uuid": "4d890d15d16e46ba92870c15e1afa758"
+    }
+]

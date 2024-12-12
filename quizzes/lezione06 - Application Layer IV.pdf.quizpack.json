@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the main purpose of the Domain Name System (DNS)?",
+        "answers": [
+            {
+                "answer": "To translate IP addresses to hostnames",
+                "uuid": "cb5ea72e92b449b1aee2a0b1b8cf7325"
+            },
+            {
+                "answer": "To store user emails",
+                "uuid": "5cc01a23885544aa88f6d4bea75badd8"
+            },
+            {
+                "answer": "To compress data for faster transmission",
+                "uuid": "a8474b31033149c9ba6c5ad5f69151fc"
+            },
+            {
+                "answer": "To manage server loads",
+                "uuid": "c6f09d8cbeeb48dfbf72779b3444a937"
+            }
+        ],
+        "correct": "cb5ea72e92b449b1aee2a0b1b8cf7325",
+        "explanation": "The DNS primarily translates user-friendly hostnames into IP addresses that computers can understand.",
+        "uuid": "f100d85173194cd39f24f142703a3d52"
+    },
+    {
+        "question": "What type of DNS server does not strictly belong to the hierarchy and typically managed by ISPs?",
+        "answers": [
+            {
+                "answer": "Authoritative server",
+                "uuid": "2f694bebe4354908be9c86c56792c3b9"
+            },
+            {
+                "answer": "Root server",
+                "uuid": "b1aa9cfec27641b3a6e64fae97736c6d"
+            },
+            {
+                "answer": "Local DNS server",
+                "uuid": "2cbe52879bfc40c0a19fdff090ce1108"
+            },
+            {
+                "answer": "TLD server",
+                "uuid": "dfdae4a5ab0d49e2a302eef56787a87f"
+            }
+        ],
+        "correct": "2cbe52879bfc40c0a19fdff090ce1108",
+        "explanation": "Local DNS servers act as intermediaries for queries between the client and the DNS hierarchy, commonly managed by ISPs.",
+        "uuid": "e58005a082ff46bfabe49952b7570326"
+    },
+    {
+        "question": "In what way can DNS perform load distribution?",
+        "answers": [
+            {
+                "answer": "By rotating the order of IP addresses returned for the same hostname",
+                "uuid": "5464ac6035484e70b857d0e7f6f57dfa"
+            },
+            {
+                "answer": "By compressing requests",
+                "uuid": "e85288ac4ad24c6693afdc3ecd095d6c"
+            },
+            {
+                "answer": "By limiting the number of queries",
+                "uuid": "5213396b7df74a0a876121f3f444ccdf"
+            },
+            {
+                "answer": "By prioritizing certain clients over others",
+                "uuid": "0bc852f595124b1da463c0605ec190ae"
+            }
+        ],
+        "correct": "5464ac6035484e70b857d0e7f6f57dfa",
+        "explanation": "DNS can use multiple IPs for a single hostname and randomly rotate them to balance server load.",
+        "uuid": "c4b1e543864f4bc0baf46065b97a8067"
+    },
+    {
+        "question": "Which of the following protocols is primarily used for sending emails between mail servers?",
+        "answers": [
+            {
+                "answer": "HTTP",
+                "uuid": "22b6840adb954228bf9732193f8cdb16"
+            },
+            {
+                "answer": "SMTP",
+                "uuid": "070d49f49bee48d4b4b9467399eaf18d"
+            },
+            {
+                "answer": "FTP",
+                "uuid": "4baabf5e8416476a9a49486f285a7f1c"
+            },
+            {
+                "answer": "POP3",
+                "uuid": "490dbe3f43064c8e93fb286dc7dc1036"
+            }
+        ],
+        "correct": "070d49f49bee48d4b4b9467399eaf18d",
+        "explanation": "SMTP (Simple Mail Transfer Protocol) is the standard protocol for email transmission between servers.",
+        "uuid": "e9ab610334cd433d97a19a27df79d5ef"
+    },
+    {
+        "question": "How does BitTorrent manage file sharing among peers?",
+        "answers": [
+            {
+                "answer": "Using a client-server model",
+                "uuid": "eabc5dc7fe364cc1ac028cc7caa7a0a3"
+            },
+            {
+                "answer": "Using a centralized server",
+                "uuid": "73cac1ca0e974b3da09580db4bc8130c"
+            },
+            {
+                "answer": "By sharing files directly between peers",
+                "uuid": "bc40cb7d4cc347bfa1289ee9aee56e5d"
+            },
+            {
+                "answer": "By downloading from a single source",
+                "uuid": "ac32fb3d66dd4b4b8ffc8ef60f6058f9"
+            }
+        ],
+        "correct": "bc40cb7d4cc347bfa1289ee9aee56e5d",
+        "explanation": "BitTorrent enables peer-to-peer sharing where each peer can also upload parts of the file to others, increasing efficiency.",
+        "uuid": "f85754faad354fe399ad7ce65246d429"
+    },
+    {
+        "question": "What does the rarest-first principle in BitTorrent refer to?",
+        "answers": [
+            {
+                "answer": "Prioritizing the fastest connections",
+                "uuid": "e76485a96be04dba9f6db8b867497713"
+            },
+            {
+                "answer": "Downloading the least available chunks first",
+                "uuid": "a12108ba840f4d588c30dfb24e7c3a9a"
+            },
+            {
+                "answer": "Selecting random chunks to download",
+                "uuid": "19f5be765ce947b7908093d118b1cc2d"
+            },
+            {
+                "answer": "Always downloading from the same peer",
+                "uuid": "bdb589efe595465fad444350f60761e9"
+            }
+        ],
+        "correct": "a12108ba840f4d588c30dfb24e7c3a9a",
+        "explanation": "The rarest-first principle prioritizes chunks that are least available among the peers to ensure even distribution.",
+        "uuid": "05e803f4a55d455881d947ce399a2597"
+    },
+    {
+        "question": "Which protocol allows email clients to search for messages on the server?",
+        "answers": [
+            {
+                "answer": "SMTP",
+                "uuid": "778578058e3744a8954d83326a79567b"
+            },
+            {
+                "answer": "POP3",
+                "uuid": "7debf8d8470c4592aea67494f102fc72"
+            },
+            {
+                "answer": "IMAP",
+                "uuid": "f160746c1d474264a4add5837a244b6d"
+            },
+            {
+                "answer": "HTTP",
+                "uuid": "99a47c511f54483080a31601a08dad91"
+            }
+        ],
+        "correct": "f160746c1d474264a4add5837a244b6d",
+        "explanation": "IMAP (Internet Message Access Protocol) allows for managing and searching through emails directly on the server.",
+        "uuid": "95bfa67992d44a9ca44b9dfa3da0bc5e"
+    },
+    {
+        "question": "What happens during the authorization phase of POP3?",
+        "answers": [
+            {
+                "answer": "User selects messages to download",
+                "uuid": "d8b8fa37243e454785ec33cfc1c30d32"
+            },
+            {
+                "answer": "User sends username and password for authentication",
+                "uuid": "8dccd69139cc4cecae259f2ca26aa12d"
+            },
+            {
+                "answer": "Server deletes marked messages",
+                "uuid": "a642cc97524e469a8edc95573c7ec528"
+            },
+            {
+                "answer": "User can create folders",
+                "uuid": "59f27a3505464db7872013d6ae728a8b"
+            }
+        ],
+        "correct": "8dccd69139cc4cecae259f2ca26aa12d",
+        "explanation": "During the authorization phase, the user agent authenticates the user by sending a username and password to the email server.",
+        "uuid": "f05ebc734948420c816530c15d81cad3"
+    },
+    {
+        "question": "What is the function of a DNS resolver?",
+        "answers": [
+            {
+                "answer": "To act as a local DNS server for clients",
+                "uuid": "8581c355824c4322ad1e773e83cff5bb"
+            },
+            {
+                "answer": "To translate hostnames to numerical IPs",
+                "uuid": "def126da44fb42a3aa44fd23ae731dca"
+            },
+            {
+                "answer": "To redirect traffic",
+                "uuid": "88652753e40146b5bf57477a36171a7a"
+            },
+            {
+                "answer": "To store email messages",
+                "uuid": "4f6020716e694dc5bef2841b22cdcead"
+            }
+        ],
+        "correct": "8581c355824c4322ad1e773e83cff5bb",
+        "explanation": "A DNS resolver processes queries from clients and forwards them to the DNS hierarchy to retrieve IP addresses.",
+        "uuid": "d785143ba10b4710befa8a03cc7f685f"
+    },
+    {
+        "question": "Which of the following describes the client-server model in email architecture?",
+        "answers": [
+            {
+                "answer": "Direct communication between user agents",
+                "uuid": "f0086bace553400182bd4319d0cce385"
+            },
+            {
+                "answer": "Two types of hosts: user agent and mail server",
+                "uuid": "edcdb7bee8424bf1a725328e2331dc9b"
+            },
+            {
+                "answer": "All hosts are equal peers",
+                "uuid": "bf4284a4194f493a99a726e3af4b078f"
+            },
+            {
+                "answer": "No servers are utilized",
+                "uuid": "37141a8abc264b6c93d3064e00cd2bb0"
+            }
+        ],
+        "correct": "edcdb7bee8424bf1a725328e2331dc9b",
+        "explanation": "In the client-server model of email, there are user agents (clients) and mail servers that facilitate the email exchange.",
+        "uuid": "5b1dd12ce79d4d448c98d334058d9e6f"
+    },
+    {
+        "question": "What are the IP addresses of Google's public DNS servers?",
+        "answers": [
+            {
+                "answer": "8.8.8.8 and 8.8.4.4",
+                "uuid": "b75990ebe5db4d208aa7c998202fbdec"
+            },
+            {
+                "answer": "192.168.1.1 and 192.168.0.1",
+                "uuid": "ed3d76cacb3943ddb32555e607eb8cf3"
+            },
+            {
+                "answer": "255.255.255.255",
+                "uuid": "d5f793aad90e46fa991bdfe875ef1f7f"
+            },
+            {
+                "answer": "10.0.0.1 and 10.0.0.2",
+                "uuid": "ca887a20e0a7484993dd22e62e52d0a9"
+            }
+        ],
+        "correct": "b75990ebe5db4d208aa7c998202fbdec",
+        "explanation": "Google Public DNS servers are widely known to be located at 8.8.8.8 and 8.8.4.4.",
+        "uuid": "bc58908d1ea642269f96ab187540df2b"
+    }
+]

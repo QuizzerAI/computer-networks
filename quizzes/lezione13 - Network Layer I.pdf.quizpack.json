@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What does the forwarding plane in a router do?",
+        "answers": [
+            {
+                "answer": "It prepares the routing information for incoming packets.",
+                "uuid": "ffd2e96c90a74955abee98f307285ebb"
+            },
+            {
+                "answer": "It transfers packets from an input link interface to the appropriate output link interface.",
+                "uuid": "23797daf45dc46f887a480abce3c33de"
+            },
+            {
+                "answer": "It executes the routing protocols.",
+                "uuid": "97400241979948f78c222fb2d688276f"
+            },
+            {
+                "answer": "It manages the input/output buffer.",
+                "uuid": "4e07d1ff855143558d39de61d91d16f2"
+            }
+        ],
+        "correct": "23797daf45dc46f887a480abce3c33de",
+        "explanation": "The forwarding plane is responsible for the fast operation of transferring packets from the input to the output interface.",
+        "uuid": "fc6a9c69b54144f5bc5ffc69ca3d60b5"
+    },
+    {
+        "question": "What is the main difference between routing and forwarding in a router?",
+        "answers": [
+            {
+                "answer": "Routing is faster than forwarding.",
+                "uuid": "694f3344e7c6454697d94c0cd11c8d0c"
+            },
+            {
+                "answer": "Forwarding is done in the control plane, routing is done in the data plane.",
+                "uuid": "cc4173506cfd4d358c45340bbdd56dfe"
+            },
+            {
+                "answer": "Forwarding occurs on a per-packet basis, while routing is a network-wide process.",
+                "uuid": "54d779350c1e454584d316aa42842019"
+            },
+            {
+                "answer": "Routing uses physical memory while forwarding uses software.",
+                "uuid": "efec1c6a09844671bf6cdc313c763ff8"
+            }
+        ],
+        "correct": "54d779350c1e454584d316aa42842019",
+        "explanation": "Routing is a network-wide process determining paths for packets, while forwarding is a local action that occurs per packet.",
+        "uuid": "d485a3e4c2554c7faec526eba1f44c0c"
+    },
+    {
+        "question": "How is a forwarding table created in a router?",
+        "answers": [
+            {
+                "answer": "By gathering information from the operating system.",
+                "uuid": "377a9372da2a458483c929a5fbebbee8"
+            },
+            {
+                "answer": "By collecting routing tables from different routers.",
+                "uuid": "ded3292d20ce48d28d5f4d01e91026aa"
+            },
+            {
+                "answer": "Through manual configuration by a network administrator.",
+                "uuid": "069ebe843e484c5cb657cec13c3ce063"
+            },
+            {
+                "answer": "By random selection of outgoing links.",
+                "uuid": "e4af1efd08d649f88630b7a9fd206561"
+            }
+        ],
+        "correct": "ded3292d20ce48d28d5f4d01e91026aa",
+        "explanation": "The forwarding table is created by collecting information from multiple routing tables obtained from different routers.",
+        "uuid": "c75cf688070e45fcae4d283cd8d3dd7d"
+    },
+    {
+        "question": "Which of the following describes the 'best-effort service' provided by the Internet's network layer?",
+        "answers": [
+            {
+                "answer": "Ensures guaranteed delivery of packets.",
+                "uuid": "cb55097f332f469b8fa5111bc95d5c38"
+            },
+            {
+                "answer": "Provides in-order delivery of packets.",
+                "uuid": "5b0f1cba11854dd8a2de61c90cff1db8"
+            },
+            {
+                "answer": "Tries to deliver packets without guarantees.",
+                "uuid": "3700357ed1384522890790aec7a6b6a0"
+            },
+            {
+                "answer": "Secures packets with encryption.",
+                "uuid": "9a44dfe771cf4518b1e33b2a7a079a1e"
+            }
+        ],
+        "correct": "3700357ed1384522890790aec7a6b6a0",
+        "explanation": "Best-effort service means that the network will do its best to deliver packets, but there's no guarantee on delivery, order, or timing.",
+        "uuid": "d4cbd77044de4e3f89f3935f45d9d45d"
+    },
+    {
+        "question": "What are the primary functions of routers in the network layer?",
+        "answers": [
+            {
+                "answer": "Data encryption and compression.",
+                "uuid": "22cc0ed9720c483a85490cf285aceb86"
+            },
+            {
+                "answer": "Host-to-host delivery and data storage.",
+                "uuid": "beaa6092f44d4e7a80c1045d8ee0554f"
+            },
+            {
+                "answer": "Forwarding and routing packets.",
+                "uuid": "c00f18f19d4b44e1b5ee30b978126693"
+            },
+            {
+                "answer": "Quality of service management.",
+                "uuid": "7c6075f083fd43a9b3fc866f4899fe82"
+            }
+        ],
+        "correct": "c00f18f19d4b44e1b5ee30b978126693",
+        "explanation": "Routers primarily function to forward packets from one link to another and route them based on network paths.",
+        "uuid": "28160869e8634d55a4d357ac9109a89f"
+    },
+    {
+        "question": "What is a common method of packet scheduling in routers?",
+        "answers": [
+            {
+                "answer": "First-come-first-served (FCFS)",
+                "uuid": "b6bfb8cad0aa42e885cdceb3f178b9f3"
+            },
+            {
+                "answer": "Round-robin for all packets.",
+                "uuid": "2136c482dfb54a29a60c0c4048e2749c"
+            },
+            {
+                "answer": "Last-in-first-out (LIFO)",
+                "uuid": "7757995b798743999b3f4c177a96d59f"
+            },
+            {
+                "answer": "Surveillance-based scheduling.",
+                "uuid": "c0626259e55b4120a9fcd4be1bd1d1f1"
+            }
+        ],
+        "correct": "b6bfb8cad0aa42e885cdceb3f178b9f3",
+        "explanation": "First-come-first-served (FCFS) is a simple packet scheduling method where packets are processed in the order they arrive.",
+        "uuid": "8f8754d288014a55b37c97c8904ab995"
+    },
+    {
+        "question": "What is the purpose of the switching fabric in a router?",
+        "answers": [
+            {
+                "answer": "To store data packets temporarily.",
+                "uuid": "54d87ace3deb438693458023f3c0ece9"
+            },
+            {
+                "answer": "To connect input ports to output ports.",
+                "uuid": "b081f4ca29ae428d97c25b5e9d10a45b"
+            },
+            {
+                "answer": "To execute routing protocols.",
+                "uuid": "1df40b28a67c4608ab74a312f83f4a58"
+            },
+            {
+                "answer": "To encrypt packet data.",
+                "uuid": "e83aedb6bb704806aefb2e78d7c5923d"
+            }
+        ],
+        "correct": "b081f4ca29ae428d97c25b5e9d10a45b",
+        "explanation": "The switching fabric is responsible for connecting input ports to output ports in order to facilitate packet forwarding.",
+        "uuid": "fced8f40b1cf470bab99ff20b8cb1804"
+    },
+    {
+        "question": "What type of queuing is commonly used for managing packet priorities?",
+        "answers": [
+            {
+                "answer": "FCFS queuing.",
+                "uuid": "1ef68ecd531c461bad3732ea2308c348"
+            },
+            {
+                "answer": "Weighted fair queuing.",
+                "uuid": "b96c808110414b62a1cbea9bf8b1e5ed"
+            },
+            {
+                "answer": "Random queuing.",
+                "uuid": "8c4237de3ffd4470891ee63f188612c9"
+            },
+            {
+                "answer": "Fixed-length queuing.",
+                "uuid": "ccfd5ee51a1f4d80a411480c9160ef7b"
+            }
+        ],
+        "correct": "b96c808110414b62a1cbea9bf8b1e5ed",
+        "explanation": "Weighted fair queuing allows packets to be classified into different priority classes, where each class is served based on its assigned weight.",
+        "uuid": "29a6c96a6a9146c7ae6e42e979ded8b7"
+    },
+    {
+        "question": "Which component of a router is responsible for executing routing protocols?",
+        "answers": [
+            {
+                "answer": "Input port",
+                "uuid": "3cea00f713024cffb8108038bfee5321"
+            },
+            {
+                "answer": "Output port",
+                "uuid": "b9bd9ee1ff9842619fff88d05407592f"
+            },
+            {
+                "answer": "Switch fabric",
+                "uuid": "bf9b98fe77034ee9b760dead6870b9d6"
+            },
+            {
+                "answer": "Routing processor",
+                "uuid": "aa40141989df403183a651caa65dbfa4"
+            }
+        ],
+        "correct": "aa40141989df403183a651caa65dbfa4",
+        "explanation": "The routing processor executes routing protocols and maintains state-information, making it critical for the routing process.",
+        "uuid": "237dcd00898d4b808118d00b76d6d348"
+    },
+    {
+        "question": "What happens when packets arrive at a port, but the link is busy?",
+        "answers": [
+            {
+                "answer": "Packets are prioritized randomly.",
+                "uuid": "a4a30cf539404701ad9104acce361b15"
+            },
+            {
+                "answer": "Packets are queued in a buffer.",
+                "uuid": "3b400f13113d4554928b8f8f53ade6ab"
+            },
+            {
+                "answer": "Packets are immediately discarded.",
+                "uuid": "d227eed902914542b87eae64ccd0f418"
+            },
+            {
+                "answer": "Packets are encrypted for safety.",
+                "uuid": "2ce32c81e8d34aa78d7684bc62892db3"
+            }
+        ],
+        "correct": "3b400f13113d4554928b8f8f53ade6ab",
+        "explanation": "If the output link is busy, incoming packets must be buffered until the link is free to transmit them.",
+        "uuid": "cb643c75dd6945f8a69b0b35dd70d71d"
+    },
+    {
+        "question": "What does the longest prefix matching rule refer to in router forwarding?",
+        "answers": [
+            {
+                "answer": "Choosing the route with the most hops.",
+                "uuid": "e34ead00b7a046889225cf97d62b609f"
+            },
+            {
+                "answer": "Selecting the entry in the forwarding table with the longest matching IP prefix.",
+                "uuid": "c239f26eee6449b995d41bb0e55b1391"
+            },
+            {
+                "answer": "Deciding the bandwidth limit.",
+                "uuid": "567fef09a3ca4e7dadb7987f476c1fb9"
+            },
+            {
+                "answer": "Identifying the fastest outgoing link.",
+                "uuid": "322edc10b8bc4abca7daab14ee650b5a"
+            }
+        ],
+        "correct": "c239f26eee6449b995d41bb0e55b1391",
+        "explanation": "The longest prefix matching rule helps routers determine the most specific entry in the forwarding table for directing packets.",
+        "uuid": "70cd6ad046c14334a660350384813117"
+    }
+]

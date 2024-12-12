@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is a Denial of Service (DoS) attack?",
+        "answers": [
+            {
+                "answer": "An attack to steal data from a user.",
+                "uuid": "05b856f05b6843f0bbb059d168ae23fb"
+            },
+            {
+                "answer": "An attack that renders a network or host unusable.",
+                "uuid": "276f5f7871c645e2a081686491909893"
+            },
+            {
+                "answer": "An attack that enhances network performance.",
+                "uuid": "99fc38d68e7d4694a1795bd6532900d8"
+            },
+            {
+                "answer": "An attack that encrypts data for security.",
+                "uuid": "543e1a9c85c8466b9002889ff669f47f"
+            }
+        ],
+        "correct": "276f5f7871c645e2a081686491909893",
+        "explanation": "A DoS attack aims to make a network or service unavailable to its intended users by overwhelming it with traffic or exploiting vulnerabilities.",
+        "uuid": "a7a9390f339f4225a14b181a59d8289b"
+    },
+    {
+        "question": "Which of the following is NOT a type of DoS attack?",
+        "answers": [
+            {
+                "answer": "Vulnerability attack",
+                "uuid": "186f9635306b4b91b93f37e06b937a0d"
+            },
+            {
+                "answer": "Bandwidth flooding",
+                "uuid": "e5b098ed31f1490aaaf9a6ff254f13db"
+            },
+            {
+                "answer": "Connection flooding",
+                "uuid": "bd411e692f0c4a59b2ac298d090ac77a"
+            },
+            {
+                "answer": "Phishing",
+                "uuid": "620ae228c04b4d7d930fdc189f6e3bb0"
+            }
+        ],
+        "correct": "620ae228c04b4d7d930fdc189f6e3bb0",
+        "explanation": "Phishing is a social engineering attack that aims to trick users into revealing sensitive information, not a type of DoS attack.",
+        "uuid": "a0d821efbc0b439a8c5c69645e3a254b"
+    },
+    {
+        "question": "What is packet sniffing?",
+        "answers": [
+            {
+                "answer": "A method to improve network speed.",
+                "uuid": "6173b96678304f53bf7c9742e529e631"
+            },
+            {
+                "answer": "The act of recording data packets traveling across a network.",
+                "uuid": "3067d11c45be43c4b5794e08a3fd3cd9"
+            },
+            {
+                "answer": "A technique to encrypt data.",
+                "uuid": "4862b24f0f6b4862b9208290a1571648"
+            },
+            {
+                "answer": "A tool used to scan for malware.",
+                "uuid": "c6e7ea24a64d47328297e5833a5f54a0"
+            }
+        ],
+        "correct": "3067d11c45be43c4b5794e08a3fd3cd9",
+        "explanation": "Packet sniffing involves intercepting and recording data packets to analyze the network traffic for various purposes.",
+        "uuid": "d8069825cccb4a72aa8de9c20958827a"
+    },
+    {
+        "question": "Which tool is known for packet sniffing?",
+        "answers": [
+            {
+                "answer": "Wireshark",
+                "uuid": "f049e78423f44c79aa371bafde468fc0"
+            },
+            {
+                "answer": "Nmap",
+                "uuid": "95fd5c74c69e444c9b8da5db41b7b0d1"
+            },
+            {
+                "answer": "Metasploit",
+                "uuid": "23f432631ecc4222848147dee01f9965"
+            },
+            {
+                "answer": "Burp Suite",
+                "uuid": "15a89fdce3904d689eeffc3c86ecf856"
+            }
+        ],
+        "correct": "f049e78423f44c79aa371bafde468fc0",
+        "explanation": "Wireshark is a widely used network protocol analyzer that allows users to capture and interactively browse the traffic on a computer network.",
+        "uuid": "9b9cc748130948558b7e2fb62218eef4"
+    },
+    {
+        "question": "What does IP spoofing involve?",
+        "answers": [
+            {
+                "answer": "Sending data with a valid IP address.",
+                "uuid": "c9a91969284e40109ae2df1ee08e4af2"
+            },
+            {
+                "answer": "Sending packets with a forged source IP address.",
+                "uuid": "3c8453e293264c52a4ac9e9d3e27a87b"
+            },
+            {
+                "answer": "Tracing the origin of packets.",
+                "uuid": "67eed967ecaf48e0aa1c46d115c72f56"
+            },
+            {
+                "answer": "Encrypting messages using IP addresses.",
+                "uuid": "441735761d474708a22a1b5f96ccd6cb"
+            }
+        ],
+        "correct": "3c8453e293264c52a4ac9e9d3e27a87b",
+        "explanation": "IP spoofing is a technique used to impersonate another device on the network by sending packets with a false source IP address.",
+        "uuid": "d1fb67054a834c5caff4ef6e685bab3e"
+    },
+    {
+        "question": "What is the main goal of cryptography?",
+        "answers": [
+            {
+                "answer": "To speed up data transmission.",
+                "uuid": "8abaeaf4ff4a4582a63bde9d4a89bb4f"
+            },
+            {
+                "answer": "To secure data by making it unreadable to unauthorized users.",
+                "uuid": "5b213c4ca7db4ab98aebd3b0d788065a"
+            },
+            {
+                "answer": "To improve database access times.",
+                "uuid": "a64d3dab29914696ad0430545c8e0233"
+            },
+            {
+                "answer": "To facilitate network connections.",
+                "uuid": "0314fee5b2a74c5f8f918f833256a55a"
+            }
+        ],
+        "correct": "5b213c4ca7db4ab98aebd3b0d788065a",
+        "explanation": "Cryptography aims to protect data confidentiality by transforming readable data (plaintext) into an unreadable format (ciphertext) for secure transmission.",
+        "uuid": "4dfc7884503941ecbb091556a465ec66"
+    },
+    {
+        "question": "What is message integrity?",
+        "answers": [
+            {
+                "answer": "The ability to speed up data processing.",
+                "uuid": "89678e64f58c4316b83b572247f349dd"
+            },
+            {
+                "answer": "Ensuring a message has not been altered during transmission.",
+                "uuid": "06128ee048ca4b198ac79168d5efd56d"
+            },
+            {
+                "answer": "Recovering lost messages.",
+                "uuid": "7ebcdd4d72484c828f7bb8c4bc07c131"
+            },
+            {
+                "answer": "Verifying the sender's IP address.",
+                "uuid": "76f24c5b9c0b46c8a925f12b5aee90c1"
+            }
+        ],
+        "correct": "06128ee048ca4b198ac79168d5efd56d",
+        "explanation": "Message integrity ensures that the content of the communication remains unchanged during transmission, preventing unauthorized alterations.",
+        "uuid": "06b5578bdb3947d78ce72e02c3114aae"
+    },
+    {
+        "question": "In symmetric cryptography, how many keys are used?",
+        "answers": [
+            {
+                "answer": "One key for encryption only.",
+                "uuid": "8be6754808c4475da70e47bec680533a"
+            },
+            {
+                "answer": "Two keys; one for encryption and another for decryption.",
+                "uuid": "484e8c89150745dab01e3718e46fe60d"
+            },
+            {
+                "answer": "One key for both encryption and decryption.",
+                "uuid": "2609aa900d03485498ba58937da5ec78"
+            },
+            {
+                "answer": "No key is needed.",
+                "uuid": "cc565745618f4d3ca586ca6bfd22b2e9"
+            }
+        ],
+        "correct": "2609aa900d03485498ba58937da5ec78",
+        "explanation": "Symmetric cryptography uses a single key for both encrypting and decrypting the data.",
+        "uuid": "10cfc065b40f4a40976ec5a950852f1a"
+    },
+    {
+        "question": "What is a Certification Authority (CA)?",
+        "answers": [
+            {
+                "answer": "An entity that creates viruses.",
+                "uuid": "3f3825ac2d184eaca8f883c7c7edf9e8"
+            },
+            {
+                "answer": "An organization that verifies identities and issues digital certificates.",
+                "uuid": "2bb5d9ac0dbd4db4aaecaaf2a30a03ab"
+            },
+            {
+                "answer": "A type of malware.",
+                "uuid": "8da93b10783b4226b2fdd689ab7ea90f"
+            },
+            {
+                "answer": "A network security protocol.",
+                "uuid": "ff817e92b73a41cba4264830f1f65c74"
+            }
+        ],
+        "correct": "2bb5d9ac0dbd4db4aaecaaf2a30a03ab",
+        "explanation": "A Certification Authority is responsible for confirming the identities of entities and issuing certificates that bind public keys to their identities.",
+        "uuid": "57dd851773c345aa9f3c675e31f0a5b0"
+    },
+    {
+        "question": "What is a common method to prevent packet sniffing?",
+        "answers": [
+            {
+                "answer": "Using faster hardware.",
+                "uuid": "4eef1ec34d464acf9e4e03712c56a5cc"
+            },
+            {
+                "answer": "Implementing cryptography.",
+                "uuid": "5676fcb8dab54efeaf402644dc6adf44"
+            },
+            {
+                "answer": "Collecting more data packets.",
+                "uuid": "fdbc4104acc64f3bbefdad1f4673476c"
+            },
+            {
+                "answer": "Increasing IP bandwidth.",
+                "uuid": "ad98755607374236bd58270facef5e7b"
+            }
+        ],
+        "correct": "5676fcb8dab54efeaf402644dc6adf44",
+        "explanation": "Cryptography can prevent packet sniffing by encrypting the data being transmitted, making it unreadable to unauthorized parties.",
+        "uuid": "3e58ca0c9dcd46bd8687d001ed3744c3"
+    },
+    {
+        "question": "What type of malware gathers sensitive information like passwords?",
+        "answers": [
+            {
+                "answer": "Adware",
+                "uuid": "33040be89f8442c1bce8e7087d0d8e84"
+            },
+            {
+                "answer": "Virus",
+                "uuid": "88ddc849507747858bc933ecfb6b3f1a"
+            },
+            {
+                "answer": "Spyware",
+                "uuid": "f875756656e74505b09f169faf2da946"
+            },
+            {
+                "answer": "Worm",
+                "uuid": "8b1fcb9fe708491382958f8f5971a6a6"
+            }
+        ],
+        "correct": "f875756656e74505b09f169faf2da946",
+        "explanation": "Spyware is designed to secretly gather user information, particularly sensitive data, without their consent.",
+        "uuid": "291b619343d84fcbb557dc2a707cf715"
+    }
+]

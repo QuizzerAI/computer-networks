@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the primary function of the Internet Protocol (IP)?",
+        "answers": [
+            {
+                "answer": "To perform host-to-host delivery",
+                "uuid": "4c3f23cb4ab5478eacb7640d86a08a3c"
+            },
+            {
+                "answer": "To provide end-to-end encryption",
+                "uuid": "2d95dce030e0423c9a07981f75d4badb"
+            },
+            {
+                "answer": "To manage wireless connections",
+                "uuid": "e623600fddf34f638c90d3240e3bbc38"
+            },
+            {
+                "answer": "To handle application level data",
+                "uuid": "d1e4781b9f4b4aa8b0deb9c24ac046b4"
+            }
+        ],
+        "correct": "4c3f23cb4ab5478eacb7640d86a08a3c",
+        "explanation": "The primary function of the Internet Protocol is to perform host-to-host delivery of datagrams which encapsulates segments from the transport layer.",
+        "uuid": "bd2aa1feeea2473bb3f1b93c63af72ca"
+    },
+    {
+        "question": "Which version of IP is currently the most widely used?",
+        "answers": [
+            {
+                "answer": "IPv6",
+                "uuid": "216d0b72688543f98de7eaeca9ff60da"
+            },
+            {
+                "answer": "IPv4",
+                "uuid": "0c63b4c39fba46de8d99a146c1da8b7d"
+            },
+            {
+                "answer": "IPv5",
+                "uuid": "95441d6d053e430390a563573528bfa4"
+            },
+            {
+                "answer": "IPX",
+                "uuid": "68aa5ac3485e4b44a6985985140695a1"
+            }
+        ],
+        "correct": "0c63b4c39fba46de8d99a146c1da8b7d",
+        "explanation": "IPv4 is the most widely used version of the Internet Protocol.",
+        "uuid": "99fe781f48344755b10523de59a3f874"
+    },
+    {
+        "question": "What is the maximum length of an IPv4 datagram?",
+        "answers": [
+            {
+                "answer": "1500 bytes",
+                "uuid": "640be28b0cd843d18f5a85c3ddaa8801"
+            },
+            {
+                "answer": "65535 bytes",
+                "uuid": "9e6c0aed76cf4e9eae05cb496b5873e3"
+            },
+            {
+                "answer": "4096 bytes",
+                "uuid": "e06485d55a4c449b99138203366df269"
+            },
+            {
+                "answer": "1024 bytes",
+                "uuid": "b504af26c5434ea4bfdafcd6c3a52453"
+            }
+        ],
+        "correct": "9e6c0aed76cf4e9eae05cb496b5873e3",
+        "explanation": "The maximum length of an IPv4 datagram can be 65535 bytes, though datagrams are rarely larger than 1500 bytes in practice.",
+        "uuid": "500565402e234a239d390afe59645661"
+    },
+    {
+        "question": "What does the Time-to-Live (TTL) field in an IP packet do?",
+        "answers": [
+            {
+                "answer": "Indicates the source of the packet",
+                "uuid": "9d8abfe2ec724fa0a7e3d3b30732082b"
+            },
+            {
+                "answer": "Indicates the maximum number of hops",
+                "uuid": "e25b979cde5d488da4f9e91c506ffdd1"
+            },
+            {
+                "answer": "Records the length of the packet",
+                "uuid": "42aed072ff2a48af88c128109d066586"
+            },
+            {
+                "answer": "Defines the packet type",
+                "uuid": "10f40b96c3024d4c8379d563989480df"
+            }
+        ],
+        "correct": "e25b979cde5d488da4f9e91c506ffdd1",
+        "explanation": "The TTL field ensures that datagrams do not circulate forever in the network by decrementing by one each time the datagram is processed by a router.",
+        "uuid": "21a87c3a41734d1598f90eb97e56eab1"
+    },
+    {
+        "question": "What is the purpose of a subnet mask?",
+        "answers": [
+            {
+                "answer": "To provide security for the network",
+                "uuid": "8cce6cc692d64306afbf50a590680fcf"
+            },
+            {
+                "answer": "To define which part of an IP address identifies the network",
+                "uuid": "2054b84d55c1476480722a3bea6aaa38"
+            },
+            {
+                "answer": "To manipulate packet data",
+                "uuid": "704921b0b6d44b1992b16b00cea7d21d"
+            },
+            {
+                "answer": "To enhance the speed of data transmission",
+                "uuid": "003e153cd9814aeebcd00d8cc61487be"
+            }
+        ],
+        "correct": "2054b84d55c1476480722a3bea6aaa38",
+        "explanation": "A subnet mask is used to distinguish which part of an IP address belongs to the network and which part belongs to the interface.",
+        "uuid": "a8c65d677998486b981a5405d046c5c3"
+    },
+    {
+        "question": "How does fragmentation work in IPv4?",
+        "answers": [
+            {
+                "answer": "It breaks datagrams into smaller packets for transmission",
+                "uuid": "0f71e006f2754e14bdcd933b39d2431f"
+            },
+            {
+                "answer": "It encrypts the data for secure transfer",
+                "uuid": "dac3c7a413d345b08c7a287a1b47b7b1"
+            },
+            {
+                "answer": "It aggregates packets into larger frames",
+                "uuid": "d11a62c8788e4401830bd3e47dad4b51"
+            },
+            {
+                "answer": "It routes packets through alternative paths",
+                "uuid": "2653f6767a9e4fda980b484f6dad9fb9"
+            }
+        ],
+        "correct": "0f71e006f2754e14bdcd933b39d2431f",
+        "explanation": "When a router receives a datagram that exceeds the maximum transmission unit (MTU) of the next link, it fragments the datagram into smaller units.",
+        "uuid": "23ad5b50d4dc42fd84808b3fda253105"
+    },
+    {
+        "question": "What is the purpose of the header checksum in an IPv4 datagram?",
+        "answers": [
+            {
+                "answer": "To ensure data integrity",
+                "uuid": "1fcb55a54e1d453fa8999c87c462c20b"
+            },
+            {
+                "answer": "To calculate routing paths",
+                "uuid": "fe2e003da6c34cdfa5bdaa9fd283cb28"
+            },
+            {
+                "answer": "To encrypt the data",
+                "uuid": "404b31095a094ad19fa628771baf8cb5"
+            },
+            {
+                "answer": "To assign IP addresses",
+                "uuid": "e5c724faff3b4664959915b3cdf0393b"
+            }
+        ],
+        "correct": "1fcb55a54e1d453fa8999c87c462c20b",
+        "explanation": "The header checksum is used for error detection in the IP header to ensure data integrity.",
+        "uuid": "0d4957f02d5648de932ee05999ccfbed"
+    },
+    {
+        "question": "What is Classless Inter-Domain Routing (CIDR)?",
+        "answers": [
+            {
+                "answer": "A method for classifying routers",
+                "uuid": "eaec5d0c903c4d6191886843b913099a"
+            },
+            {
+                "answer": "A flexible way to allocate IP addresses",
+                "uuid": "8ecf2e351cbe49b5b56e3339b82d56bb"
+            },
+            {
+                "answer": "A protocol for IP address encryption",
+                "uuid": "9ce4383bcadd48c5a7c9bdd22bd41ec7"
+            },
+            {
+                "answer": "A type of network layer protocol",
+                "uuid": "1b8dd334bc50486190754c23bdeca04a"
+            }
+        ],
+        "correct": "8ecf2e351cbe49b5b56e3339b82d56bb",
+        "explanation": "CIDR is a modern approach that allows for a more flexible allocation of IP addresses using variable-length prefixes.",
+        "uuid": "1c37e4825d7a43f484bf273bc13b8dc9"
+    },
+    {
+        "question": "What tool can be used to check network interface configurations on Linux?",
+        "answers": [
+            {
+                "answer": "ping",
+                "uuid": "0860dd84ec2341ca813b9a3888a3c7af"
+            },
+            {
+                "answer": "netstat",
+                "uuid": "1fa05ae809aa47deb86fa7aad0ed2631"
+            },
+            {
+                "answer": "ifconfig",
+                "uuid": "bc7b714b64854d298c1fcd12db937cdf"
+            },
+            {
+                "answer": "traceroute",
+                "uuid": "e44bb706819c423e9445fb6ae171d481"
+            }
+        ],
+        "correct": "bc7b714b64854d298c1fcd12db937cdf",
+        "explanation": "The 'ifconfig' command is used on Linux systems to display network interface configurations.",
+        "uuid": "352eb46b8a984af48ca692bb7ac784f1"
+    },
+    {
+        "question": "What do routers typically manage between different subnets?",
+        "answers": [
+            {
+                "answer": "Data encryption",
+                "uuid": "6bacd48744e14e1d863513e913eab305"
+            },
+            {
+                "answer": "User authentication",
+                "uuid": "8eba699eb28f4680b221db229e76d5c7"
+            },
+            {
+                "answer": "Traffic shaping",
+                "uuid": "a49ee918cdf04b8bb896e2d6edf521ee"
+            },
+            {
+                "answer": "Routing of packets",
+                "uuid": "1599393cdc634582bf33f1e9e141d737"
+            }
+        ],
+        "correct": "1599393cdc634582bf33f1e9e141d737",
+        "explanation": "Routers manage the routing of packets between different subnets, facilitating communication within a network.",
+        "uuid": "362b324bcd50471aba5039a3a9258fb4"
+    },
+    {
+        "question": "Why is subnetting important in IP addressing?",
+        "answers": [
+            {
+                "answer": "It improves speed of internet connections",
+                "uuid": "08f0e80185a541df855e2925de1ce2d5"
+            },
+            {
+                "answer": "It allows for better organization and management of IP addresses",
+                "uuid": "252e4d86540e465785e0b98da7e72a5a"
+            },
+            {
+                "answer": "It provides redundancy against failures",
+                "uuid": "2315c492303f40cb886e856a15ff609c"
+            },
+            {
+                "answer": "It increases data transfer rates",
+                "uuid": "7305e67a9cbf41f3baedc81d2658f894"
+            }
+        ],
+        "correct": "252e4d86540e465785e0b98da7e72a5a",
+        "explanation": "Subnetting is important as it helps in organizing and managing the IP address space efficiently as organizations can have multiple subnets.",
+        "uuid": "273dba9cf453433f823d724f2f19f978"
+    }
+]

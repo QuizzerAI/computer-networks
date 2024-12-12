@@ -1,0 +1,266 @@
+[
+    {
+        "question": "What is the main purpose of the HTTP protocol?",
+        "answers": [
+            {
+                "answer": "To transfer emails",
+                "uuid": "b0db6e7a29224ecbaf1a5d67667eb464"
+            },
+            {
+                "answer": "To request and transfer web resources",
+                "uuid": "b649318db8d04a2b8ed899e5aee2cf3e"
+            },
+            {
+                "answer": "To encrypt data",
+                "uuid": "3f26cb2cce8848a9a4b452d5c8cd0b86"
+            },
+            {
+                "answer": "To manage database connections",
+                "uuid": "2ea730ac178b41e88511aa8e1df74c75"
+            }
+        ],
+        "correct": "b649318db8d04a2b8ed899e5aee2cf3e",
+        "explanation": "HTTP is specifically designed to define how web clients request and how servers respond to web resources.",
+        "uuid": "eb9636e778c74159ae58684d3d6d99cc"
+    },
+    {
+        "question": "What are the two types of connections in HTTP?",
+        "answers": [
+            {
+                "answer": "Persistent and Dynamic",
+                "uuid": "914a3b49c85d467b99b6a72c58281746"
+            },
+            {
+                "answer": "Static and Dynamic",
+                "uuid": "b4d7dcf656ac41898900e48d9a56a43d"
+            },
+            {
+                "answer": "Persistent and Non-persistent",
+                "uuid": "1cb362caf4a444b59dc51187a7d135fc"
+            },
+            {
+                "answer": "Open and Closed",
+                "uuid": "1e73a5e0752d462ea90ffd1f7cac06e7"
+            }
+        ],
+        "correct": "1cb362caf4a444b59dc51187a7d135fc",
+        "explanation": "HTTP connections can be either persistent, where the connection remains open for multiple requests, or non-persistent, where a new connection is established for each request.",
+        "uuid": "f66c11540bfa455d88d5d5bc89114220"
+    },
+    {
+        "question": "What does a non-persistent connection entail?",
+        "answers": [
+            {
+                "answer": "Connection is maintained indefinitely",
+                "uuid": "bd48e997dd984db28f4efb89df19b685"
+            },
+            {
+                "answer": "A new connection is established for each request",
+                "uuid": "2a45821f7417473bb115fe3046c843fa"
+            },
+            {
+                "answer": "Connections are only for data transmission",
+                "uuid": "c85f715ea85742d1a99be0eb56876e23"
+            },
+            {
+                "answer": "Only one request can be made at a time",
+                "uuid": "fb2ab6a6df2a47838ebf2468389f8bdc"
+            }
+        ],
+        "correct": "2a45821f7417473bb115fe3046c843fa",
+        "explanation": "In non-persistent connections, each request requires a new connection, which is closed once the response is sent.",
+        "uuid": "81024fd405ba4664a3c6061840663aad"
+    },
+    {
+        "question": "How many round-trip times (RTTs) does it take to establish a TCP connection?",
+        "answers": [
+            {
+                "answer": "1 RTT",
+                "uuid": "a3048114c888425885eb23fc2c5a622e"
+            },
+            {
+                "answer": "2 RTTs",
+                "uuid": "353413f410154d18baa3564721f09cd6"
+            },
+            {
+                "answer": "3 RTTs",
+                "uuid": "e89ff46fdc354ab88c83d3edcb192fc3"
+            },
+            {
+                "answer": "Depends on the network speed",
+                "uuid": "e9784c92ea034d7688195a6fe0371fca"
+            }
+        ],
+        "correct": "353413f410154d18baa3564721f09cd6",
+        "explanation": "Establishing a TCP connection involves a three-way handshake that takes 2 RTTs.",
+        "uuid": "01ab789251ad4986900fb1cfa2707186"
+    },
+    {
+        "question": "What is the role of a URL in HTTP?",
+        "answers": [
+            {
+                "answer": "To perform calculations",
+                "uuid": "4e24e700d1464686a15d9185480a3a36"
+            },
+            {
+                "answer": "To provide a path to the resource",
+                "uuid": "c3d349ad8dea445da45296e3b7ce9a55"
+            },
+            {
+                "answer": "To configure the server settings",
+                "uuid": "5ae8f22575e7402182d79c777f094dd2"
+            },
+            {
+                "answer": "To manage client sessions",
+                "uuid": "35f5fd451f4045fd84c923323dc196e8"
+            }
+        ],
+        "correct": "c3d349ad8dea445da45296e3b7ce9a55",
+        "explanation": "The URL specifies the protocol, host, and path that dictates where the resource is located on the web.",
+        "uuid": "77f21ff6be704f16a3977a7083f4d860"
+    },
+    {
+        "question": "What is the benefit of persistent connections?",
+        "answers": [
+            {
+                "answer": "They are easier to implement",
+                "uuid": "d1fc90e1f39942c9b9612d0a4336b2e6"
+            },
+            {
+                "answer": "They are faster as they reduce the number of RTTs",
+                "uuid": "eea8a33484cc4634a0b8b2abe6ff01c0"
+            },
+            {
+                "answer": "They are more secure",
+                "uuid": "d8ea0c82b612465db21db5ebcf054fbd"
+            },
+            {
+                "answer": "They consume less bandwidth",
+                "uuid": "39d121e2d8944dc09eb6cfe79268211c"
+            }
+        ],
+        "correct": "eea8a33484cc4634a0b8b2abe6ff01c0",
+        "explanation": "Persistent connections allow multiple requests and responses to be handled over a single connection, reducing the latency associated with opening new connections.",
+        "uuid": "dbd967a0767d42499ac7f989d78b11f8"
+    },
+    {
+        "question": "Since which version of HTTP have persistent connections become the default mode?",
+        "answers": [
+            {
+                "answer": "HTTP/1.0",
+                "uuid": "3b7fcd3fae294f85862007f5b3767c04"
+            },
+            {
+                "answer": "HTTP/1.1",
+                "uuid": "5f2083b317714861a2e7b49f1e966264"
+            },
+            {
+                "answer": "HTTP/2",
+                "uuid": "31aa049fb650465ea054536fdb89473a"
+            },
+            {
+                "answer": "HTTP/3",
+                "uuid": "3346cc56d415446cba2b9bf2c7392dcc"
+            }
+        ],
+        "correct": "5f2083b317714861a2e7b49f1e966264",
+        "explanation": "HTTP/1.1 introduced persistent connections as the default mode, contrasting with HTTP/1.0 which used non-persistent connections.",
+        "uuid": "12962ffe80a547ba9c24be4066e96ea6"
+    },
+    {
+        "question": "What is pipelining in the context of HTTP?",
+        "answers": [
+            {
+                "answer": "Sending multiple requests simultaneously without waiting",
+                "uuid": "935ea27b28464656a744ab952ac273bb"
+            },
+            {
+                "answer": "A way to compress HTTP messages",
+                "uuid": "bb13857a9a924adeb55318f1b930236a"
+            },
+            {
+                "answer": "A method for caching responses",
+                "uuid": "3c5b8ed2bdbf43e1aff045552ad8edaf"
+            },
+            {
+                "answer": "A technique to improve server security",
+                "uuid": "e3d6edf834394a12a3a7e0b2618128fb"
+            }
+        ],
+        "correct": "935ea27b28464656a744ab952ac273bb",
+        "explanation": "Pipelining allows a client to send multiple HTTP requests without waiting for each corresponding response, improving efficiency.",
+        "uuid": "ac6e9425917942abbbe9dfa1338d26cf"
+    },
+    {
+        "question": "Which transport protocols does HTTP primarily use?",
+        "answers": [
+            {
+                "answer": "TCP and SCTP",
+                "uuid": "094a671b35524283a1917866f14d6e3e"
+            },
+            {
+                "answer": "TCP and UDP",
+                "uuid": "c5d35c0db43d4e6b853eb7f6d9b2376e"
+            },
+            {
+                "answer": "UDP and ICMP",
+                "uuid": "b0e1e7607dda42fd97803d104ea34636"
+            },
+            {
+                "answer": "TCP only",
+                "uuid": "629f7468a3bc4d74b08c5966f76ec877"
+            }
+        ],
+        "correct": "c5d35c0db43d4e6b853eb7f6d9b2376e",
+        "explanation": "HTTP mostly uses TCP for reliable connections, but from version HTTP/3, it may also use UDP, notably through the QUIC protocol.",
+        "uuid": "1ae46f1d348343548ae16f58978f9ef3"
+    },
+    {
+        "question": "What defines a stateless HTTP application?",
+        "answers": [
+            {
+                "answer": "The server retains client information across requests",
+                "uuid": "20868623f6b245a59bdef259a4184c3e"
+            },
+            {
+                "answer": "The server does not remember prior interactions",
+                "uuid": "a421052b81ec47ef93fe9d1c07847d23"
+            },
+            {
+                "answer": "Client sessions are persistent",
+                "uuid": "68aa40ff3292485bb3d3216ef8e1a59e"
+            },
+            {
+                "answer": "State is maintained on both client and server",
+                "uuid": "0b93937085924f179b2774ffdddc2bff"
+            }
+        ],
+        "correct": "a421052b81ec47ef93fe9d1c07847d23",
+        "explanation": "Statelessness means that every request is treated independently without any stored context about previous interactions.",
+        "uuid": "48281523f6bf45e68468cd9ddefe0453"
+    },
+    {
+        "question": "How can modern browsers improve the efficiency of HTTP connections?",
+        "answers": [
+            {
+                "answer": "By reducing the number of TCP connections",
+                "uuid": "00d87bfc4fd44985a651c036b5eadd23"
+            },
+            {
+                "answer": "By increasing the speed of the internet",
+                "uuid": "afbdbf15fb094665999a084d67a42d97"
+            },
+            {
+                "answer": "By allowing users to configure parallel connections",
+                "uuid": "eb2797b1e4c1453dafbb0ebe1900a89c"
+            },
+            {
+                "answer": "By using only non-persistent connections",
+                "uuid": "baa9bf47dc6e4e60995656b2c348a06b"
+            }
+        ],
+        "correct": "eb2797b1e4c1453dafbb0ebe1900a89c",
+        "explanation": "Modern browsers can open multiple TCP connections in parallel, allowing them to request multiple resources simultaneously to improve load times.",
+        "uuid": "7cce4b9c63294490b93ddbc0b2fb9655"
+    }
+]
